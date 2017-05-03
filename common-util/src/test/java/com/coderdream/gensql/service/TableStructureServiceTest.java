@@ -31,13 +31,11 @@ public class TableStructureServiceTest {
 		String path = "TableStructure.xlsx";
 		logger.debug(Common.PROCESSING + path);
 		TableStructureService tableStructureService = new TableStructureService();
-		String fileFolder = getClass().getResource("../../../../").getFile().toString();
-		System.out.println(fileFolder);
 		String tableNameParam = "T_Users";
-		List<TableStructure> list = tableStructureService.getTableStructure(fileFolder + path, tableNameParam);
+		List<TableStructure> list = tableStructureService.getTableStructure(path, tableNameParam);
 		for (TableStructure tableStructure : list) {
-			System.out.println(tableStructure.getTableName() + "\t" + tableStructure.getColumnName() + "\t"
-					+ tableStructure.getType() + "\t" + tableStructure.getNullFlag() + "\t");
+//			System.out.println(tableStructure.getTableName() + "\t" + tableStructure.getColumnName() + "\t"
+//					+ tableStructure.getType() + "\t" + tableStructure.getNullFlag() + "\t");
 		}
 	}
 
@@ -46,13 +44,11 @@ public class TableStructureServiceTest {
 		String path = "TableStructure.xlsx";
 		logger.debug(Common.PROCESSING + path);
 		TableStructureService tableStructureService = new TableStructureService();
-		String fileFolder = getClass().getResource("../../../../").getFile().toString();
-		System.out.println(fileFolder);
 		String tableNameParam = "ISBG_HumanMap";
-		List<TableStructure> list = tableStructureService.getTableStructure(fileFolder + path, tableNameParam);
+		List<TableStructure> list = tableStructureService.getTableStructure(path, tableNameParam);
 		for (TableStructure tableStructure : list) {
-			System.out.println(tableStructure.getTableName() + "\t" + tableStructure.getColumnName() + "\t"
-					+ tableStructure.getType() + "\t" + tableStructure.getNullFlag() + "\t");
+//			System.out.println(tableStructure.getTableName() + "\t" + tableStructure.getColumnName() + "\t"
+//					+ tableStructure.getType() + "\t" + tableStructure.getNullFlag() + "\t");
 		}
 	}
 

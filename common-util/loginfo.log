@@ -3417,4 +3417,28 @@
  2017-04-13 19:12:38,599 INFO  [main] [com.b510.excel.util.ExcelUtil.writeXlsxWithFileNameList(ExcelUtil.java:428)]: writeXlsxWithFileNameList end
  2017-04-13 19:12:38,600 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFilenameList(ExcelUtilTest.java:99)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 25 seconds
  2017-04-13 19:16:01,692 INFO  [main] [com.b510.excel.util.ExcelUtil.writeXlsxWithFileNameList(ExcelUtil.java:330)]: writeXlsxWithFileNameList begin
+ 2017-05-03 14:19:49,977 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:19)]: ³ÌĞòÔËĞĞÊ±¼ä£º 545186ns
+ 2017-05-03 14:19:50,005 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:28)]: ³ÌĞòÔËĞĞÊ±¼ä£º 314422ns
+ 2017-05-03 14:19:50,005 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:37)]: ³ÌĞòÔËĞĞÊ±¼ä£º 154256ns
+ 2017-05-03 14:27:37,762 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:19)]: ³ÌĞòÔËĞĞÊ±¼ä£º 576908ns
+ 2017-05-03 14:27:37,763 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:28)]: ³ÌĞòÔËĞĞÊ±¼ä£º 253466ns
+ 2017-05-03 14:27:37,763 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:37)]: ³ÌĞòÔËĞĞÊ±¼ä£º 190333ns
+ 2017-05-03 14:29:28,686 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:19)]: ³ÌĞòÔËĞĞÊ±¼ä£º 627601ns
+ 2017-05-03 14:29:28,687 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:28)]: ³ÌĞòÔËĞĞÊ±¼ä£º 291408ns
+ 2017-05-03 14:29:28,687 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:37)]: ³ÌĞòÔËĞĞÊ±¼ä£º 164520ns
+ 2017-05-03 14:33:00,319 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:19)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 791187ns
+ 2017-05-03 14:33:00,320 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:28)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 397149ns
+ 2017-05-03 14:33:00,320 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:37)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 218635ns
+ 2017-05-03 14:34:25,010 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:19)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 1411947ns
+ 2017-05-03 14:34:25,013 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:28)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 2696072ns
+ 2017-05-03 14:34:25,013 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:37)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 216146ns
+ 2017-05-03 14:36:19,273 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:19)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 664299ns
+ 2017-05-03 14:36:19,274 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:28)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 453129ns
+ 2017-05-03 14:36:19,274 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:37)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 242581ns
+ 2017-05-03 14:39:12,645 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:19)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 808293ns
+ 2017-05-03 14:39:12,646 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:28)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 396838ns
+ 2017-05-03 14:39:12,646 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:37)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 230763ns
+ 2017-05-03 14:40:22,939 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:19)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 829752ns
+ 2017-05-03 14:40:22,940 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:28)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 323752ns
+ 2017-05-03 14:40:22,941 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:37)]: ç¨‹åºè¿è¡Œæ—¶é—´ï¼š 198108ns
  

@@ -24,7 +24,7 @@ public class GenSqlServiceTest {
 	@Test
 	public void testGenSqlScriptList() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data2.xlsx";
+		String fileName = "Data7.xlsx";
 		String sheetName = "T_Users";
 		String path = fileFolder + fileName;
 		String sqlFileName = sheetName + ".sql";
@@ -38,7 +38,7 @@ public class GenSqlServiceTest {
 	@Test
 	public void testGenSqlScriptList_02() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data5.xlsx";
+		String fileName = "Data7.xlsx";
 		String sheetName = "ISBG_Project";
 		String path = fileFolder + fileName;
 		String sqlFileName = sheetName + ".sql";
@@ -52,7 +52,7 @@ public class GenSqlServiceTest {
 	@Test
 	public void testGenSqlScriptList_03() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data5.xlsx";
+		String fileName = "Data7.xlsx";
 		String sheetName = "ISBG_HumanMap";
 		String path = fileFolder + fileName;
 		String sqlFileName = sheetName + ".sql";

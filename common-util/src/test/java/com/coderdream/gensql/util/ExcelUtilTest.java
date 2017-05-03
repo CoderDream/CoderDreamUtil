@@ -29,8 +29,8 @@ public class ExcelUtilTest {
 		try {
 			List<TableStructure> list = ExcelUtil.readXlsx(fileFolder + fileName);
 			for (TableStructure tableStructure : list) {
-				System.out.println(tableStructure.getTableName() + "\t" + tableStructure.getColumnName() + "\t"
-						+ tableStructure.getType() + "\t");
+//				System.out.println(tableStructure.getTableName() + "\t" + tableStructure.getColumnName() + "\t"
+//						+ tableStructure.getType() + "\t");
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -40,7 +40,7 @@ public class ExcelUtilTest {
 	@Test
 	public void testReadData_01() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data2.xlsx";
+		String fileName = "Data7.xlsx";
 		String sheetName = "T_Users";
 		String path = fileFolder + fileName;
 		try {
@@ -48,9 +48,9 @@ public class ExcelUtilTest {
 			for (String[] arrayStr : arrayList) {
 				for (int i = 0; i < arrayStr.length; i++) {
 					String string = arrayStr[i];
-					System.out.print(string + "\t");
+//					System.out.print(string + "\t");
 				}
-				System.out.println();
+//				System.out.println();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -60,16 +60,16 @@ public class ExcelUtilTest {
 	@Test
 	public void testReadData_02() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data2.xlsx";
+		String fileName = "Data7.xlsx";
 		String sheetName = "PDRC_StaffManage";
 		try {
 			List<String[]> arrayList = ExcelUtil.readData(fileFolder + fileName, sheetName);
 			for (String[] arrayStr : arrayList) {
 				for (int i = 0; i < arrayStr.length; i++) {
 					String string = arrayStr[i];
-					System.out.print(string + "\t");
+//					System.out.print(string + "\t");
 				}
-				System.out.println();
+//				System.out.println();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -79,16 +79,16 @@ public class ExcelUtilTest {
 	@Test
 	public void testReadData_03() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data2.xlsx";
+		String fileName = "Data7.xlsx";
 		String sheetName = "PDRC_TM_SALARY";
 		try {
 			List<String[]> arrayList = ExcelUtil.readData(fileFolder + fileName, sheetName);
 			for (String[] arrayStr : arrayList) {
 				for (int i = 0; i < arrayStr.length; i++) {
 					String string = arrayStr[i];
-					System.out.print(string + "\t");
+//					System.out.print(string + "\t");
 				}
-				System.out.println();
+//				System.out.println();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -98,16 +98,16 @@ public class ExcelUtilTest {
 	@Test
 	public void testReadData_04() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data5.xlsx";
+		String fileName = "Data7.xlsx";
 		String sheetName = "ISBG_HumanMap";
 		try {
 			List<String[]> arrayList = ExcelUtil.readData(fileFolder + fileName, sheetName);
 			for (String[] arrayStr : arrayList) {
 				for (int i = 0; i < arrayStr.length; i++) {
 					String string = arrayStr[i];
-					System.out.print("arrayStr[" + i + "]: " + string + "\t");
+//					System.out.print("arrayStr[" + i + "]: " + string + "\t");
 				}
-				System.out.println();
+//				System.out.println();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
