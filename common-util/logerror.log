@@ -1,0 +1,32 @@
+2017-04-12 16:14:25,344 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:17)]: 程序运行时间： 1901803537ns
+ 2017-04-12 16:14:27,059 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:26)]: 程序运行时间： 1706720887ns
+ 2017-04-12 16:14:28,048 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:35)]: 程序运行时间： 986291153ns
+ 2017-04-12 16:15:28,426 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:17)]: 程序运行时间： 1108894186ns
+ 2017-04-12 16:15:29,481 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:26)]: 程序运行时间： 1048878141ns
+ 2017-04-12 16:15:30,449 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:35)]: 程序运行时间： 963263279ns
+ 2017-04-12 16:19:01,913 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:17)]: 程序运行时间： 1374509859ns
+ 2017-04-12 16:19:02,992 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:26)]: 程序运行时间： 1071453293ns
+ 2017-04-12 16:19:04,542 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:35)]: 程序运行时间： 1548146315ns
+ 2017-04-12 16:19:21,806 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder1(FileUtilTest.java:17)]: 程序运行时间： 1107849046ns
+ 2017-04-12 16:19:22,925 ERROR [main] [com.coderdream.util.FileUtilTest.testTraverseFolder2(FileUtilTest.java:26)]: 程序运行时间： 1111262146ns
+ 2017-04-12 16:19:23,931 ERROR [main] [com.coderdream.util.FileUtilTest.testGetFileList(FileUtilTest.java:35)]: 程序运行时间： 1005223993ns
+ 2017-04-12 18:01:51,404 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:82)]: 程序运行时间： 14292196340ns
+ 2017-04-12 19:09:33,838 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:82)]: 程序运行时间： 14476406792ns
+ 2017-04-12 20:29:19,472 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:82)]: 程序运行时间： 10694780169ns
+ 2017-04-12 20:31:06,097 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:82)]: 程序运行时间： 11ns
+ 2017-04-12 20:36:51,971 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:82)]: 程序运行时间： 3 seconds
+ 2017-04-12 20:44:15,917 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:86)]: 程序运行时间： 2 seconds
+ 2017-04-12 20:46:35,766 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:86)]: 程序运行时间： 3 seconds
+ 2017-04-12 20:54:30,170 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:86)]: 程序运行时间： 1 seconds
+ 2017-04-12 20:56:05,559 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:86)]: 程序运行时间： 1 seconds
+ 2017-04-12 21:29:46,653 ERROR [main] [com.coderdream.common_util.ReadDirectoryTest.testGetFileStringListOfString(ReadDirectoryTest.java:52)]: 程序运行时间： 65197274ns
+ 2017-04-12 21:30:30,764 ERROR [main] [com.coderdream.common_util.ReadDirectoryTest.testGetFileStringListOfString(ReadDirectoryTest.java:52)]: 程序运行时间： 0 seconds
+ 2017-04-12 21:31:13,806 ERROR [main] [com.coderdream.common_util.ReadDirectoryTest.testGetFileStringListOfString(ReadDirectoryTest.java:52)]: 程序运行时间： 0 seconds
+ 2017-04-12 21:31:44,356 ERROR [main] [com.coderdream.common_util.ReadDirectoryTest.testGetFileStringListOfString(ReadDirectoryTest.java:50)]: 程序运行时间： 3 seconds
+ 2017-04-12 21:32:38,029 ERROR [main] [com.coderdream.common_util.ReadDirectoryTest.testGetFileStringListOfString(ReadDirectoryTest.java:50)]: filenameList size:  7524
+ 2017-04-12 21:32:38,030 ERROR [main] [com.coderdream.common_util.ReadDirectoryTest.testGetFileStringListOfString(ReadDirectoryTest.java:51)]: 程序运行时间： 2 seconds
+ 2017-04-12 21:36:43,688 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:78)]: 程序运行时间： 2 seconds
+ 2017-04-12 21:38:24,968 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:78)]: 程序运行时间： 2 seconds
+ 2017-04-12 21:48:48,437 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFileInfoList(ExcelUtilTest.java:80)]: 程序运行时间： 558 seconds
+ 2017-04-13 19:12:38,600 ERROR [main] [com.b510.excel.util.ExcelUtilTest.testWriteXlsxWithFilenameList(ExcelUtilTest.java:99)]: 程序运行时间： 25 seconds
+ 
