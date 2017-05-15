@@ -1,3 +1,4 @@
+DELETE FROM [dbo].[ISBG_Project_Finish];
 DELETE FROM [dbo].[PDRC_B_ENPPRIZE];
 DELETE FROM [dbo].[PDRC_BSM_Dispatch];
 DELETE FROM [dbo].[ISBG_HumanMap];

@@ -132,6 +132,11 @@ public class GenSqlServiceTest {
 		// 是否自动生成ID
 		Boolean idFlag12 = true;
 		tableNameMap.put(sheetName12, idFlag12);
+		
+		String sheetName13 = "ISBG_Project_Finish";
+		// 是否自动生成ID
+		Boolean idFlag13 = true;
+		tableNameMap.put(sheetName13, idFlag13);
 
 		String charsetName = "GBK";
 		GenSqlService.genSqlScriptFileTotal(path, tableNameMap, sqlFilePath, charsetName);
