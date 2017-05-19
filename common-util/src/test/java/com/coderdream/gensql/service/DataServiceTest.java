@@ -169,7 +169,8 @@ public class DataServiceTest {
 		String path = fileFolder + dataFileName;
 		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
 		for (IsbgProject isbgProject : totalIsbgProjectList) {
-			System.out.println(isbgProject);
+			// System.out.println(isbgProject);
+			System.out.println(isbgProject.getProjectStartDateTime() + "\t" + isbgProject.getProjectEndDateTime());
 		}
 	}
 
@@ -192,7 +193,7 @@ public class DataServiceTest {
 		for (String key : workIdDaysMap.keySet()) {
 			Integer value = workIdDaysMap.get(key);
 			System.out.println(key + "\t" + value);
-			if(731 != value) {
+			if (731 != value) {
 				System.out.println("####   " + key);
 			}
 		}

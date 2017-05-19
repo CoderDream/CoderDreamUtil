@@ -10,28 +10,28 @@ public class Constants {
 	public static String PROJECT_START_DATE = "2017-01-01";
 
 	/** 项目统计结束时间 */
-	public static String PROJECT_END_DATE = "2017-12-31";
+	public static String PROJECT_END_DATE = "2017-06-30";
 
 	/** 项目周期最小天数 */
-	public static int PROJECT_PERIOD_MIN = 15;
+	public static int PROJECT_PERIOD_MIN = 7;
 
 	/** 项目周期最大天数 */
-	public static int PROJECT_PERIOD_MAX = 150;
+	public static int PROJECT_PERIOD_MAX = 100;
 
 	/** 项目周期最大天数是项目平均周期的倍数 */
-	public static double PROJECT_PERIOD_AVG_TIMES = 6.1;
+	public static double PROJECT_PERIOD_AVG_TIMES = 2.1;
 
 	/** 空闲随机数最小值 */
 	public static int IDEL_RANDOM_MIN = 1;
 	
 	/** 空闲随机数最大值 */
-	public static int IDEL_RANDOM_MAX = 500;
+	public static int IDEL_RANDOM_MAX = 100;
 
 	/** 空闲最小天数 */
-	public static int IDEL_RANDOM_DAYS_MIN = 4;
+	public static int IDEL_RANDOM_DAYS_MIN = 2;
 	
 	/** 空闲最大天数 */
-	public static int IDEL_RANDOM_DAYS_MAX = 15;
+	public static int IDEL_RANDOM_DAYS_MAX = 7;
 
 	/** BSM评价比率最小值的10倍 */
 	public static Integer BSM_RATE_MIN = 8;

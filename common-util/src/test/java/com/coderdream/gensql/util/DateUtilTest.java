@@ -42,4 +42,20 @@ public class DateUtilTest {
 		int result = DateUtil.getDateRange(date1, date2);
 		assertEquals(731,result);
 	}
+	
+	@Test
+	public void testGetDateRange_05() {
+		String date1 = "2017-12-31";
+		String date2 = "2017-12-31";
+		int result = DateUtil.getDateRange(date1, date2);
+		assertEquals(1,result);
+	}
+	
+	@Test
+	public void testGetDateRange_06() {
+		String date1 = "2017-01-01";
+		String date2 = "2017-06-30";
+		int result = DateUtil.getDateRange(date1, date2);
+		assertEquals(181,result);
+	}
 }

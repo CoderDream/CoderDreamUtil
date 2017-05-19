@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.b510.excel.common.Common;
+import com.coderdream.gensql.util.Constants;
 
 public class GenSqlServiceTest {
 
@@ -24,7 +25,7 @@ public class GenSqlServiceTest {
 	@Test
 	public void testGenSqlScriptList() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data7.xlsx";
+		String fileName = Constants.DATA_FILE_NAME;
 		String sheetName = "T_Users";
 		String path = fileFolder + fileName;
 		String sqlFileName = sheetName + ".sql";
@@ -38,7 +39,7 @@ public class GenSqlServiceTest {
 	@Test
 	public void testGenSqlScriptList_02() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data7.xlsx";
+		String fileName = Constants.DATA_FILE_NAME;
 		String sheetName = "ISBG_Project";
 		String path = fileFolder + fileName;
 		String sqlFileName = sheetName + ".sql";
@@ -52,7 +53,7 @@ public class GenSqlServiceTest {
 	@Test
 	public void testGenSqlScriptList_03() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data7.xlsx";
+		String fileName = Constants.DATA_FILE_NAME;
 		String sheetName = "ISBG_HumanMap";
 		String path = fileFolder + fileName;
 		String sqlFileName = sheetName + ".sql";
@@ -66,7 +67,7 @@ public class GenSqlServiceTest {
 	@Test
 	public void testGenSqlScriptFileTotal_01() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data10.xlsx";
+		String fileName = Constants.DATA_FILE_NAME;
 		String path = fileFolder + fileName;
 		String sqlFileName = "totalScript.sql";
 

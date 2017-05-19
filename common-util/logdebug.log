@@ -1875,4 +1875,1091 @@
  2017-05-19 11:41:04,122 ERROR [main]: ############### B-13140	2017-06-17	5
  2017-05-19 11:41:04,122 ERROR [main]: ############### B-12347	2017-02-22	3
  2017-05-19 11:41:04,123 ERROR [main]: getIsbgHumanMapListInfo idel count: 25
+ 2017-05-19 14:23:12,262 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:23:12,270 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:12,270 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:12,968 DEBUG [main]: Size: 	100
+ 2017-05-19 14:23:12,993 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:12,994 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,105 DEBUG [main]: Size: 	5
+ 2017-05-19 14:23:13,105 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,105 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,234 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,234 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,317 DEBUG [main]: Size: 	100
+ 2017-05-19 14:23:13,327 ERROR [main]: ############### B-13550	2017-02-18	4
+ 2017-05-19 14:23:13,328 ERROR [main]: ############### B-12737	2017-03-30	6
+ 2017-05-19 14:23:13,328 ERROR [main]: ############### B-13367	2017-03-24	6
+ 2017-05-19 14:23:13,328 ERROR [main]: ############### B-11034	2017-05-27	3
+ 2017-05-19 14:23:13,329 ERROR [main]: ############### B-12486	2017-05-12	5
+ 2017-05-19 14:23:13,330 ERROR [main]: ############### B-12187	2017-06-24	4
+ 2017-05-19 14:23:13,330 ERROR [main]: ############### B-13618	2017-02-01	5
+ 2017-05-19 14:23:13,331 ERROR [main]: ############### B-12788	2017-04-14	3
+ 2017-05-19 14:23:13,331 ERROR [main]: ############### B-13140	2017-05-27	6
+ 2017-05-19 14:23:13,331 ERROR [main]: ############### B-13545	2017-06-24	3
+ 2017-05-19 14:23:13,332 ERROR [main]: ############### B-13545	2017-06-03	5
+ 2017-05-19 14:23:13,332 ERROR [main]: ############### B-12187	2017-06-10	3
+ 2017-05-19 14:23:13,332 ERROR [main]: ############### B-12788	2017-06-10	6
+ 2017-05-19 14:23:13,333 ERROR [main]: ############### B-10987	2017-03-09	4
+ 2017-05-19 14:23:13,333 ERROR [main]: ############### B-12479	2017-03-10	3
+ 2017-05-19 14:23:13,333 ERROR [main]: ############### B-13585	2017-01-19	5
+ 2017-05-19 14:23:13,334 ERROR [main]: ############### B-12110	2017-06-17	3
+ 2017-05-19 14:23:13,334 ERROR [main]: ############### B-12187	2017-04-21	3
+ 2017-05-19 14:23:13,334 ERROR [main]: ############### B-12788	2017-04-21	3
+ 2017-05-19 14:23:13,335 ERROR [main]: ############### B-10401	2017-06-24	4
+ 2017-05-19 14:23:13,335 ERROR [main]: ############### B-11059	2017-01-01	6
+ 2017-05-19 14:23:13,336 ERROR [main]: ############### B-13385	2017-03-31	5
+ 2017-05-19 14:23:13,336 ERROR [main]: ############### B-13454	2017-06-17	3
+ 2017-05-19 14:23:13,336 ERROR [main]: ############### B-13086	2017-04-29	4
+ 2017-05-19 14:23:13,337 ERROR [main]: ############### B-10097	2017-05-27	6
+ 2017-05-19 14:23:13,338 ERROR [main]: ############### B-12056	2017-03-03	5
+ 2017-05-19 14:23:13,338 ERROR [main]: ############### B-10987	2017-05-19	4
+ 2017-05-19 14:23:13,338 ERROR [main]: ############### B-10803	2017-04-21	6
+ 2017-05-19 14:23:13,339 ERROR [main]: ############### B-13618	2017-04-14	3
+ 2017-05-19 14:23:13,339 ERROR [main]: ############### B-13385	2017-04-14	6
+ 2017-05-19 14:23:13,340 ERROR [main]: ############### B-13545	2017-03-29	5
+ 2017-05-19 14:23:13,340 ERROR [main]: ############### B-10437	2017-03-29	5
+ 2017-05-19 14:23:13,340 ERROR [main]: ############### B-10987	2017-03-29	3
+ 2017-05-19 14:23:13,340 ERROR [main]: ############### B-10987	2017-06-10	3
+ 2017-05-19 14:23:13,341 ERROR [main]: ############### B-13158	2017-06-03	3
+ 2017-05-19 14:23:13,341 ERROR [main]: ############### B-13086	2017-06-17	4
+ 2017-05-19 14:23:13,341 ERROR [main]: ############### B-12187	2017-02-27	6
+ 2017-05-19 14:23:13,341 ERROR [main]: getIsbgHumanMapListInfo idel count: 37
+ 2017-05-19 14:23:13,429 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,429 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,486 DEBUG [main]: Size: 	5
+ 2017-05-19 14:23:13,486 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,487 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,579 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,579 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,641 DEBUG [main]: Size: 	100
+ 2017-05-19 14:23:13,646 ERROR [main]: ############### B-13385	2017-03-18	6
+ 2017-05-19 14:23:13,648 ERROR [main]: ############### B-13086	2017-05-06	6
+ 2017-05-19 14:23:13,649 ERROR [main]: ############### B-10987	2017-06-03	6
+ 2017-05-19 14:23:13,650 ERROR [main]: ############### B-10612	2017-03-13	3
+ 2017-05-19 14:23:13,652 ERROR [main]: ############### B-10437	2017-04-14	4
+ 2017-05-19 14:23:13,653 ERROR [main]: ############### B-13416	2017-04-04	4
+ 2017-05-19 14:23:13,653 ERROR [main]: ############### B-12479	2017-03-14	4
+ 2017-05-19 14:23:13,653 ERROR [main]: ############### B-12347	2017-01-17	4
+ 2017-05-19 14:23:13,653 ERROR [main]: ############### B-10364	2017-04-02	3
+ 2017-05-19 14:23:13,653 ERROR [main]: ############### B-12187	2017-04-29	3
+ 2017-05-19 14:23:13,654 ERROR [main]: ############### B-12788	2017-01-01	6
+ 2017-05-19 14:23:13,654 ERROR [main]: ############### B-11059	2017-05-06	5
+ 2017-05-19 14:23:13,654 ERROR [main]: ############### B-13416	2017-06-10	6
+ 2017-05-19 14:23:13,654 ERROR [main]: ############### B-10987	2017-05-13	3
+ 2017-05-19 14:23:13,655 ERROR [main]: ############### B-13158	2017-04-29	6
+ 2017-05-19 14:23:13,655 ERROR [main]: ############### B-13385	2017-04-29	5
+ 2017-05-19 14:23:13,655 ERROR [main]: ############### B-13550	2017-05-27	6
+ 2017-05-19 14:23:13,655 ERROR [main]: ############### B-10987	2017-05-20	5
+ 2017-05-19 14:23:13,657 ERROR [main]: ############### B-10097	2017-04-27	4
+ 2017-05-19 14:23:13,657 ERROR [main]: ############### B-10401	2017-01-01	6
+ 2017-05-19 14:23:13,657 ERROR [main]: ############### B-12479	2017-06-17	4
+ 2017-05-19 14:23:13,658 ERROR [main]: ############### B-12788	2017-01-29	6
+ 2017-05-19 14:23:13,658 ERROR [main]: ############### B-12056	2017-04-15	4
+ 2017-05-19 14:23:13,658 ERROR [main]: getIsbgHumanMapListInfo idel count: 23
+ 2017-05-19 14:23:13,721 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,722 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,948 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,949 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,997 DEBUG [main]: Size: 	5
+ 2017-05-19 14:23:13,997 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:13,997 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:14,056 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:14,056 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:14,105 DEBUG [main]: Size: 	100
+ 2017-05-19 14:23:14,106 ERROR [main]: ############### B-12844	2017-06-24	5
+ 2017-05-19 14:23:14,107 ERROR [main]: ############### B-12479	2017-04-10	5
+ 2017-05-19 14:23:14,107 ERROR [main]: ############### B-13140	2017-05-05	6
+ 2017-05-19 14:23:14,107 ERROR [main]: ############### B-12479	2017-05-27	4
+ 2017-05-19 14:23:14,107 ERROR [main]: ############### B-12479	2017-06-10	6
+ 2017-05-19 14:23:14,107 ERROR [main]: ############### B-10612	2017-04-15	4
+ 2017-05-19 14:23:14,108 ERROR [main]: ############### B-12056	2017-06-24	5
+ 2017-05-19 14:23:14,108 ERROR [main]: ############### B-12110	2017-04-01	4
+ 2017-05-19 14:23:14,108 ERROR [main]: ############### B-12347	2017-01-01	4
+ 2017-05-19 14:23:14,108 ERROR [main]: ############### B-12347	2017-04-19	5
+ 2017-05-19 14:23:14,108 ERROR [main]: ############### B-12486	2017-04-19	5
+ 2017-05-19 14:23:14,109 ERROR [main]: ############### B-13385	2017-01-01	6
+ 2017-05-19 14:23:14,109 ERROR [main]: ############### B-10987	2017-05-06	3
+ 2017-05-19 14:23:14,109 ERROR [main]: ############### B-11034	2017-01-01	5
+ 2017-05-19 14:23:14,109 ERROR [main]: ############### B-13545	2017-02-26	5
+ 2017-05-19 14:23:14,109 ERROR [main]: ############### B-13416	2017-01-27	3
+ 2017-05-19 14:23:14,110 ERROR [main]: ############### B-11059	2017-05-20	5
+ 2017-05-19 14:23:14,110 ERROR [main]: ############### B-13545	2017-04-22	6
+ 2017-05-19 14:23:14,110 ERROR [main]: ############### B-13086	2017-04-04	4
+ 2017-05-19 14:23:14,110 ERROR [main]: ############### B-13140	2017-04-04	4
+ 2017-05-19 14:23:14,110 ERROR [main]: ############### B-10255	2017-05-06	3
+ 2017-05-19 14:23:14,111 ERROR [main]: ############### B-12486	2017-02-15	5
+ 2017-05-19 14:23:14,111 ERROR [main]: getIsbgHumanMapListInfo idel count: 22
+ 2017-05-19 14:23:14,128 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:14,128 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:14,294 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:14,295 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:23:14,295 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:04,420 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:24:04,426 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:04,426 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,114 DEBUG [main]: Size: 	100
+ 2017-05-19 14:24:05,136 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,136 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,249 DEBUG [main]: Size: 	5
+ 2017-05-19 14:24:05,249 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,249 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,373 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,373 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,454 DEBUG [main]: Size: 	100
+ 2017-05-19 14:24:05,463 ERROR [main]: ############### B-13618	2017-03-19	3
+ 2017-05-19 14:24:05,464 ERROR [main]: ############### B-12629	2017-06-24	6
+ 2017-05-19 14:24:05,464 ERROR [main]: ############### B-12056	2017-01-16	5
+ 2017-05-19 14:24:05,465 ERROR [main]: ############### B-12486	2017-02-10	3
+ 2017-05-19 14:24:05,466 ERROR [main]: ############### B-12479	2017-05-27	6
+ 2017-05-19 14:24:05,467 ERROR [main]: ############### B-13158	2017-01-12	4
+ 2017-05-19 14:24:05,468 ERROR [main]: ############### B-12347	2017-03-07	5
+ 2017-05-19 14:24:05,468 ERROR [main]: ############### B-12629	2017-04-29	4
+ 2017-05-19 14:24:05,469 ERROR [main]: ############### B-13454	2017-05-13	5
+ 2017-05-19 14:24:05,469 ERROR [main]: ############### B-13585	2017-05-06	3
+ 2017-05-19 14:24:05,470 ERROR [main]: ############### B-13158	2017-05-13	5
+ 2017-05-19 14:24:05,470 ERROR [main]: ############### B-12056	2017-04-29	5
+ 2017-05-19 14:24:05,471 ERROR [main]: ############### B-10987	2017-05-13	4
+ 2017-05-19 14:24:05,471 ERROR [main]: ############### B-10771	2017-03-05	4
+ 2017-05-19 14:24:05,472 ERROR [main]: ############### B-10294	2017-02-13	3
+ 2017-05-19 14:24:05,472 ERROR [main]: ############### B-11382	2017-04-22	4
+ 2017-05-19 14:24:05,472 ERROR [main]: ############### B-10771	2017-04-08	4
+ 2017-05-19 14:24:05,473 ERROR [main]: ############### B-13545	2017-05-20	4
+ 2017-05-19 14:24:05,473 ERROR [main]: ############### B-10987	2017-04-22	3
+ 2017-05-19 14:24:05,473 ERROR [main]: ############### B-12347	2017-06-17	4
+ 2017-05-19 14:24:05,474 ERROR [main]: ############### B-10255	2017-05-06	3
+ 2017-05-19 14:24:05,474 ERROR [main]: ############### B-13550	2017-01-01	5
+ 2017-05-19 14:24:05,474 ERROR [main]: ############### B-12056	2017-01-01	5
+ 2017-05-19 14:24:05,475 ERROR [main]: ############### B-12737	2017-06-03	3
+ 2017-05-19 14:24:05,475 ERROR [main]: ############### B-10255	2017-01-19	5
+ 2017-05-19 14:24:05,475 ERROR [main]: ############### B-13454	2017-06-03	3
+ 2017-05-19 14:24:05,476 ERROR [main]: getIsbgHumanMapListInfo idel count: 26
+ 2017-05-19 14:24:05,549 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,549 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,618 DEBUG [main]: Size: 	5
+ 2017-05-19 14:24:05,618 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,618 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,702 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,702 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,761 DEBUG [main]: Size: 	100
+ 2017-05-19 14:24:05,764 ERROR [main]: ############### B-11382	2017-03-03	3
+ 2017-05-19 14:24:05,764 ERROR [main]: ############### B-10437	2017-04-29	3
+ 2017-05-19 14:24:05,764 ERROR [main]: ############### B-12844	2017-05-20	6
+ 2017-05-19 14:24:05,765 ERROR [main]: ############### B-12347	2017-05-13	6
+ 2017-05-19 14:24:05,765 ERROR [main]: ############### B-12056	2017-01-16	6
+ 2017-05-19 14:24:05,765 ERROR [main]: ############### B-12187	2017-02-10	5
+ 2017-05-19 14:24:05,765 ERROR [main]: ############### B-12479	2017-02-10	3
+ 2017-05-19 14:24:05,765 ERROR [main]: ############### B-12737	2017-04-13	6
+ 2017-05-19 14:24:05,766 ERROR [main]: ############### B-13086	2017-05-27	4
+ 2017-05-19 14:24:05,766 ERROR [main]: ############### B-10364	2017-03-24	4
+ 2017-05-19 14:24:05,766 ERROR [main]: ############### B-13385	2017-05-06	6
+ 2017-05-19 14:24:05,766 ERROR [main]: ############### B-12122	2017-06-10	3
+ 2017-05-19 14:24:05,766 ERROR [main]: ############### B-12737	2017-06-10	3
+ 2017-05-19 14:24:05,767 ERROR [main]: ############### B-13367	2017-01-17	3
+ 2017-05-19 14:24:05,767 ERROR [main]: ############### B-10987	2017-03-07	4
+ 2017-05-19 14:24:05,767 ERROR [main]: ############### B-12110	2017-06-24	3
+ 2017-05-19 14:24:05,767 ERROR [main]: ############### B-12844	2017-01-15	6
+ 2017-05-19 14:24:05,767 ERROR [main]: ############### B-13454	2017-05-13	4
+ 2017-05-19 14:24:05,767 ERROR [main]: ############### B-12479	2017-04-21	4
+ 2017-05-19 14:24:05,768 ERROR [main]: ############### B-12486	2017-04-21	5
+ 2017-05-19 14:24:05,768 ERROR [main]: ############### B-12056	2017-02-12	3
+ 2017-05-19 14:24:05,768 ERROR [main]: ############### B-10097	2017-06-24	3
+ 2017-05-19 14:24:05,768 ERROR [main]: ############### B-13140	2017-03-27	4
+ 2017-05-19 14:24:05,769 ERROR [main]: ############### B-10294	2017-06-17	6
+ 2017-05-19 14:24:05,769 ERROR [main]: ############### B-10612	2017-05-13	4
+ 2017-05-19 14:24:05,769 ERROR [main]: ############### B-12187	2017-03-12	5
+ 2017-05-19 14:24:05,769 ERROR [main]: ############### B-13086	2017-03-05	5
+ 2017-05-19 14:24:05,769 ERROR [main]: ############### B-13416	2017-03-05	4
+ 2017-05-19 14:24:05,770 ERROR [main]: ############### B-10294	2017-05-27	6
+ 2017-05-19 14:24:05,770 ERROR [main]: ############### B-13618	2017-02-19	3
+ 2017-05-19 14:24:05,770 ERROR [main]: ############### B-12110	2017-03-12	5
+ 2017-05-19 14:24:05,770 ERROR [main]: ############### B-11059	2017-04-22	4
+ 2017-05-19 14:24:05,770 ERROR [main]: ############### B-12122	2017-06-17	3
+ 2017-05-19 14:24:05,771 ERROR [main]: ############### B-12187	2017-06-17	6
+ 2017-05-19 14:24:05,771 ERROR [main]: ############### B-12844	2017-06-17	4
+ 2017-05-19 14:24:05,771 ERROR [main]: ############### B-13140	2017-06-24	6
+ 2017-05-19 14:24:05,771 ERROR [main]: ############### B-13385	2017-06-24	6
+ 2017-05-19 14:24:05,771 ERROR [main]: ############### B-13585	2017-06-03	6
+ 2017-05-19 14:24:05,771 ERROR [main]: ############### B-13454	2017-01-14	5
+ 2017-05-19 14:24:05,771 ERROR [main]: ############### B-10097	2017-01-14	5
+ 2017-05-19 14:24:05,772 ERROR [main]: ############### B-13086	2017-06-17	3
+ 2017-05-19 14:24:05,772 ERROR [main]: getIsbgHumanMapListInfo idel count: 41
+ 2017-05-19 14:24:05,820 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:05,821 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,097 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,097 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,144 DEBUG [main]: Size: 	5
+ 2017-05-19 14:24:06,144 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,144 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,210 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,211 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,261 DEBUG [main]: Size: 	100
+ 2017-05-19 14:24:06,263 ERROR [main]: ############### B-11382	2017-04-06	3
+ 2017-05-19 14:24:06,264 ERROR [main]: ############### B-13585	2017-05-20	5
+ 2017-05-19 14:24:06,264 ERROR [main]: ############### B-12187	2017-06-24	5
+ 2017-05-19 14:24:06,264 ERROR [main]: ############### B-13086	2017-05-20	5
+ 2017-05-19 14:24:06,264 ERROR [main]: ############### B-10437	2017-01-31	4
+ 2017-05-19 14:24:06,264 ERROR [main]: ############### B-13416	2017-05-27	6
+ 2017-05-19 14:24:06,265 ERROR [main]: ############### B-13618	2017-05-06	6
+ 2017-05-19 14:24:06,265 ERROR [main]: ############### B-10255	2017-06-10	6
+ 2017-05-19 14:24:06,265 ERROR [main]: ############### B-10364	2017-06-10	3
+ 2017-05-19 14:24:06,265 ERROR [main]: ############### B-13385	2017-04-05	3
+ 2017-05-19 14:24:06,265 ERROR [main]: ############### B-12187	2017-02-26	6
+ 2017-05-19 14:24:06,265 ERROR [main]: ############### B-12788	2017-02-26	6
+ 2017-05-19 14:24:06,266 ERROR [main]: ############### B-10364	2017-04-07	6
+ 2017-05-19 14:24:06,266 ERROR [main]: ############### B-10097	2017-05-13	3
+ 2017-05-19 14:24:06,266 ERROR [main]: ############### B-12056	2017-03-29	3
+ 2017-05-19 14:24:06,266 ERROR [main]: ############### B-12347	2017-01-01	3
+ 2017-05-19 14:24:06,266 ERROR [main]: ############### B-13140	2017-03-28	6
+ 2017-05-19 14:24:06,266 ERROR [main]: ############### B-13385	2017-03-28	6
+ 2017-05-19 14:24:06,267 ERROR [main]: ############### B-11059	2017-05-13	3
+ 2017-05-19 14:24:06,267 ERROR [main]: ############### B-13545	2017-02-19	4
+ 2017-05-19 14:24:06,267 ERROR [main]: ############### B-12110	2017-06-10	4
+ 2017-05-19 14:24:06,267 ERROR [main]: ############### B-10364	2017-03-30	6
+ 2017-05-19 14:24:06,268 ERROR [main]: ############### B-10437	2017-04-22	5
+ 2017-05-19 14:24:06,268 ERROR [main]: ############### B-13086	2017-04-13	5
+ 2017-05-19 14:24:06,268 ERROR [main]: ############### B-13385	2017-04-13	3
+ 2017-05-19 14:24:06,268 ERROR [main]: ############### B-10987	2017-06-17	6
+ 2017-05-19 14:24:06,269 ERROR [main]: ############### B-12737	2017-01-23	4
+ 2017-05-19 14:24:06,269 ERROR [main]: ############### B-12187	2017-06-03	6
+ 2017-05-19 14:24:06,269 ERROR [main]: ############### B-12486	2017-06-03	5
+ 2017-05-19 14:24:06,269 ERROR [main]: ############### B-13385	2017-06-03	5
+ 2017-05-19 14:24:06,269 ERROR [main]: ############### B-12629	2017-02-19	4
+ 2017-05-19 14:24:06,270 ERROR [main]: getIsbgHumanMapListInfo idel count: 31
+ 2017-05-19 14:24:06,288 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,288 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,497 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,498 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:06,501 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:24:45,568 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:24:45,575 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:46,629 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:47,063 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:47,281 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:47,470 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:47,620 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:47,744 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:47,908 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:48,021 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:48,139 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:48,289 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:48,428 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:24:48,522 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:11,415 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:30:11,421 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:11,421 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,118 DEBUG [main]: Size: 	100
+ 2017-05-19 14:30:12,141 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,142 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,257 DEBUG [main]: Size: 	5
+ 2017-05-19 14:30:12,257 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,257 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,381 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,381 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,480 DEBUG [main]: Size: 	100
+ 2017-05-19 14:30:12,490 ERROR [main]: ############### B-11382	2017-02-09	6
+ 2017-05-19 14:30:12,507 ERROR [main]: ############### B-12844	2017-05-20	3
+ 2017-05-19 14:30:12,508 ERROR [main]: ############### B-12737	2017-05-13	6
+ 2017-05-19 14:30:12,508 ERROR [main]: ############### B-10437	2017-03-21	6
+ 2017-05-19 14:30:12,509 ERROR [main]: ############### B-11059	2017-03-21	4
+ 2017-05-19 14:30:12,510 ERROR [main]: ############### B-12347	2017-02-14	5
+ 2017-05-19 14:30:12,510 ERROR [main]: ############### B-12486	2017-04-15	6
+ 2017-05-19 14:30:12,511 ERROR [main]: ############### B-13367	2017-05-06	6
+ 2017-05-19 14:30:12,511 ERROR [main]: ############### B-12347	2017-05-27	5
+ 2017-05-19 14:30:12,511 ERROR [main]: ############### B-10771	2017-06-03	5
+ 2017-05-19 14:30:12,512 ERROR [main]: ############### B-10803	2017-06-03	5
+ 2017-05-19 14:30:12,512 ERROR [main]: ############### B-10987	2017-06-03	5
+ 2017-05-19 14:30:12,512 ERROR [main]: ############### B-13585	2017-04-08	5
+ 2017-05-19 14:30:12,512 ERROR [main]: ############### B-12110	2017-06-03	5
+ 2017-05-19 14:30:12,513 ERROR [main]: ############### B-12486	2017-06-10	3
+ 2017-05-19 14:30:12,513 ERROR [main]: ############### B-12056	2017-05-13	4
+ 2017-05-19 14:30:12,513 ERROR [main]: ############### B-13545	2017-03-10	5
+ 2017-05-19 14:30:12,514 ERROR [main]: ############### B-10803	2017-04-14	6
+ 2017-05-19 14:30:12,514 ERROR [main]: ############### B-11382	2017-06-24	5
+ 2017-05-19 14:30:12,514 ERROR [main]: ############### B-12187	2017-03-16	4
+ 2017-05-19 14:30:12,515 ERROR [main]: ############### B-12479	2017-01-01	3
+ 2017-05-19 14:30:12,515 ERROR [main]: ############### B-12486	2017-01-01	3
+ 2017-05-19 14:30:12,515 ERROR [main]: ############### B-12122	2017-04-22	5
+ 2017-05-19 14:30:12,516 ERROR [main]: ############### B-12110	2017-01-17	5
+ 2017-05-19 14:30:12,516 ERROR [main]: ############### B-10364	2017-06-24	5
+ 2017-05-19 14:30:12,516 ERROR [main]: ############### B-10097	2017-02-01	5
+ 2017-05-19 14:30:12,517 ERROR [main]: ############### B-11059	2017-01-01	3
+ 2017-05-19 14:30:12,517 ERROR [main]: ############### B-13367	2017-04-22	6
+ 2017-05-19 14:30:12,517 ERROR [main]: ############### B-13140	2017-03-31	5
+ 2017-05-19 14:30:12,518 ERROR [main]: ############### B-10097	2017-06-17	3
+ 2017-05-19 14:30:12,518 ERROR [main]: ############### B-13416	2017-04-29	5
+ 2017-05-19 14:30:12,519 ERROR [main]: ############### B-13086	2017-03-03	6
+ 2017-05-19 14:30:12,519 ERROR [main]: ############### B-12056	2017-04-20	4
+ 2017-05-19 14:30:12,520 ERROR [main]: ############### B-13416	2017-04-15	5
+ 2017-05-19 14:30:12,520 ERROR [main]: ############### B-12479	2017-06-03	3
+ 2017-05-19 14:30:12,521 ERROR [main]: ############### B-11034	2017-01-17	6
+ 2017-05-19 14:30:12,521 ERROR [main]: ############### B-12737	2017-03-04	5
+ 2017-05-19 14:30:12,521 ERROR [main]: getIsbgHumanMapListInfo idel count: 37
+ 2017-05-19 14:30:12,594 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,594 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,660 DEBUG [main]: Size: 	5
+ 2017-05-19 14:30:12,661 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,661 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,757 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,757 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,824 DEBUG [main]: Size: 	100
+ 2017-05-19 14:30:12,827 ERROR [main]: ############### B-12056	2017-02-25	4
+ 2017-05-19 14:30:12,827 ERROR [main]: ############### B-12347	2017-04-01	4
+ 2017-05-19 14:30:12,828 ERROR [main]: ############### B-12737	2017-02-13	5
+ 2017-05-19 14:30:12,828 ERROR [main]: ############### B-12737	2017-05-27	5
+ 2017-05-19 14:30:12,828 ERROR [main]: ############### B-11382	2017-05-20	4
+ 2017-05-19 14:30:12,829 ERROR [main]: ############### B-12629	2017-03-14	5
+ 2017-05-19 14:30:12,829 ERROR [main]: ############### B-10255	2017-03-28	4
+ 2017-05-19 14:30:12,829 ERROR [main]: ############### B-13585	2017-04-29	5
+ 2017-05-19 14:30:12,829 ERROR [main]: ############### B-12347	2017-04-29	4
+ 2017-05-19 14:30:12,829 ERROR [main]: ############### B-10364	2017-05-12	5
+ 2017-05-19 14:30:12,829 ERROR [main]: ############### B-12056	2017-03-31	4
+ 2017-05-19 14:30:12,830 ERROR [main]: ############### B-11382	2017-06-17	6
+ 2017-05-19 14:30:12,830 ERROR [main]: ############### B-12737	2017-05-06	4
+ 2017-05-19 14:30:12,830 ERROR [main]: ############### B-13416	2017-05-13	3
+ 2017-05-19 14:30:12,830 ERROR [main]: ############### B-13086	2017-01-01	5
+ 2017-05-19 14:30:12,830 ERROR [main]: ############### B-13367	2017-06-10	3
+ 2017-05-19 14:30:12,831 ERROR [main]: ############### B-12056	2017-02-14	6
+ 2017-05-19 14:30:12,831 ERROR [main]: ############### B-10097	2017-01-22	6
+ 2017-05-19 14:30:12,831 ERROR [main]: ############### B-10437	2017-01-01	3
+ 2017-05-19 14:30:12,831 ERROR [main]: ############### B-10255	2017-06-17	6
+ 2017-05-19 14:30:12,831 ERROR [main]: ############### B-13086	2017-03-10	3
+ 2017-05-19 14:30:12,832 ERROR [main]: ############### B-13140	2017-02-26	5
+ 2017-05-19 14:30:12,832 ERROR [main]: ############### B-12056	2017-04-22	6
+ 2017-05-19 14:30:12,832 ERROR [main]: ############### B-11034	2017-04-08	6
+ 2017-05-19 14:30:12,832 ERROR [main]: ############### B-10364	2017-04-26	4
+ 2017-05-19 14:30:12,832 ERROR [main]: ############### B-10612	2017-04-22	5
+ 2017-05-19 14:30:12,832 ERROR [main]: ############### B-12187	2017-06-17	5
+ 2017-05-19 14:30:12,833 ERROR [main]: ############### B-12187	2017-06-03	5
+ 2017-05-19 14:30:12,833 ERROR [main]: ############### B-12486	2017-06-03	6
+ 2017-05-19 14:30:12,833 ERROR [main]: ############### B-12737	2017-06-03	5
+ 2017-05-19 14:30:12,833 ERROR [main]: ############### B-10401	2017-06-03	5
+ 2017-05-19 14:30:12,833 ERROR [main]: ############### B-13086	2017-06-17	3
+ 2017-05-19 14:30:12,833 ERROR [main]: getIsbgHumanMapListInfo idel count: 32
+ 2017-05-19 14:30:12,872 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:12,872 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,117 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,117 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,172 DEBUG [main]: Size: 	5
+ 2017-05-19 14:30:13,173 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,173 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,242 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,242 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,298 DEBUG [main]: Size: 	100
+ 2017-05-19 14:30:13,301 ERROR [main]: ############### B-13545	2017-04-28	4
+ 2017-05-19 14:30:13,302 ERROR [main]: ############### B-10771	2017-04-28	6
+ 2017-05-19 14:30:13,302 ERROR [main]: ############### B-13140	2017-03-09	3
+ 2017-05-19 14:30:13,302 ERROR [main]: ############### B-12056	2017-01-11	3
+ 2017-05-19 14:30:13,302 ERROR [main]: ############### B-13140	2017-05-20	4
+ 2017-05-19 14:30:13,303 ERROR [main]: ############### B-10987	2017-06-24	3
+ 2017-05-19 14:30:13,303 ERROR [main]: ############### B-13585	2017-05-27	5
+ 2017-05-19 14:30:13,303 ERROR [main]: ############### B-12347	2017-05-27	4
+ 2017-05-19 14:30:13,303 ERROR [main]: ############### B-12056	2017-06-03	4
+ 2017-05-19 14:30:13,303 ERROR [main]: ############### B-11382	2017-03-21	6
+ 2017-05-19 14:30:13,303 ERROR [main]: ############### B-13385	2017-01-12	4
+ 2017-05-19 14:30:13,304 ERROR [main]: ############### B-10437	2017-04-05	5
+ 2017-05-19 14:30:13,304 ERROR [main]: ############### B-13585	2017-03-01	5
+ 2017-05-19 14:30:13,304 ERROR [main]: ############### B-12737	2017-04-29	6
+ 2017-05-19 14:30:13,304 ERROR [main]: ############### B-11382	2017-04-01	3
+ 2017-05-19 14:30:13,304 ERROR [main]: ############### B-13585	2017-01-01	4
+ 2017-05-19 14:30:13,305 ERROR [main]: ############### B-10255	2017-06-24	5
+ 2017-05-19 14:30:13,305 ERROR [main]: ############### B-10364	2017-06-24	4
+ 2017-05-19 14:30:13,305 ERROR [main]: ############### B-13454	2017-05-27	3
+ 2017-05-19 14:30:13,305 ERROR [main]: ############### B-11382	2017-05-27	5
+ 2017-05-19 14:30:13,305 ERROR [main]: ############### B-10803	2017-03-26	5
+ 2017-05-19 14:30:13,306 ERROR [main]: ############### B-10294	2017-03-30	4
+ 2017-05-19 14:30:13,306 ERROR [main]: ############### B-10987	2017-05-20	3
+ 2017-05-19 14:30:13,306 ERROR [main]: ############### B-10364	2017-01-01	6
+ 2017-05-19 14:30:13,306 ERROR [main]: ############### B-10803	2017-04-17	5
+ 2017-05-19 14:30:13,306 ERROR [main]: ############### B-11034	2017-06-10	6
+ 2017-05-19 14:30:13,306 ERROR [main]: ############### B-10401	2017-01-08	6
+ 2017-05-19 14:30:13,307 ERROR [main]: ############### B-10771	2017-01-09	5
+ 2017-05-19 14:30:13,307 ERROR [main]: ############### B-13618	2017-06-03	5
+ 2017-05-19 14:30:13,307 ERROR [main]: ############### B-13385	2017-06-17	3
+ 2017-05-19 14:30:13,307 ERROR [main]: ############### B-12347	2017-02-14	4
+ 2017-05-19 14:30:13,307 ERROR [main]: getIsbgHumanMapListInfo idel count: 31
+ 2017-05-19 14:30:13,333 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,333 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,545 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,545 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:13,546 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data10.xlsx
+ 2017-05-19 14:30:40,217 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:30:40,223 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:40,922 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,065 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,159 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,242 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,324 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,391 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,462 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,523 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,594 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,641 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,688 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:30:41,739 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:30,628 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:33:30,635 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:30,635 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,342 DEBUG [main]: Size: 	100
+ 2017-05-19 14:33:31,365 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,365 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,482 DEBUG [main]: Size: 	5
+ 2017-05-19 14:33:31,482 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,482 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,606 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,606 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,701 DEBUG [main]: Size: 	100
+ 2017-05-19 14:33:31,715 ERROR [main]: ############### B-10987	2017-02-04	4
+ 2017-05-19 14:33:31,719 ERROR [main]: ############### B-13158	2017-02-05	3
+ 2017-05-19 14:33:31,719 ERROR [main]: ############### B-10437	2017-03-24	3
+ 2017-05-19 14:33:31,720 ERROR [main]: ############### B-10987	2017-03-24	3
+ 2017-05-19 14:33:31,721 ERROR [main]: ############### B-10803	2017-02-16	3
+ 2017-05-19 14:33:31,722 ERROR [main]: ############### B-12347	2017-05-27	5
+ 2017-05-19 14:33:31,722 ERROR [main]: ############### B-10771	2017-06-03	6
+ 2017-05-19 14:33:31,722 ERROR [main]: ############### B-12737	2017-04-08	6
+ 2017-05-19 14:33:31,724 ERROR [main]: ############### B-13550	2017-01-23	6
+ 2017-05-19 14:33:31,725 ERROR [main]: ############### B-13416	2017-04-29	3
+ 2017-05-19 14:33:31,725 ERROR [main]: ############### B-12844	2017-03-25	3
+ 2017-05-19 14:33:31,725 ERROR [main]: ############### B-13454	2017-02-13	5
+ 2017-05-19 14:33:31,726 ERROR [main]: ############### B-10364	2017-03-31	4
+ 2017-05-19 14:33:31,726 ERROR [main]: ############### B-10803	2017-05-20	3
+ 2017-05-19 14:33:31,727 ERROR [main]: ############### B-10255	2017-01-01	5
+ 2017-05-19 14:33:31,727 ERROR [main]: ############### B-12788	2017-06-17	5
+ 2017-05-19 14:33:31,727 ERROR [main]: ############### B-10987	2017-04-01	6
+ 2017-05-19 14:33:31,728 ERROR [main]: ############### B-13454	2017-01-11	4
+ 2017-05-19 14:33:31,728 ERROR [main]: ############### B-13140	2017-06-03	4
+ 2017-05-19 14:33:31,728 ERROR [main]: getIsbgHumanMapListInfo idel count: 19
+ 2017-05-19 14:33:31,820 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,820 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,882 DEBUG [main]: Size: 	5
+ 2017-05-19 14:33:31,882 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,882 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,954 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:31,955 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,022 DEBUG [main]: Size: 	100
+ 2017-05-19 14:33:32,024 ERROR [main]: ############### B-10803	2017-01-28	4
+ 2017-05-19 14:33:32,025 ERROR [main]: ############### B-13158	2017-05-20	4
+ 2017-05-19 14:33:32,025 ERROR [main]: ############### B-13545	2017-03-20	6
+ 2017-05-19 14:33:32,025 ERROR [main]: ############### B-12788	2017-04-15	4
+ 2017-05-19 14:33:32,025 ERROR [main]: ############### B-13158	2017-05-06	5
+ 2017-05-19 14:33:32,026 ERROR [main]: ############### B-12122	2017-06-10	6
+ 2017-05-19 14:33:32,026 ERROR [main]: ############### B-13545	2017-04-13	3
+ 2017-05-19 14:33:32,026 ERROR [main]: ############### B-12486	2017-01-20	3
+ 2017-05-19 14:33:32,026 ERROR [main]: ############### B-10364	2017-05-13	5
+ 2017-05-19 14:33:32,027 ERROR [main]: ############### B-13550	2017-02-09	6
+ 2017-05-19 14:33:32,027 ERROR [main]: ############### B-13140	2017-04-22	4
+ 2017-05-19 14:33:32,027 ERROR [main]: ############### B-10364	2017-06-17	4
+ 2017-05-19 14:33:32,027 ERROR [main]: ############### B-12187	2017-03-24	3
+ 2017-05-19 14:33:32,027 ERROR [main]: ############### B-10255	2017-05-27	5
+ 2017-05-19 14:33:32,028 ERROR [main]: ############### B-13618	2017-01-31	4
+ 2017-05-19 14:33:32,028 ERROR [main]: ############### B-10097	2017-04-29	3
+ 2017-05-19 14:33:32,028 ERROR [main]: ############### B-10987	2017-04-22	4
+ 2017-05-19 14:33:32,028 ERROR [main]: ############### B-12122	2017-06-17	6
+ 2017-05-19 14:33:32,028 ERROR [main]: ############### B-13140	2017-06-24	3
+ 2017-05-19 14:33:32,029 ERROR [main]: ############### B-13416	2017-06-24	6
+ 2017-05-19 14:33:32,029 ERROR [main]: ############### B-11059	2017-06-10	3
+ 2017-05-19 14:33:32,029 ERROR [main]: ############### B-12788	2017-06-03	6
+ 2017-05-19 14:33:32,029 ERROR [main]: ############### B-10255	2017-01-11	6
+ 2017-05-19 14:33:32,029 ERROR [main]: ############### B-13545	2017-01-10	3
+ 2017-05-19 14:33:32,029 ERROR [main]: ############### B-13367	2017-06-03	5
+ 2017-05-19 14:33:32,030 ERROR [main]: ############### B-12486	2017-02-28	4
+ 2017-05-19 14:33:32,030 ERROR [main]: getIsbgHumanMapListInfo idel count: 26
+ 2017-05-19 14:33:32,071 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,071 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,377 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,377 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,421 DEBUG [main]: Size: 	5
+ 2017-05-19 14:33:32,422 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,422 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,481 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,481 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,529 DEBUG [main]: Size: 	100
+ 2017-05-19 14:33:32,531 ERROR [main]: ############### B-13550	2017-04-07	5
+ 2017-05-19 14:33:32,531 ERROR [main]: ############### B-10612	2017-04-28	4
+ 2017-05-19 14:33:32,531 ERROR [main]: ############### B-12347	2017-05-20	4
+ 2017-05-19 14:33:32,531 ERROR [main]: ############### B-12122	2017-05-13	5
+ 2017-05-19 14:33:32,531 ERROR [main]: ############### B-12629	2017-05-13	4
+ 2017-05-19 14:33:32,532 ERROR [main]: ############### B-13585	2017-04-14	6
+ 2017-05-19 14:33:32,532 ERROR [main]: ############### B-10294	2017-06-10	6
+ 2017-05-19 14:33:32,532 ERROR [main]: ############### B-11059	2017-06-03	3
+ 2017-05-19 14:33:32,532 ERROR [main]: ############### B-12347	2017-06-10	5
+ 2017-05-19 14:33:32,532 ERROR [main]: ############### B-10437	2017-02-27	4
+ 2017-05-19 14:33:32,533 ERROR [main]: ############### B-11382	2017-06-24	3
+ 2017-05-19 14:33:32,533 ERROR [main]: ############### B-13454	2017-05-12	3
+ 2017-05-19 14:33:32,533 ERROR [main]: ############### B-12110	2017-03-30	4
+ 2017-05-19 14:33:32,533 ERROR [main]: ############### B-12844	2017-05-06	4
+ 2017-05-19 14:33:32,533 ERROR [main]: ############### B-12056	2017-02-01	5
+ 2017-05-19 14:33:32,534 ERROR [main]: ############### B-12788	2017-03-17	4
+ 2017-05-19 14:33:32,534 ERROR [main]: ############### B-10364	2017-02-09	6
+ 2017-05-19 14:33:32,534 ERROR [main]: ############### B-13158	2017-03-18	6
+ 2017-05-19 14:33:32,534 ERROR [main]: ############### B-13367	2017-02-07	5
+ 2017-05-19 14:33:32,534 ERROR [main]: ############### B-10803	2017-05-19	4
+ 2017-05-19 14:33:32,535 ERROR [main]: ############### B-10401	2017-04-20	4
+ 2017-05-19 14:33:32,535 ERROR [main]: ############### B-10294	2017-05-05	4
+ 2017-05-19 14:33:32,535 ERROR [main]: ############### B-10294	2017-03-03	6
+ 2017-05-19 14:33:32,535 ERROR [main]: ############### B-12479	2017-02-27	6
+ 2017-05-19 14:33:32,536 ERROR [main]: getIsbgHumanMapListInfo idel count: 24
+ 2017-05-19 14:33:32,559 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,559 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,749 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,750 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:32,750 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:42,842 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:33:42,847 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:43,782 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:44,079 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:44,281 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:44,465 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:44,586 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:44,709 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:44,811 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:44,920 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:45,050 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:45,170 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:45,274 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:33:45,371 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:25,319 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:50:25,324 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:25,325 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:26,308 DEBUG [main]: Size: 	100
+ 2017-05-19 14:50:26,329 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:26,329 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:26,619 DEBUG [main]: Size: 	5
+ 2017-05-19 14:50:26,619 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:26,620 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:26,873 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:26,873 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,104 DEBUG [main]: Size: 	100
+ 2017-05-19 14:50:27,114 ERROR [main]: ############### 	B-13140	2017-03-22	4
+ 2017-05-19 14:50:27,115 ERROR [main]: ############### 	B-13158	2017-03-22	4
+ 2017-05-19 14:50:27,115 ERROR [main]: ############### 	B-13550	2017-01-10	3
+ 2017-05-19 14:50:27,116 ERROR [main]: ############### 	B-12788	2017-02-12	4
+ 2017-05-19 14:50:27,117 ERROR [main]: ############### 	B-12629	2017-04-15	4
+ 2017-05-19 14:50:27,117 ERROR [main]: ############### 	B-10803	2017-02-02	4
+ 2017-05-19 14:50:27,117 ERROR [main]: ############### 	B-10294	2017-06-10	4
+ 2017-05-19 14:50:27,118 ERROR [main]: ############### 	B-11059	2017-02-26	4
+ 2017-05-19 14:50:27,119 ERROR [main]: ############### 	B-13585	2017-04-29	3
+ 2017-05-19 14:50:27,119 ERROR [main]: ############### 	B-11382	2017-01-21	4
+ 2017-05-19 14:50:27,119 ERROR [main]: ############### 	B-13416	2017-06-10	6
+ 2017-05-19 14:50:27,120 ERROR [main]: ############### 	B-12110	2017-01-30	3
+ 2017-05-19 14:50:27,120 ERROR [main]: ############### 	B-11382	2017-04-29	4
+ 2017-05-19 14:50:27,120 ERROR [main]: ############### 	B-10987	2017-01-01	3
+ 2017-05-19 14:50:27,121 ERROR [main]: ############### 	B-13086	2017-04-21	5
+ 2017-05-19 14:50:27,121 ERROR [main]: ############### 	B-13385	2017-04-21	4
+ 2017-05-19 14:50:27,121 ERROR [main]: ############### 	B-10437	2017-02-14	3
+ 2017-05-19 14:50:27,121 ERROR [main]: ############### 	B-12122	2017-03-22	6
+ 2017-05-19 14:50:27,122 ERROR [main]: ############### 	B-10401	2017-02-10	5
+ 2017-05-19 14:50:27,122 ERROR [main]: ############### 	B-13454	2017-02-24	4
+ 2017-05-19 14:50:27,122 ERROR [main]: ############### 	B-10097	2017-05-27	5
+ 2017-05-19 14:50:27,122 ERROR [main]: ############### 	B-13550	2017-05-27	5
+ 2017-05-19 14:50:27,124 ERROR [main]: ############### 	B-13086	2017-03-05	5
+ 2017-05-19 14:50:27,124 ERROR [main]: ############### 	B-13545	2017-03-31	4
+ 2017-05-19 14:50:27,125 ERROR [main]: ############### 	B-10255	2017-06-03	3
+ 2017-05-19 14:50:27,126 ERROR [main]: ############### 	B-13140	2017-06-03	5
+ 2017-05-19 14:50:27,126 ERROR [main]: ############### 	B-12110	2017-04-15	4
+ 2017-05-19 14:50:27,126 ERROR [main]: ############### 	B-13585	2017-02-20	6
+ 2017-05-19 14:50:27,126 ERROR [main]: getIsbgHumanMapListInfo idel count: 28
+ 2017-05-19 14:50:27,187 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,187 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,336 DEBUG [main]: Size: 	5
+ 2017-05-19 14:50:27,337 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,337 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,458 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,459 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,573 DEBUG [main]: Size: 	100
+ 2017-05-19 14:50:27,576 ERROR [main]: ############### 	B-10437	2017-01-22	3
+ 2017-05-19 14:50:27,576 ERROR [main]: ############### 	B-12737	2017-05-13	6
+ 2017-05-19 14:50:27,577 ERROR [main]: ############### 	B-12788	2017-05-13	6
+ 2017-05-19 14:50:27,577 ERROR [main]: ############### 	B-12844	2017-02-03	6
+ 2017-05-19 14:50:27,577 ERROR [main]: ############### 	B-10437	2017-02-05	6
+ 2017-05-19 14:50:27,577 ERROR [main]: ############### 	B-11034	2017-02-05	4
+ 2017-05-19 14:50:27,577 ERROR [main]: ############### 	B-11059	2017-02-05	4
+ 2017-05-19 14:50:27,578 ERROR [main]: ############### 	B-12479	2017-05-27	3
+ 2017-05-19 14:50:27,578 ERROR [main]: ############### 	B-10255	2017-05-20	5
+ 2017-05-19 14:50:27,578 ERROR [main]: ############### 	B-12844	2017-06-10	3
+ 2017-05-19 14:50:27,579 ERROR [main]: ############### 	B-11382	2017-05-20	3
+ 2017-05-19 14:50:27,579 ERROR [main]: ############### 	B-12629	2017-01-10	5
+ 2017-05-19 14:50:27,579 ERROR [main]: ############### 	B-12788	2017-01-10	3
+ 2017-05-19 14:50:27,579 ERROR [main]: ############### 	B-13550	2017-03-29	4
+ 2017-05-19 14:50:27,579 ERROR [main]: ############### 	B-12479	2017-04-21	4
+ 2017-05-19 14:50:27,580 ERROR [main]: ############### 	B-13367	2017-05-13	6
+ 2017-05-19 14:50:27,580 ERROR [main]: ############### 	B-13086	2017-01-01	4
+ 2017-05-19 14:50:27,580 ERROR [main]: ############### 	B-10294	2017-04-12	4
+ 2017-05-19 14:50:27,580 ERROR [main]: ############### 	B-10364	2017-01-24	5
+ 2017-05-19 14:50:27,581 ERROR [main]: ############### 	B-10401	2017-06-17	5
+ 2017-05-19 14:50:27,581 ERROR [main]: ############### 	B-13618	2017-04-29	6
+ 2017-05-19 14:50:27,581 ERROR [main]: ############### 	B-12347	2017-03-11	4
+ 2017-05-19 14:50:27,581 ERROR [main]: ############### 	B-13158	2017-02-27	4
+ 2017-05-19 14:50:27,582 ERROR [main]: ############### 	B-13086	2017-02-16	3
+ 2017-05-19 14:50:27,582 ERROR [main]: ############### 	B-10771	2017-04-05	4
+ 2017-05-19 14:50:27,582 ERROR [main]: ############### 	B-13385	2017-04-14	5
+ 2017-05-19 14:50:27,582 ERROR [main]: ############### 	B-10987	2017-06-17	3
+ 2017-05-19 14:50:27,583 ERROR [main]: ############### 	B-12629	2017-01-22	3
+ 2017-05-19 14:50:27,583 ERROR [main]: ############### 	B-13086	2017-06-03	4
+ 2017-05-19 14:50:27,583 ERROR [main]: getIsbgHumanMapListInfo idel count: 29
+ 2017-05-19 14:50:27,647 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,648 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,996 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:27,996 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,080 DEBUG [main]: Size: 	5
+ 2017-05-19 14:50:28,080 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,080 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,185 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,185 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,282 DEBUG [main]: Size: 	100
+ 2017-05-19 14:50:28,284 ERROR [main]: ############### 	B-12788	2017-05-20	6
+ 2017-05-19 14:50:28,284 ERROR [main]: ############### 	B-12347	2017-06-24	5
+ 2017-05-19 14:50:28,284 ERROR [main]: ############### 	B-13158	2017-01-28	3
+ 2017-05-19 14:50:28,284 ERROR [main]: ############### 	B-13416	2017-05-20	5
+ 2017-05-19 14:50:28,284 ERROR [main]: ############### 	B-10987	2017-03-21	5
+ 2017-05-19 14:50:28,285 ERROR [main]: ############### 	B-10803	2017-02-05	3
+ 2017-05-19 14:50:28,285 ERROR [main]: ############### 	B-13618	2017-05-27	5
+ 2017-05-19 14:50:28,285 ERROR [main]: ############### 	B-13454	2017-05-20	6
+ 2017-05-19 14:50:28,285 ERROR [main]: ############### 	B-13454	2017-04-02	6
+ 2017-05-19 14:50:28,286 ERROR [main]: ############### 	B-11034	2017-05-06	3
+ 2017-05-19 14:50:28,286 ERROR [main]: ############### 	B-13454	2017-01-29	6
+ 2017-05-19 14:50:28,286 ERROR [main]: ############### 	B-11034	2017-01-01	4
+ 2017-05-19 14:50:28,286 ERROR [main]: ############### 	B-13618	2017-03-19	4
+ 2017-05-19 14:50:28,286 ERROR [main]: ############### 	B-13140	2017-04-28	4
+ 2017-05-19 14:50:28,286 ERROR [main]: ############### 	B-10401	2017-02-17	6
+ 2017-05-19 14:50:28,286 ERROR [main]: ############### 	B-13416	2017-01-21	4
+ 2017-05-19 14:50:28,287 ERROR [main]: ############### 	B-11034	2017-05-20	3
+ 2017-05-19 14:50:28,287 ERROR [main]: ############### 	B-13454	2017-04-21	4
+ 2017-05-19 14:50:28,287 ERROR [main]: ############### 	B-13385	2017-06-24	3
+ 2017-05-19 14:50:28,287 ERROR [main]: ############### 	B-13416	2017-06-24	5
+ 2017-05-19 14:50:28,287 ERROR [main]: ############### 	B-12187	2017-02-03	3
+ 2017-05-19 14:50:28,288 ERROR [main]: ############### 	B-10255	2017-01-11	5
+ 2017-05-19 14:50:28,288 ERROR [main]: getIsbgHumanMapListInfo idel count: 22
+ 2017-05-19 14:50:28,311 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,311 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,566 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,566 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:50:28,567 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:28,307 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:51:28,313 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:28,313 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:29,290 DEBUG [main]: Size: 	100
+ 2017-05-19 14:51:29,312 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:29,312 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:29,581 DEBUG [main]: Size: 	5
+ 2017-05-19 14:51:29,581 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:29,581 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:29,813 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:29,813 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,046 DEBUG [main]: Size: 	100
+ 2017-05-19 14:51:30,063 ERROR [main]: ############### 	B-12347	2017-05-13	2017-05-17	4
+ 2017-05-19 14:51:30,063 ERROR [main]: ############### 	B-12737	2017-05-13	2017-05-18	5
+ 2017-05-19 14:51:30,065 ERROR [main]: ############### 	B-13385	2017-05-20	2017-05-24	4
+ 2017-05-19 14:51:30,066 ERROR [main]: ############### 	B-13618	2017-05-27	2017-05-30	3
+ 2017-05-19 14:51:30,067 ERROR [main]: ############### 	B-10612	2017-06-24	2017-06-29	5
+ 2017-05-19 14:51:30,067 ERROR [main]: ############### 	B-10987	2017-06-03	2017-06-08	5
+ 2017-05-19 14:51:30,067 ERROR [main]: ############### 	B-11059	2017-06-03	2017-06-07	4
+ 2017-05-19 14:51:30,068 ERROR [main]: ############### 	B-13550	2017-05-20	2017-05-25	5
+ 2017-05-19 14:51:30,069 ERROR [main]: ############### 	B-12056	2017-06-17	2017-06-21	4
+ 2017-05-19 14:51:30,069 ERROR [main]: ############### 	B-12479	2017-04-21	2017-04-25	4
+ 2017-05-19 14:51:30,069 ERROR [main]: ############### 	B-13158	2017-01-01	2017-01-06	5
+ 2017-05-19 14:51:30,070 ERROR [main]: ############### 	B-13385	2017-01-01	2017-01-04	3
+ 2017-05-19 14:51:30,070 ERROR [main]: ############### 	B-12056	2017-02-14	2017-02-18	4
+ 2017-05-19 14:51:30,070 ERROR [main]: ############### 	B-13086	2017-04-22	2017-04-25	3
+ 2017-05-19 14:51:30,071 ERROR [main]: ############### 	B-13454	2017-06-17	2017-06-23	6
+ 2017-05-19 14:51:30,071 ERROR [main]: ############### 	B-10364	2017-06-17	2017-06-20	3
+ 2017-05-19 14:51:30,071 ERROR [main]: ############### 	B-12187	2017-03-14	2017-03-19	5
+ 2017-05-19 14:51:30,072 ERROR [main]: ############### 	B-12347	2017-03-14	2017-03-18	4
+ 2017-05-19 14:51:30,072 ERROR [main]: ############### 	B-12737	2017-03-14	2017-03-17	3
+ 2017-05-19 14:51:30,073 ERROR [main]: ############### 	B-13367	2017-03-12	2017-03-16	4
+ 2017-05-19 14:51:30,074 ERROR [main]: ############### 	B-11034	2017-04-22	2017-04-25	3
+ 2017-05-19 14:51:30,075 ERROR [main]: ############### 	B-13385	2017-06-24	2017-06-30	6
+ 2017-05-19 14:51:30,075 ERROR [main]: ############### 	B-10803	2017-03-31	2017-04-06	6
+ 2017-05-19 14:51:30,075 ERROR [main]: ############### 	B-11059	2017-06-17	2017-06-21	4
+ 2017-05-19 14:51:30,076 ERROR [main]: ############### 	B-12788	2017-01-25	2017-01-28	3
+ 2017-05-19 14:51:30,076 ERROR [main]: ############### 	B-10364	2017-03-07	2017-03-11	4
+ 2017-05-19 14:51:30,076 ERROR [main]: ############### 	B-10097	2017-06-03	2017-06-06	3
+ 2017-05-19 14:51:30,077 ERROR [main]: ############### 	B-13618	2017-06-17	2017-06-21	4
+ 2017-05-19 14:51:30,077 ERROR [main]: ############### 	B-12737	2017-02-18	2017-02-23	5
+ 2017-05-19 14:51:30,077 ERROR [main]: getIsbgHumanMapListInfo idel count: 29
+ 2017-05-19 14:51:30,138 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,138 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,285 DEBUG [main]: Size: 	5
+ 2017-05-19 14:51:30,285 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,285 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,399 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,399 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,512 DEBUG [main]: Size: 	100
+ 2017-05-19 14:51:30,515 ERROR [main]: ############### 	B-11034	2017-04-29	2017-05-02	3
+ 2017-05-19 14:51:30,515 ERROR [main]: ############### 	B-12844	2017-05-13	2017-05-17	4
+ 2017-05-19 14:51:30,515 ERROR [main]: ############### 	B-12347	2017-06-24	2017-06-29	5
+ 2017-05-19 14:51:30,516 ERROR [main]: ############### 	B-12479	2017-06-24	2017-06-29	5
+ 2017-05-19 14:51:30,516 ERROR [main]: ############### 	B-12486	2017-04-12	2017-04-15	3
+ 2017-05-19 14:51:30,516 ERROR [main]: ############### 	B-10771	2017-02-03	2017-02-06	3
+ 2017-05-19 14:51:30,516 ERROR [main]: ############### 	B-10294	2017-03-04	2017-03-10	6
+ 2017-05-19 14:51:30,516 ERROR [main]: ############### 	B-13585	2017-05-27	2017-05-30	3
+ 2017-05-19 14:51:30,517 ERROR [main]: ############### 	B-12486	2017-05-27	2017-05-31	4
+ 2017-05-19 14:51:30,517 ERROR [main]: ############### 	B-10255	2017-05-20	2017-05-26	6
+ 2017-05-19 14:51:30,525 ERROR [main]: ############### 	B-13158	2017-01-18	2017-01-23	5
+ 2017-05-19 14:51:30,526 ERROR [main]: ############### 	B-11034	2017-03-03	2017-03-07	4
+ 2017-05-19 14:51:30,526 ERROR [main]: ############### 	B-13385	2017-04-08	2017-04-14	6
+ 2017-05-19 14:51:30,527 ERROR [main]: ############### 	B-12122	2017-03-08	2017-03-12	4
+ 2017-05-19 14:51:30,528 ERROR [main]: ############### 	B-12486	2017-03-08	2017-03-14	6
+ 2017-05-19 14:51:30,528 ERROR [main]: ############### 	B-12347	2017-01-11	2017-01-16	5
+ 2017-05-19 14:51:30,528 ERROR [main]: ############### 	B-12486	2017-05-06	2017-05-12	6
+ 2017-05-19 14:51:30,529 ERROR [main]: ############### 	B-12629	2017-05-06	2017-05-12	6
+ 2017-05-19 14:51:30,529 ERROR [main]: ############### 	B-12056	2017-02-07	2017-02-12	5
+ 2017-05-19 14:51:30,529 ERROR [main]: ############### 	B-10364	2017-04-04	2017-04-10	6
+ 2017-05-19 14:51:30,529 ERROR [main]: ############### 	B-10097	2017-06-17	2017-06-20	3
+ 2017-05-19 14:51:30,530 ERROR [main]: ############### 	B-13618	2017-03-09	2017-03-15	6
+ 2017-05-19 14:51:30,530 ERROR [main]: ############### 	B-13618	2017-01-30	2017-02-02	3
+ 2017-05-19 14:51:30,530 ERROR [main]: ############### 	B-12056	2017-06-10	2017-06-15	5
+ 2017-05-19 14:51:30,530 ERROR [main]: ############### 	B-13585	2017-06-17	2017-06-20	3
+ 2017-05-19 14:51:30,530 ERROR [main]: ############### 	B-10364	2017-05-05	2017-05-11	6
+ 2017-05-19 14:51:30,531 ERROR [main]: ############### 	B-13140	2017-06-24	2017-06-29	5
+ 2017-05-19 14:51:30,531 ERROR [main]: ############### 	B-13454	2017-06-03	2017-06-06	3
+ 2017-05-19 14:51:30,531 ERROR [main]: ############### 	B-12629	2017-02-19	2017-02-22	3
+ 2017-05-19 14:51:30,531 ERROR [main]: getIsbgHumanMapListInfo idel count: 29
+ 2017-05-19 14:51:30,585 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,586 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,960 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:30,961 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,062 DEBUG [main]: Size: 	5
+ 2017-05-19 14:51:31,062 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,062 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,160 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,160 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,248 DEBUG [main]: Size: 	100
+ 2017-05-19 14:51:31,251 ERROR [main]: ############### 	B-13585	2017-04-01	2017-04-06	5
+ 2017-05-19 14:51:31,251 ERROR [main]: ############### 	B-13158	2017-03-20	2017-03-25	5
+ 2017-05-19 14:51:31,251 ERROR [main]: ############### 	B-13367	2017-03-20	2017-03-24	4
+ 2017-05-19 14:51:31,251 ERROR [main]: ############### 	B-11382	2017-01-08	2017-01-14	6
+ 2017-05-19 14:51:31,251 ERROR [main]: ############### 	B-10771	2017-02-11	2017-02-17	6
+ 2017-05-19 14:51:31,252 ERROR [main]: ############### 	B-13416	2017-05-06	2017-05-09	3
+ 2017-05-19 14:51:31,252 ERROR [main]: ############### 	B-13454	2017-05-20	2017-05-23	3
+ 2017-05-19 14:51:31,252 ERROR [main]: ############### 	B-12056	2017-05-13	2017-05-19	6
+ 2017-05-19 14:51:31,253 ERROR [main]: ############### 	B-13618	2017-04-07	2017-04-10	3
+ 2017-05-19 14:51:31,253 ERROR [main]: ############### 	B-12629	2017-03-15	2017-03-18	3
+ 2017-05-19 14:51:31,256 ERROR [main]: ############### 	B-12844	2017-03-15	2017-03-19	4
+ 2017-05-19 14:51:31,257 ERROR [main]: ############### 	B-13585	2017-01-08	2017-01-12	4
+ 2017-05-19 14:51:31,257 ERROR [main]: ############### 	B-12187	2017-04-29	2017-05-04	5
+ 2017-05-19 14:51:31,258 ERROR [main]: ############### 	B-12122	2017-01-01	2017-01-06	5
+ 2017-05-19 14:51:31,258 ERROR [main]: ############### 	B-11034	2017-05-06	2017-05-10	4
+ 2017-05-19 14:51:31,258 ERROR [main]: ############### 	B-10401	2017-04-15	2017-04-18	3
+ 2017-05-19 14:51:31,258 ERROR [main]: ############### 	B-10987	2017-01-01	2017-01-06	5
+ 2017-05-19 14:51:31,259 ERROR [main]: ############### 	B-13140	2017-03-29	2017-04-03	5
+ 2017-05-19 14:51:31,259 ERROR [main]: ############### 	B-12486	2017-03-22	2017-03-28	6
+ 2017-05-19 14:51:31,259 ERROR [main]: ############### 	B-10803	2017-05-20	2017-05-26	6
+ 2017-05-19 14:51:31,259 ERROR [main]: ############### 	B-11059	2017-05-20	2017-05-24	4
+ 2017-05-19 14:51:31,260 ERROR [main]: ############### 	B-10771	2017-04-22	2017-04-27	5
+ 2017-05-19 14:51:31,260 ERROR [main]: ############### 	B-13158	2017-04-14	2017-04-20	6
+ 2017-05-19 14:51:31,260 ERROR [main]: ############### 	B-10987	2017-06-10	2017-06-16	6
+ 2017-05-19 14:51:31,260 ERROR [main]: ############### 	B-12486	2017-01-23	2017-01-27	4
+ 2017-05-19 14:51:31,260 ERROR [main]: ############### 	B-10437	2017-01-15	2017-01-19	4
+ 2017-05-19 14:51:31,261 ERROR [main]: ############### 	B-10364	2017-06-03	2017-06-08	5
+ 2017-05-19 14:51:31,261 ERROR [main]: ############### 	B-13140	2017-06-03	2017-06-09	6
+ 2017-05-19 14:51:31,261 ERROR [main]: getIsbgHumanMapListInfo idel count: 28
+ 2017-05-19 14:51:31,297 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,297 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,500 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,501 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:51:31,501 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:22,924 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 14:53:22,929 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:22,930 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:23,915 DEBUG [main]: Size: 	100
+ 2017-05-19 14:53:23,938 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:23,938 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,190 DEBUG [main]: Size: 	5
+ 2017-05-19 14:53:24,190 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,190 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,409 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,409 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,577 DEBUG [main]: Size: 	100
+ 2017-05-19 14:53:24,585 ERROR [main]: ############### 	B-10771	2017-01-20	2017-01-24	5
+ 2017-05-19 14:53:24,585 ERROR [main]: ############### 	B-11382	2017-02-21	2017-02-23	3
+ 2017-05-19 14:53:24,586 ERROR [main]: ############### 	B-12122	2017-06-24	2017-06-26	3
+ 2017-05-19 14:53:24,587 ERROR [main]: ############### 	B-10771	2017-02-07	2017-02-11	5
+ 2017-05-19 14:53:24,589 ERROR [main]: ############### 	B-12187	2017-05-27	2017-05-29	3
+ 2017-05-19 14:53:24,594 ERROR [main]: ############### 	B-11382	2017-06-03	2017-06-06	4
+ 2017-05-19 14:53:24,594 ERROR [main]: ############### 	B-12110	2017-06-03	2017-06-05	3
+ 2017-05-19 14:53:24,595 ERROR [main]: ############### 	B-12122	2017-06-10	2017-06-14	5
+ 2017-05-19 14:53:24,595 ERROR [main]: ############### 	B-12629	2017-06-10	2017-06-13	4
+ 2017-05-19 14:53:24,596 ERROR [main]: ############### 	B-13618	2017-04-08	2017-04-10	3
+ 2017-05-19 14:53:24,596 ERROR [main]: ############### 	B-13086	2017-04-08	2017-04-11	4
+ 2017-05-19 14:53:24,596 ERROR [main]: ############### 	B-11382	2017-05-20	2017-05-25	6
+ 2017-05-19 14:53:24,597 ERROR [main]: ############### 	B-10097	2017-04-08	2017-04-12	5
+ 2017-05-19 14:53:24,597 ERROR [main]: ############### 	B-13550	2017-04-01	2017-04-03	3
+ 2017-05-19 14:53:24,598 ERROR [main]: ############### 	B-13086	2017-06-10	2017-06-14	5
+ 2017-05-19 14:53:24,598 ERROR [main]: ############### 	B-11059	2017-05-13	2017-05-16	4
+ 2017-05-19 14:53:24,599 ERROR [main]: ############### 	B-12187	2017-03-14	2017-03-19	6
+ 2017-05-19 14:53:24,599 ERROR [main]: ############### 	B-10364	2017-02-16	2017-02-19	4
+ 2017-05-19 14:53:24,599 ERROR [main]: ############### 	B-10097	2017-02-28	2017-03-03	4
+ 2017-05-19 14:53:24,600 ERROR [main]: ############### 	B-12110	2017-03-12	2017-03-15	4
+ 2017-05-19 14:53:24,602 ERROR [main]: getIsbgHumanMapListInfo idel count: 20
+ 2017-05-19 14:53:24,669 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,669 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,810 DEBUG [main]: Size: 	5
+ 2017-05-19 14:53:24,810 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,810 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,949 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:24,949 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,060 DEBUG [main]: Size: 	100
+ 2017-05-19 14:53:25,064 ERROR [main]: ############### 	B-12629	2017-05-13	2017-05-17	5
+ 2017-05-19 14:53:25,065 ERROR [main]: ############### 	B-12737	2017-06-24	2017-06-28	5
+ 2017-05-19 14:53:25,065 ERROR [main]: ############### 	B-12844	2017-04-11	2017-04-13	3
+ 2017-05-19 14:53:25,065 ERROR [main]: ############### 	B-13385	2017-05-27	2017-06-01	6
+ 2017-05-19 14:53:25,066 ERROR [main]: ############### 	B-12788	2017-05-27	2017-05-31	5
+ 2017-05-19 14:53:25,066 ERROR [main]: ############### 	B-11382	2017-06-03	2017-06-06	4
+ 2017-05-19 14:53:25,066 ERROR [main]: ############### 	B-12486	2017-01-16	2017-01-21	6
+ 2017-05-19 14:53:25,066 ERROR [main]: ############### 	B-13454	2017-04-07	2017-04-11	5
+ 2017-05-19 14:53:25,067 ERROR [main]: ############### 	B-13454	2017-05-13	2017-05-16	4
+ 2017-05-19 14:53:25,067 ERROR [main]: ############### 	B-12187	2017-01-01	2017-01-06	6
+ 2017-05-19 14:53:25,067 ERROR [main]: ############### 	B-13158	2017-06-10	2017-06-14	5
+ 2017-05-19 14:53:25,068 ERROR [main]: ############### 	B-10097	2017-06-17	2017-06-19	3
+ 2017-05-19 14:53:25,068 ERROR [main]: ############### 	B-10364	2017-02-19	2017-02-22	4
+ 2017-05-19 14:53:25,068 ERROR [main]: ############### 	B-13385	2017-03-07	2017-03-11	5
+ 2017-05-19 14:53:25,068 ERROR [main]: ############### 	B-13140	2017-02-19	2017-02-24	6
+ 2017-05-19 14:53:25,069 ERROR [main]: ############### 	B-10097	2017-04-29	2017-05-03	5
+ 2017-05-19 14:53:25,069 ERROR [main]: ############### 	B-10771	2017-04-01	2017-04-06	6
+ 2017-05-19 14:53:25,069 ERROR [main]: ############### 	B-10437	2017-06-10	2017-06-12	3
+ 2017-05-19 14:53:25,069 ERROR [main]: ############### 	B-11059	2017-06-17	2017-06-22	6
+ 2017-05-19 14:53:25,069 ERROR [main]: ############### 	B-13585	2017-01-24	2017-01-26	3
+ 2017-05-19 14:53:25,070 ERROR [main]: ############### 	B-13454	2017-06-03	2017-06-05	3
+ 2017-05-19 14:53:25,070 ERROR [main]: ############### 	B-13416	2017-06-03	2017-06-07	5
+ 2017-05-19 14:53:25,070 ERROR [main]: ############### 	B-11382	2017-04-15	2017-04-19	5
+ 2017-05-19 14:53:25,070 ERROR [main]: getIsbgHumanMapListInfo idel count: 23
+ 2017-05-19 14:53:25,155 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,155 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,509 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,510 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,617 DEBUG [main]: Size: 	5
+ 2017-05-19 14:53:25,617 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,618 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,708 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,708 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,802 DEBUG [main]: Size: 	100
+ 2017-05-19 14:53:25,804 ERROR [main]: ############### 	B-11059	2017-01-21	2017-01-23	3
+ 2017-05-19 14:53:25,805 ERROR [main]: ############### 	B-12056	2017-03-28	2017-04-02	6
+ 2017-05-19 14:53:25,805 ERROR [main]: ############### 	B-13618	2017-03-23	2017-03-27	5
+ 2017-05-19 14:53:25,805 ERROR [main]: ############### 	B-12788	2017-05-20	2017-05-24	5
+ 2017-05-19 14:53:25,807 ERROR [main]: ############### 	B-10803	2017-05-27	2017-05-30	4
+ 2017-05-19 14:53:25,808 ERROR [main]: ############### 	B-11034	2017-05-27	2017-06-01	6
+ 2017-05-19 14:53:25,808 ERROR [main]: ############### 	B-12056	2017-05-05	2017-05-08	4
+ 2017-05-19 14:53:25,808 ERROR [main]: ############### 	B-12110	2017-05-05	2017-05-07	3
+ 2017-05-19 14:53:25,808 ERROR [main]: ############### 	B-12788	2017-05-13	2017-05-17	5
+ 2017-05-19 14:53:25,808 ERROR [main]: ############### 	B-12788	2017-06-24	2017-06-29	6
+ 2017-05-19 14:53:25,809 ERROR [main]: ############### 	B-12788	2017-04-15	2017-04-20	6
+ 2017-05-19 14:53:25,809 ERROR [main]: ############### 	B-13454	2017-03-21	2017-03-24	4
+ 2017-05-19 14:53:25,809 ERROR [main]: ############### 	B-13367	2017-05-06	2017-05-08	3
+ 2017-05-19 14:53:25,809 ERROR [main]: ############### 	B-10987	2017-03-06	2017-03-09	4
+ 2017-05-19 14:53:25,810 ERROR [main]: ############### 	B-13550	2017-06-24	2017-06-27	4
+ 2017-05-19 14:53:25,810 ERROR [main]: ############### 	B-12788	2017-03-15	2017-03-18	4
+ 2017-05-19 14:53:25,811 ERROR [main]: ############### 	B-12479	2017-04-29	2017-05-03	5
+ 2017-05-19 14:53:25,811 ERROR [main]: ############### 	B-10294	2017-05-13	2017-05-17	5
+ 2017-05-19 14:53:25,811 ERROR [main]: ############### 	B-12056	2017-01-22	2017-01-26	5
+ 2017-05-19 14:53:25,811 ERROR [main]: ############### 	B-13086	2017-04-22	2017-04-27	6
+ 2017-05-19 14:53:25,812 ERROR [main]: ############### 	B-10364	2017-06-17	2017-06-21	5
+ 2017-05-19 14:53:25,812 ERROR [main]: ############### 	B-10294	2017-02-20	2017-02-25	6
+ 2017-05-19 14:53:25,812 ERROR [main]: ############### 	B-13140	2017-01-27	2017-01-29	3
+ 2017-05-19 14:53:25,812 ERROR [main]: ############### 	B-13158	2017-01-27	2017-02-01	6
+ 2017-05-19 14:53:25,812 ERROR [main]: ############### 	B-12056	2017-02-26	2017-03-02	5
+ 2017-05-19 14:53:25,812 ERROR [main]: ############### 	B-10401	2017-04-29	2017-05-04	6
+ 2017-05-19 14:53:25,813 ERROR [main]: ############### 	B-10612	2017-04-22	2017-04-24	3
+ 2017-05-19 14:53:25,814 ERROR [main]: ############### 	B-10294	2017-05-06	2017-05-09	4
+ 2017-05-19 14:53:25,814 ERROR [main]: ############### 	B-12347	2017-01-20	2017-01-25	6
+ 2017-05-19 14:53:25,815 ERROR [main]: ############### 	B-12737	2017-01-20	2017-01-22	3
+ 2017-05-19 14:53:25,815 ERROR [main]: getIsbgHumanMapListInfo idel count: 30
+ 2017-05-19 14:53:25,846 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:25,846 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:26,055 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:26,056 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:53:26,056 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:56:42,141 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:56:42,145 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:56:43,169 DEBUG [main]: Size: 	100
+ 2017-05-19 14:56:51,836 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:56:51,840 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:56:52,846 DEBUG [main]: Size: 	100
+ 2017-05-19 14:57:42,304 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:57:42,309 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:57:43,306 DEBUG [main]: Size: 	100
+ 2017-05-19 14:57:51,574 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:57:51,581 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 14:57:52,551 DEBUG [main]: Size: 	100
+ 2017-05-19 15:16:43,025 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:16:43,029 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:16:44,005 DEBUG [main]: Size: 	100
+ 2017-05-19 15:17:03,607 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:17:03,617 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:17:07,294 DEBUG [main]: Size: 	100
+ 2017-05-19 15:18:38,588 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:18:38,598 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:18:42,320 DEBUG [main]: Size: 	100
+ 2017-05-19 15:19:20,094 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:19:20,098 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:19:21,081 DEBUG [main]: Size: 	100
+ 2017-05-19 15:19:21,084 ERROR [main]: integerList	[8, 14, 11, 16, 15, 16, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:19:21,090 ERROR [main]: integerList	[10, 16, 16, 10, 18, 7, 8, 12, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:19:21,094 ERROR [main]: integerList	[8, 11, 16, 15, 9, 19, 10, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:19:21,098 ERROR [main]: integerList	[11, 17, 7, 18, 9, 14, 14, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:19:21,100 ERROR [main]: integerList	[16, 8, 13, 18, 18, 7, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:21:46,535 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:21:46,553 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:21:49,672 DEBUG [main]: Size: 	100
+ 2017-05-19 15:21:49,684 ERROR [main]: integerList	[15, 17, 11, 17, 7, 15, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:22:46,360 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:22:46,369 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:35:50,634 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:35:50,639 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:35:51,633 DEBUG [main]: Size: 	100
+ 2017-05-19 15:35:51,636 ERROR [main]: integerList	[15, 19, 17, 10, 13, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:35:51,642 ERROR [main]: integerList	[13, 11, 14, 11, 11, 11, 19, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:35:51,646 ERROR [main]: integerList	[13, 10, 7, 16, 12, 16, 14, 7, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:35:51,649 ERROR [main]: integerList	[10, 16, 14, 10, 11, 16, 10, 8, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:35:51,651 ERROR [main]: integerList	[15, 9, 17, 9, 17, 13, 8, 8, 7, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:22,720 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 15:37:22,726 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:22,726 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,427 DEBUG [main]: Size: 	100
+ 2017-05-19 15:37:23,430 ERROR [main]: integerList	[15, 15, 14, 13, 9, 13, 9, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,437 ERROR [main]: integerList	[15, 18, 18, 13, 8, 10, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,442 ERROR [main]: integerList	[8, 16, 17, 13, 8, 19, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,446 ERROR [main]: integerList	[9, 14, 18, 10, 8, 19, 7, 10, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,451 ERROR [main]: integerList	[14, 10, 14, 15, 15, 10, 10, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,453 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,454 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,577 DEBUG [main]: Size: 	5
+ 2017-05-19 15:37:23,577 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,578 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,706 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,706 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,795 DEBUG [main]: Size: 	100
+ 2017-05-19 15:37:23,796 ERROR [main]: integerList	[15, 17, 10, 13, 12, 16, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,798 ERROR [main]: integerList	[13, 10, 13, 12, 13, 10, 11, 10, 8, 8, 8, 7, 9, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,799 ERROR [main]: integerList	[18, 9, 18, 14, 10, 14, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,801 ERROR [main]: integerList	[7, 18, 18, 11, 8, 10, 11, 12, 8, 7, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,803 ERROR [main]: integerList	[11, 11, 11, 15, 17, 9, 16, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:23,807 ERROR [main]: ############### 	B-12629	2017-05-20	2017-05-23	4
+ 2017-05-19 15:37:23,807 ERROR [main]: ############### 	B-10987	2017-05-27	2017-05-29	3
+ 2017-05-19 15:37:23,808 ERROR [main]: ############### 	B-12187	2017-05-13	2017-05-18	6
+ 2017-05-19 15:37:23,808 ERROR [main]: ############### 	B-12479	2017-05-13	2017-05-16	4
+ 2017-05-19 15:37:23,809 ERROR [main]: ############### 	B-13416	2017-05-27	2017-05-30	4
+ 2017-05-19 15:37:23,809 ERROR [main]: ############### 	B-11059	2017-06-24	2017-06-26	3
+ 2017-05-19 15:37:23,810 ERROR [main]: ############### 	B-13367	2017-01-16	2017-01-18	3
+ 2017-05-19 15:37:23,811 ERROR [main]: ############### 	B-13550	2017-06-24	2017-06-26	3
+ 2017-05-19 15:37:23,811 ERROR [main]: ############### 	B-12056	2017-06-24	2017-06-26	3
+ 2017-05-19 15:37:23,813 ERROR [main]: ############### 	B-13416	2017-06-10	2017-06-12	3
+ 2017-05-19 15:37:23,813 ERROR [main]: ############### 	B-13550	2017-04-28	2017-05-01	4
+ 2017-05-19 15:37:23,814 ERROR [main]: ############### 	B-13140	2017-04-29	2017-05-04	6
+ 2017-05-19 15:37:23,814 ERROR [main]: ############### 	B-12486	2017-03-16	2017-03-21	6
+ 2017-05-19 15:37:23,815 ERROR [main]: ############### 	B-13158	2017-03-09	2017-03-14	6
+ 2017-05-19 15:37:23,816 ERROR [main]: ############### 	B-10771	2017-04-19	2017-04-21	3
+ 2017-05-19 15:37:23,816 ERROR [main]: ############### 	B-13454	2017-05-06	2017-05-09	4
+ 2017-05-19 15:37:23,817 ERROR [main]: ############### 	B-12056	2017-01-01	2017-01-06	6
+ 2017-05-19 15:37:23,817 ERROR [main]: ############### 	B-13416	2017-06-24	2017-06-27	4
+ 2017-05-19 15:37:23,817 ERROR [main]: ############### 	B-10771	2017-06-17	2017-06-19	3
+ 2017-05-19 15:37:23,817 ERROR [main]: ############### 	B-12479	2017-01-23	2017-01-27	5
+ 2017-05-19 15:37:23,818 ERROR [main]: ############### 	B-12844	2017-01-23	2017-01-26	4
+ 2017-05-19 15:37:23,818 ERROR [main]: ############### 	B-10612	2017-01-14	2017-01-18	5
+ 2017-05-19 15:37:23,818 ERROR [main]: ############### 	B-10294	2017-06-03	2017-06-06	4
+ 2017-05-19 15:37:23,819 ERROR [main]: ############### 	B-13367	2017-06-17	2017-06-21	5
+ 2017-05-19 15:37:23,819 ERROR [main]: ############### 	B-13385	2017-06-17	2017-06-19	3
+ 2017-05-19 15:37:23,819 ERROR [main]: getIsbgHumanMapListInfo idel count: 25
+ 2017-05-19 15:37:23,911 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,911 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,988 DEBUG [main]: Size: 	5
+ 2017-05-19 15:37:23,989 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:23,989 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,065 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,065 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,131 DEBUG [main]: Size: 	100
+ 2017-05-19 15:37:24,131 ERROR [main]: integerList	[17, 17, 15, 15, 9, 8, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,132 ERROR [main]: integerList	[12, 12, 8, 18, 9, 10, 18, 8, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,133 ERROR [main]: integerList	[16, 12, 13, 15, 13, 10, 7, 9, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,133 ERROR [main]: integerList	[19, 14, 17, 18, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,134 ERROR [main]: integerList	[8, 18, 16, 8, 17, 14, 8, 7, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,135 ERROR [main]: ############### 	B-11382	2017-03-10	2017-03-14	5
+ 2017-05-19 15:37:24,135 ERROR [main]: ############### 	B-12844	2017-03-31	2017-04-03	4
+ 2017-05-19 15:37:24,135 ERROR [main]: ############### 	B-13585	2017-05-20	2017-05-24	5
+ 2017-05-19 15:37:24,135 ERROR [main]: ############### 	B-11059	2017-05-27	2017-05-31	5
+ 2017-05-19 15:37:24,135 ERROR [main]: ############### 	B-12486	2017-02-12	2017-02-14	3
+ 2017-05-19 15:37:24,136 ERROR [main]: ############### 	B-12486	2017-04-14	2017-04-19	6
+ 2017-05-19 15:37:24,136 ERROR [main]: ############### 	B-10294	2017-03-21	2017-03-25	5
+ 2017-05-19 15:37:24,136 ERROR [main]: ############### 	B-10771	2017-06-03	2017-06-06	4
+ 2017-05-19 15:37:24,136 ERROR [main]: ############### 	B-11382	2017-05-13	2017-05-18	6
+ 2017-05-19 15:37:24,136 ERROR [main]: ############### 	B-13367	2017-01-18	2017-01-21	4
+ 2017-05-19 15:37:24,137 ERROR [main]: ############### 	B-10364	2017-04-06	2017-04-09	4
+ 2017-05-19 15:37:24,137 ERROR [main]: ############### 	B-12737	2017-01-01	2017-01-05	5
+ 2017-05-19 15:37:24,137 ERROR [main]: ############### 	B-12122	2017-05-06	2017-05-08	3
+ 2017-05-19 15:37:24,137 ERROR [main]: ############### 	B-12110	2017-02-03	2017-02-06	4
+ 2017-05-19 15:37:24,138 ERROR [main]: ############### 	B-10401	2017-06-24	2017-06-26	3
+ 2017-05-19 15:37:24,138 ERROR [main]: ############### 	B-13545	2017-01-01	2017-01-03	3
+ 2017-05-19 15:37:24,138 ERROR [main]: ############### 	B-10987	2017-01-01	2017-01-05	5
+ 2017-05-19 15:37:24,138 ERROR [main]: ############### 	B-11059	2017-02-20	2017-02-23	4
+ 2017-05-19 15:37:24,139 ERROR [main]: ############### 	B-13140	2017-04-29	2017-05-03	5
+ 2017-05-19 15:37:24,139 ERROR [main]: ############### 	B-12629	2017-03-23	2017-03-26	4
+ 2017-05-19 15:37:24,139 ERROR [main]: ############### 	B-13618	2017-02-04	2017-02-09	6
+ 2017-05-19 15:37:24,139 ERROR [main]: ############### 	B-13140	2017-02-04	2017-02-09	6
+ 2017-05-19 15:37:24,139 ERROR [main]: ############### 	B-13158	2017-03-06	2017-03-10	5
+ 2017-05-19 15:37:24,140 ERROR [main]: ############### 	B-10255	2017-01-01	2017-01-03	3
+ 2017-05-19 15:37:24,140 ERROR [main]: ############### 	B-12122	2017-01-27	2017-02-01	6
+ 2017-05-19 15:37:24,140 ERROR [main]: ############### 	B-12479	2017-06-03	2017-06-07	5
+ 2017-05-19 15:37:24,140 ERROR [main]: ############### 	B-10294	2017-06-03	2017-06-07	5
+ 2017-05-19 15:37:24,141 ERROR [main]: getIsbgHumanMapListInfo idel count: 27
+ 2017-05-19 15:37:24,176 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,176 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,441 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,442 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,489 DEBUG [main]: Size: 	5
+ 2017-05-19 15:37:24,489 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,489 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,560 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,560 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,614 DEBUG [main]: Size: 	100
+ 2017-05-19 15:37:24,614 ERROR [main]: integerList	[16, 7, 7, 11, 14, 10, 18, 8, 8, 12, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,615 ERROR [main]: integerList	[11, 15, 12, 16, 7, 13, 7, 15, 7, 7, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,616 ERROR [main]: integerList	[9, 19, 18, 18, 8, 11, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,616 ERROR [main]: integerList	[15, 9, 7, 11, 9, 10, 7, 14, 8, 12, 9, 7, 10, 9, 7, 8, 8, 7, 7, 7]
+ 2017-05-19 15:37:24,617 ERROR [main]: integerList	[7, 9, 13, 17, 9, 15, 15, 9, 8, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-19 15:37:24,618 ERROR [main]: ############### 	B-10612	2017-01-27	2017-01-29	3
+ 2017-05-19 15:37:24,618 ERROR [main]: ############### 	B-12187	2017-03-27	2017-04-01	6
+ 2017-05-19 15:37:24,618 ERROR [main]: ############### 	B-12479	2017-05-20	2017-05-22	3
+ 2017-05-19 15:37:24,618 ERROR [main]: ############### 	B-13367	2017-01-31	2017-02-02	3
+ 2017-05-19 15:37:24,619 ERROR [main]: ############### 	B-13158	2017-05-20	2017-05-23	4
+ 2017-05-19 15:37:24,619 ERROR [main]: ############### 	B-13550	2017-03-03	2017-03-08	6
+ 2017-05-19 15:37:24,619 ERROR [main]: ############### 	B-10612	2017-03-03	2017-03-05	3
+ 2017-05-19 15:37:24,619 ERROR [main]: ############### 	B-12122	2017-01-01	2017-01-03	3
+ 2017-05-19 15:37:24,619 ERROR [main]: ############### 	B-12122	2017-04-20	2017-04-22	3
+ 2017-05-19 15:37:24,620 ERROR [main]: ############### 	B-12187	2017-04-20	2017-04-22	3
+ 2017-05-19 15:37:24,620 ERROR [main]: ############### 	B-13367	2017-05-13	2017-05-18	6
+ 2017-05-19 15:37:24,620 ERROR [main]: ############### 	B-13385	2017-05-13	2017-05-18	6
+ 2017-05-19 15:37:24,620 ERROR [main]: ############### 	B-10364	2017-04-15	2017-04-18	4
+ 2017-05-19 15:37:24,620 ERROR [main]: ############### 	B-13454	2017-06-17	2017-06-22	6
+ 2017-05-19 15:37:24,620 ERROR [main]: ############### 	B-10771	2017-05-13	2017-05-17	5
+ 2017-05-19 15:37:24,621 ERROR [main]: ############### 	B-13545	2017-02-24	2017-02-26	3
+ 2017-05-19 15:37:24,621 ERROR [main]: ############### 	B-12479	2017-03-12	2017-03-15	4
+ 2017-05-19 15:37:24,621 ERROR [main]: ############### 	B-13385	2017-02-25	2017-02-27	3
+ 2017-05-19 15:37:24,621 ERROR [main]: ############### 	B-12056	2017-05-25	2017-05-30	6
+ 2017-05-19 15:37:24,622 ERROR [main]: ############### 	B-12056	2017-02-21	2017-02-24	4
+ 2017-05-19 15:37:24,622 ERROR [main]: ############### 	B-10097	2017-04-29	2017-05-03	5
+ 2017-05-19 15:37:24,622 ERROR [main]: ############### 	B-10294	2017-04-22	2017-04-24	3
+ 2017-05-19 15:37:24,622 ERROR [main]: ############### 	B-13086	2017-04-10	2017-04-14	5
+ 2017-05-19 15:37:24,622 ERROR [main]: ############### 	B-13618	2017-06-24	2017-06-26	3
+ 2017-05-19 15:37:24,623 ERROR [main]: ############### 	B-13140	2017-06-24	2017-06-26	3
+ 2017-05-19 15:37:24,623 ERROR [main]: getIsbgHumanMapListInfo idel count: 25
+ 2017-05-19 15:37:24,651 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,652 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,860 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,860 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:37:24,860 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:34,578 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-19 15:39:34,584 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:35,549 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:35,817 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:36,040 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:36,219 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:36,346 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:36,459 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:36,557 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:36,664 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:36,793 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:36,929 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:37,047 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-19 15:39:37,143 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
  

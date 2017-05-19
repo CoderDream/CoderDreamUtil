@@ -123,7 +123,7 @@ public class RedPacketUtil {
 		Date date = new Date();
 		try {
 			date = df.parse(beginDateString);
-			//System.out.println(date);
+			// System.out.println(date);
 		} catch (ParseException e) {
 			System.out.println("Unparseable using" + df);
 		}
@@ -139,26 +139,26 @@ public class RedPacketUtil {
 		// System.out.println("新日期是:" + df.format(newDate));
 
 		int sum = 0;
-		
 		int size = integerList.size();
 		for (int i = 0; i < size; i++) {
 			Integer integer = integerList.get(i);
-			//System.out.println(integer);
+			// System.out.println(integer);
 			calendar.add(Calendar.DATE, integer);// 把日期往后增加一天.整数往后推,负数往前移动
 			newDate = calendar.getTime(); // 这个时间就是日期往后推一天的结果
 			calendar2.setTime(calendar.getTime());
 			calendar2.add(Calendar.DATE, -1);// 把日期往后增加一天.整数往后推,负数往前移动
 			prewDate = calendar2.getTime(); // 这个时间就是日期往后推一天的结果
 			// System.out.println("新日期是:" + df.format(newDate));
-			// 最后一个前一天不加入
+			dateStringList.add(df.format(prewDate));
+			// 最后一个数据不加开始日期
 			if (i < size - 1) {
-				dateStringList.add(df.format(prewDate));
+				dateStringList.add(df.format(newDate));
 			}
-			dateStringList.add(df.format(newDate));
 			sum += integer;
 		}
 		System.out.println(sum);
 
 		return dateStringList;
 	}
+
 }

@@ -32,7 +32,22 @@ public class RedPacketUtilTest extends RedPacketUtil {
 
 	@Test
 	public void testGetDateStringList() {
-		// fail("Not yet implemented");
+		// 总是
+		int total = DateUtil.getDateRange(Constants.PROJECT_START_DATE, Constants.PROJECT_END_DATE);
+		// 个数
+		int count = 20;
+		// 最小额度
+		int min = Constants.PROJECT_PERIOD_MIN;
+		// 最大额度
+		int max = Constants.PROJECT_PERIOD_MAX;
+		// 最大额度是平均值的倍数
+		double time = Constants.PROJECT_PERIOD_AVG_TIMES;
+
+		List<Integer> integerList = RedPacketUtil.splitRedPackets(total, count, min, max, time);
+		List<String> dateStringList = RedPacketUtil.getDateStringList(Constants.PROJECT_START_DATE, integerList);
+		for (String dateString : dateStringList) {
+			System.out.println(dateString);
+		}
 	}
 
 }

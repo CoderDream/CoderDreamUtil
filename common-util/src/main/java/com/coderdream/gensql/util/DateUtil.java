@@ -11,7 +11,11 @@ import java.util.List;
 
 public class DateUtil {
 
-	public static boolean beforeTotal(String beginDateString) {
+	/**
+	 * @param beginDateString
+	 * @return
+	 */
+	public static boolean beforeToday(String beginDateString) {
 		Date date = new Date();
 
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
@@ -32,6 +36,11 @@ public class DateUtil {
 		return calendarToday.after(calendar);
 	}
 
+	/**
+	 * @param oneDateString
+	 * @param secondDateString
+	 * @return
+	 */
 	public static boolean compareTwoDate(String oneDateString, String secondDateString) {
 		Date dateOne = new Date();
 		Date dateTwo = new Date();// 取时间
@@ -53,6 +62,11 @@ public class DateUtil {
 		return calendarSecond.after(calendarOne);
 	}
 
+	/**
+	 * @param dateString
+	 * @param count
+	 * @return
+	 */
 	public static String getNextDate(String dateString, Integer count) {
 		Date dateOne = new Date();
 
@@ -70,6 +84,11 @@ public class DateUtil {
 		return df.format(calendar.getTime());
 	}
 
+	/**
+	 * @param minDate
+	 * @param maxDate
+	 * @return
+	 */
 	public static List<String> getMonthBetween(String minDate, String maxDate) {
 		List<String> result = new ArrayList<String>();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");// 格式化为年月
@@ -100,6 +119,11 @@ public class DateUtil {
 		return result;
 	}
 
+	/**
+	 * @param date1
+	 * @param date2
+	 * @return
+	 */
 	public static int getDateRange(String date1, String date2) {
 		Calendar calst = Calendar.getInstance();
 		Calendar caled = Calendar.getInstance();

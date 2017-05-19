@@ -356,6 +356,7 @@ public class DataService {
 			double time = Constants.PROJECT_PERIOD_AVG_TIMES;
 
 			List<Integer> integerList = RedPacketUtil.splitRedPackets(total, count, min, max, time);
+			logger.error("integerList\t" + integerList);
 			List<String> dateStringList = RedPacketUtil.getDateStringList(beginDateString, integerList);
 			for (int i = 0; i < count; i++) {
 				IsbgProject isbgProject = isbgProjectList.get(i);
@@ -368,7 +369,7 @@ public class DataService {
 				Integer pdrc = integerList.get(i) * Constants.PDRD_PRICE;
 				isbgProject.setPdrc(pdrc.toString());
 
-				String isFinish = DateUtil.beforeTotal(projectEndDateTime) ? "true" : "false";
+				String isFinish = DateUtil.beforeToday(projectEndDateTime) ? "true" : "false";
 				isbgProject.setIsFinish(isFinish);
 
 				totalIsbgProjectList.add(isbgProject);
@@ -485,7 +486,7 @@ public class DataService {
 			/** 项目结束时间（如果在今天和今天之后，则为NULL */
 			String outProDate = "NULL";
 
-			if (DateUtil.beforeTotal(predictOutProDate)) {
+			if (DateUtil.beforeToday(predictOutProDate)) {
 				outProDate = predictOutProDate;
 				inProState = "下项目 ";
 			}
@@ -510,7 +511,7 @@ public class DataService {
 				// 如果随机数是4、5、6，就让他晚入项目这么多天
 				if (Constants.IDEL_RANDOM_DAYS_MIN < randomNumber && randomNumber < Constants.IDEL_RANDOM_DAYS_MAX) {
 					isbgHumanMap.setInProDate(DateUtil.getNextDate(inProDate, randomNumber));
-					logger.error("############### " + workID + "\t" + inProDate + "\t" + randomNumber);
+					logger.error("############### \t" + workID + "\t" + inProDate + "\t" + DateUtil.getNextDate(isbgHumanMap.getInProDate(),-1) + "\t" + randomNumber);
 					count++;
 				}
 
@@ -550,7 +551,7 @@ public class DataService {
 				String dispatchMonth = monthStr;
 				String confrimTime = "NULL";
 
-				if (DateUtil.beforeTotal(predictOutProDate)) {
+				if (DateUtil.beforeToday(predictOutProDate)) {
 					confrimTime = predictOutProDate;
 
 					// 已评价

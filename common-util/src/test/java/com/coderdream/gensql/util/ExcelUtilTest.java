@@ -22,7 +22,7 @@ public class ExcelUtilTest {
 	@Before
 	public void setUp() throws Exception {
 		fileFolder = getClass().getResource("../../../../").getFile().toString();
-		dataFileName = "Data10.xlsx";
+		dataFileName = Constants.DATA_FILE_NAME;
 	}
 
 	@Test
