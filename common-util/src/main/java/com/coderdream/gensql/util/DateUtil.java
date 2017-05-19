@@ -1,5 +1,6 @@
 package com.coderdream.gensql.util;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -97,6 +98,30 @@ public class DateUtil {
 		}
 
 		return result;
+	}
+
+	public static int getDateRange(String date1, String date2) {
+		Calendar calst = Calendar.getInstance();
+		Calendar caled = Calendar.getInstance();
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");// 格式化为年月
+		try {
+			calst.setTime(df.parse(date1));
+			caled.setTime(df.parse(date2));
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+
+		// 设置时间为0时
+		calst.set(Calendar.HOUR_OF_DAY, 0);
+		calst.set(Calendar.MINUTE, 0);
+		calst.set(Calendar.SECOND, 0);
+		caled.set(Calendar.HOUR_OF_DAY, 0);
+		caled.set(Calendar.MINUTE, 0);
+		caled.set(Calendar.SECOND, 0);
+		// 得到两个日期相差的天数
+		int days = ((int) (caled.getTime().getTime() / 1000) - (int) (calst.getTime().getTime() / 1000)) / 3600 / 24;
+
+		return days + 1;
 	}
 
 	public static void main(String[] args) {

@@ -32,9 +32,8 @@ public class ExcelUtilTest {
 		try {
 			List<TableStructure> list = ExcelUtil.readXlsx(fileFolder + fileName);
 			for (TableStructure tableStructure : list) {
-				// System.out.println(tableStructure.getTableName() + "\t" +
-				// tableStructure.getColumnName() + "\t"
-				// + tableStructure.getType() + "\t");
+				System.out.println(tableStructure.getTableName() + "\t" + tableStructure.getColumnName() + "\t"
+						+ tableStructure.getType() + "\t");
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -51,7 +50,7 @@ public class ExcelUtilTest {
 			for (String[] arrayStr : arrayList) {
 				for (int i = 0; i < arrayStr.length; i++) {
 					String string = arrayStr[i];
-					// System.out.print(string + "\t");
+					System.out.print(string + "\t");
 				}
 				// System.out.println();
 			}
@@ -71,7 +70,7 @@ public class ExcelUtilTest {
 			for (String[] arrayStr : arrayList) {
 				for (int i = 0; i < arrayStr.length; i++) {
 					String string = arrayStr[i];
-					// System.out.print(string + "\t");
+					System.out.print(string + "\t");
 				}
 				// System.out.println();
 			}
@@ -90,7 +89,7 @@ public class ExcelUtilTest {
 			for (String[] arrayStr : arrayList) {
 				for (int i = 0; i < arrayStr.length; i++) {
 					String string = arrayStr[i];
-					// System.out.print(string + "\t");
+					System.out.print(string + "\t");
 				}
 				// System.out.println();
 			}
@@ -109,8 +108,7 @@ public class ExcelUtilTest {
 			for (String[] arrayStr : arrayList) {
 				for (int i = 0; i < arrayStr.length; i++) {
 					String string = arrayStr[i];
-					// System.out.print("arrayStr[" + i + "]: " + string +
-					// "\t");
+					System.out.print("arrayStr[" + i + "]: " + string + "\t");
 				}
 				// System.out.println();
 			}

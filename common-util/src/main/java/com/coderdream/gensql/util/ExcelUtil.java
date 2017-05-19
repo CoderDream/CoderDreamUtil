@@ -328,8 +328,8 @@ public class ExcelUtil {
 		List<PdrcBsmDispatch> pdrcBsmDispatchList = DataService.getPdrcBsmDispatchList(path);
 		List<PdrcEnpPrize> pdrcEnpPrizeList = DataService.getPdrcEnpPrizeList(path);
 
-		String startDateString = "2016-01-01";
-		String endDateString = "2017-12-31";
+		String startDateString = Constants.PROJECT_START_DATE;
+		String endDateString = Constants.PROJECT_END_DATE;
 		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryListWithDateRange(path, startDateString,
 				endDateString);
 

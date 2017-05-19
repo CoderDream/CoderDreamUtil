@@ -14,6 +14,7 @@ import com.coderdream.gensql.bean.PdrcStaffManage;
 import com.coderdream.gensql.bean.PdrcTm;
 import com.coderdream.gensql.bean.PdrcTmSalary;
 import com.coderdream.gensql.bean.PmRmRelation;
+import com.coderdream.gensql.util.Constants;
 
 public class DataServiceTest {
 
@@ -27,7 +28,7 @@ public class DataServiceTest {
 	@Before
 	public void setUp() throws Exception {
 		fileFolder = getClass().getResource("../../../../").getFile().toString();
-		dataFileName = "Data10.xlsx";
+		dataFileName = Constants.DATA_FILE_NAME;
 	}
 
 	@Test
@@ -145,9 +146,19 @@ public class DataServiceTest {
 	}
 
 	@Test
+	public void testGetIsbgHumanMapList() {
+		String path = fileFolder + dataFileName;
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapList(path);
+		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
+			System.out.println(isbgHumanMap);
+		}
+	}
+
+	@Test
 	public void testGetIsbgHumanMapListInfo() {
 		String path = fileFolder + dataFileName;
 		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
+		System.out.println(isbgHumanMapList.size());
 		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
 			System.out.println(isbgHumanMap);
 		}
@@ -170,6 +181,20 @@ public class DataServiceTest {
 		for (String key : isbgProjectMap.keySet()) {
 			IsbgProject isbgProject = isbgProjectMap.get(key);
 			System.out.println(isbgProject);
+		}
+	}
+
+	@Test
+	public void testGetWorkingDaysMap() {
+		String path = fileFolder + dataFileName;
+		Map<String, Integer> workIdDaysMap = DataService.getWorkingDaysMap(path);
+
+		for (String key : workIdDaysMap.keySet()) {
+			Integer value = workIdDaysMap.get(key);
+			System.out.println(key + "\t" + value);
+			if(731 != value) {
+				System.out.println("####   " + key);
+			}
 		}
 	}
 

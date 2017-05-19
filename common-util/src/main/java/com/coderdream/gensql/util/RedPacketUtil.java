@@ -157,7 +157,7 @@ public class RedPacketUtil {
 			dateStringList.add(df.format(newDate));
 			sum += integer;
 		}
-		//System.out.println(sum);
+		System.out.println(sum);
 
 		return dateStringList;
 	}

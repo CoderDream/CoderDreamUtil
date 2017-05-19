@@ -25,6 +25,7 @@ import com.coderdream.gensql.bean.PdrcTm;
 import com.coderdream.gensql.bean.PdrcTmSalary;
 import com.coderdream.gensql.bean.PdrcTmSalaryComparator;
 import com.coderdream.gensql.bean.PmRmRelation;
+import com.coderdream.gensql.util.Constants;
 import com.coderdream.gensql.util.DateUtil;
 import com.coderdream.gensql.util.ExcelUtil;
 import com.coderdream.gensql.util.MathUtil;
@@ -166,15 +167,13 @@ public class DataService {
 		try {
 			List<String[]> arrayList = ExcelUtil.readAllData(path, sheetName);
 			if (null != arrayList && 1 < arrayList.size()) {
-
 				for (int i = 1; i < arrayList.size(); i++) {
-
 					PdrcStaffManage pdrcStaffManage = new PdrcStaffManage();
 					String[] arrayStr = arrayList.get(i);
 					String tmWorkID = arrayStr[0];
 					pdrcStaffManage.setTmWorkID(tmWorkID);
 					String workID = arrayStr[2];
-					pdrcStaffManage.setWorkID(workID);// TODO
+					pdrcStaffManage.setWorkID(workID);
 					String normalMam = arrayStr[4];
 					String salary = arrayStr[8];
 					pdrcStaffManage.setNormalMam(normalMam);
@@ -342,39 +341,31 @@ public class DataService {
 		Map<String, List<IsbgProject>> isbgProjectListMap = getIsbgProjectListMap(path);
 
 		for (String key : isbgProjectListMap.keySet()) {
-
 			List<IsbgProject> isbgProjectList = isbgProjectListMap.get(key);
 
-			// System.out.println("projectMgrWorkID\t" + key);
-
-			String beginDateString = "2016-01-01";
+			String beginDateString = Constants.PROJECT_START_DATE;
 			// 总是
-			int total = 730;
+			int total = DateUtil.getDateRange(beginDateString, Constants.PROJECT_END_DATE);
 			// 个数
 			int count = isbgProjectList.size();
 			// 最小额度
-			int min = 15;
+			int min = Constants.PROJECT_PERIOD_MIN;
 			// 最大额度
-			int max = 150;
+			int max = Constants.PROJECT_PERIOD_MAX;
 			// 最大额度是平均值的倍数
-			double time = 6.1;
+			double time = Constants.PROJECT_PERIOD_AVG_TIMES;
 
 			List<Integer> integerList = RedPacketUtil.splitRedPackets(total, count, min, max, time);
 			List<String> dateStringList = RedPacketUtil.getDateStringList(beginDateString, integerList);
 			for (int i = 0; i < count; i++) {
 				IsbgProject isbgProject = isbgProjectList.get(i);
-				// System.out.println("WorkId\t\t" + isbgProject);
-				// System.out.println(isbgProject);
-
-				// Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap =
-				// getPdrcStaffManageListByRmWorkId(path, RmWorkId);
 
 				String projectStartDateTime = dateStringList.get(i * 2);
 				String projectEndDateTime = dateStringList.get(i * 2 + 1);
 				isbgProject.setProjectStartDateTime(projectStartDateTime);
 				isbgProject.setProjectEndDateTime(projectEndDateTime);
 
-				Integer pdrc = integerList.get(i) * 15000;
+				Integer pdrc = integerList.get(i) * Constants.PDRD_PRICE;
 				isbgProject.setPdrc(pdrc.toString());
 
 				String isFinish = DateUtil.beforeTotal(projectEndDateTime) ? "true" : "false";
@@ -398,7 +389,76 @@ public class DataService {
 		return isbgProjectMap;
 	}
 
+	public static List<IsbgHumanMap> getIsbgHumanMapList(String path) {
+		List<IsbgHumanMap> isbgHumanMapList = new ArrayList<IsbgHumanMap>();
+
+		logger.debug(Common.PROCESSING + path);
+		String sheetName = "ISBG_HumanMap";
+		try {
+			List<String[]> arrayList = ExcelUtil.readAllData(path, sheetName);
+			if (null != arrayList && 1 < arrayList.size()) {
+				isbgHumanMapList = new ArrayList<IsbgHumanMap>();
+			}
+			for (int i = 1; i < arrayList.size(); i++) {
+				IsbgHumanMap isbgHumanMap = new IsbgHumanMap();
+				String[] arrayStr = arrayList.get(i);
+
+				String staffWorkID = arrayStr[0];
+				String staffName = arrayStr[1];
+				String projectID = arrayStr[2];
+				String inProDate = arrayStr[3];
+				String inProState = arrayStr[4];
+				String outProDate = arrayStr[5];
+				String predictOutProDate = arrayStr[6];
+				String isPay = arrayStr[7];
+
+				isbgHumanMap.setStaffWorkID(staffWorkID);
+				isbgHumanMap.setStaffName(staffName);
+				isbgHumanMap.setProjectID(projectID);
+				isbgHumanMap.setInProDate(inProDate);
+				isbgHumanMap.setInProState(inProState);
+				isbgHumanMap.setOutProDate(outProDate);
+				isbgHumanMap.setPredictOutProDate(predictOutProDate);
+				isbgHumanMap.setIsPay(isPay);
+
+				isbgHumanMapList.add(isbgHumanMap);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		Collections.sort(isbgHumanMapList, new IsbgHumanMapComparator());
+
+		return isbgHumanMapList;
+	}
+
+	public static Map<String, Integer> getWorkingDaysMap(String path) {
+		Map<String, Integer> workIdDaysMap = new HashMap<String, Integer>();
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapList(path);
+		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
+
+			String staffWorkID = isbgHumanMap.getStaffWorkID();
+
+			String inProDate = isbgHumanMap.getInProDate();
+
+			String predictOutProDate = isbgHumanMap.getPredictOutProDate();
+			Integer count = DateUtil.getDateRange(inProDate, predictOutProDate);
+			Integer total = 0;
+			Integer temp = workIdDaysMap.get(staffWorkID);
+			if (null == temp) {
+				total = 0;
+			} else {
+				total = temp;
+			}
+			total += count;
+			workIdDaysMap.put(staffWorkID, total);
+		}
+
+		return workIdDaysMap;
+	}
+
 	public static List<IsbgHumanMap> getIsbgHumanMapListInfo(String path) {
+		int count = 0;
 		List<IsbgHumanMap> isbgHumanMapList = new ArrayList<IsbgHumanMap>();
 		Map<String, List<String>> pmWorkIDListMap = DataService.getPmWorkIDListMap(path);
 
@@ -436,7 +496,6 @@ public class DataService {
 			List<String> workIDList = pmWorkIDListMap.get(pmWorkID);
 			for (String workID : workIDList) {
 				isbgHumanMap = new IsbgHumanMap();
-
 				isbgHumanMap.setStaffWorkID(workID);
 				isbgHumanMap.setStaffName(staffName);
 				isbgHumanMap.setProjectID(projectID);
@@ -447,17 +506,18 @@ public class DataService {
 				isbgHumanMap.setIsPay(isPay);
 
 				// TODO
-				int randomNumber = MathUtil.getRandomByRange(1, 1000);
+				int randomNumber = MathUtil.getRandomByRange(Constants.IDEL_RANDOM_MIN, Constants.IDEL_RANDOM_MAX);
 				// 如果随机数是4、5、6，就让他晚入项目这么多天
-				if (3 < randomNumber && randomNumber < 7) {
+				if (Constants.IDEL_RANDOM_DAYS_MIN < randomNumber && randomNumber < Constants.IDEL_RANDOM_DAYS_MAX) {
 					isbgHumanMap.setInProDate(DateUtil.getNextDate(inProDate, randomNumber));
-					System.out.println("############### " + workID + "\t" + inProDate + "\t" + randomNumber);
+					logger.error("############### " + workID + "\t" + inProDate + "\t" + randomNumber);
+					count++;
 				}
 
 				isbgHumanMapList.add(isbgHumanMap);
 			}
 		}
-
+		logger.error("getIsbgHumanMapListInfo idel count: " + count);
 		Collections.sort(isbgHumanMapList, new IsbgHumanMapComparator());
 
 		return isbgHumanMapList;
@@ -477,7 +537,7 @@ public class DataService {
 
 			String predictOutProDate = isbgHumanMap.getPredictOutProDate();
 
-			String bsmState = "1";
+			String bsmState = Constants.BSM_STATE_DEFAULT;
 			String bsm = "0";
 
 			List<String> dateList = DateUtil.getMonthBetween(inProDate, predictOutProDate);
@@ -494,9 +554,9 @@ public class DataService {
 					confrimTime = predictOutProDate;
 
 					// 已评价
-					bsmState = "3";
+					bsmState = Constants.BSM_STATE_CONFIRM;
 
-					int randomNumber = MathUtil.getRandomByRange(8, 15);
+					int randomNumber = MathUtil.getRandomByRange(Constants.BSM_RATE_MIN, Constants.BSM_RATE_MAX);
 					double dRandomNumber = randomNumber * 0.1;
 					String baseBsm = workIDBsmMap.get(staffWorkID);
 
@@ -518,7 +578,7 @@ public class DataService {
 				pdrcBsmDispatchList.add(pdrcBsmDispatch);
 			}
 		}
-		
+
 		Collections.sort(pdrcBsmDispatchList, new PdrcBsmDispatchComparator());
 
 		return pdrcBsmDispatchList;
@@ -530,11 +590,8 @@ public class DataService {
 		Map<String, List<String>> bsmMap = new HashMap<String, List<String>>();
 		List<String> bsmList = null;
 		for (PdrcBsmDispatch pdrcBsmDispatch : pdrcBsmDispatchList) {
-
 			String staffWorkID = pdrcBsmDispatch.getStaffWorkID();
-
 			String dispatchMonth = pdrcBsmDispatch.getDispatchMonth();
-
 			String bsmState = pdrcBsmDispatch.getBsmState();
 			String bsm = pdrcBsmDispatch.getBsm();
 			String key = staffWorkID + ":" + dispatchMonth;
@@ -547,8 +604,6 @@ public class DataService {
 				bsmList.add(bsm);
 				bsmMap.put(key, bsmList);
 			}
-
-			// System.out.println(pdrcBsmDispatch);
 		}
 
 		PdrcEnpPrize pdrcEnpPrize = null;
@@ -560,9 +615,7 @@ public class DataService {
 			pdrcEnpPrize.setWorkID(arr[0]);
 			pdrcEnpPrize.setMonthDate(arr[1]);
 			Double p = MathUtil.setScale(MathUtil.sumNumberList(tempBsmList), 2);
-			// System.out.println("P:\t" + p);
-			p *= 1000;
-			// System.out.println("P:\t" + p);
+			p *= Constants.PDRD_BONUS;
 			DecimalFormat df = new DecimalFormat("#");
 			pdrcEnpPrize.setPrize(df.format(p));
 

@@ -1,18 +1,7 @@
 package com.coderdream.common_util;
 
-import static org.junit.Assert.fail;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.coderdream.readfolder.util.ReadDirectory;
-
 public class ReadDirectoryTest {
-	private static final Logger logger = LoggerFactory.getLogger(ReadDirectoryTest.class);
+//	private static final Logger logger = LoggerFactory.getLogger(ReadDirectoryTest.class);
 
 //	@Test
 //	public void testCreatePrintStr() {
