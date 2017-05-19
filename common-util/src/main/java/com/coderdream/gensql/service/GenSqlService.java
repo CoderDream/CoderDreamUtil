@@ -49,7 +49,7 @@ public class GenSqlService {
 		List<String> sqlScriptList = new ArrayList<String>();
 		StringBuffer stringBuffer = new StringBuffer();
 		try {
-			List<String[]> arrayList = ExcelUtil.readData(path, sheetName);
+			List<String[]> arrayList = ExcelUtil.readAllData(path, sheetName);
 			int listSize = arrayList.size();
 			if (listSize <= 0) {
 				return null;
@@ -83,12 +83,12 @@ public class GenSqlService {
 					// "".equals(string.trim())) {
 					// 01cd27c0-b9ab-4c11-a3ef-a9ce092baad4
 
-					if (i < columnNameArray.length
-							&& "01cd27c0-b9ab-4c11-a3ef-a9ce092baad4".equalsIgnoreCase(string.trim())) {
-						System.out.println("####");
-					}
+//					if (i < columnNameArray.length
+//							&& "01cd27c0-b9ab-4c11-a3ef-a9ce092baad4".equalsIgnoreCase(string.trim())) {
+//						System.out.println("####");
+//					}
 
-					if (i < columnNameArray.length && "NULL".equalsIgnoreCase(string.trim())) {
+					if (i < columnNameArray.length && (null == string || "NULL".equalsIgnoreCase(string.trim()))) {
 						System.out.println("columnName:" + columnNameArray[i] + "\t" + "columnValue:" + string);
 						if (i == arrayStr.length - 1) {
 							secondPart.append("null");

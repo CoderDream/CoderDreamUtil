@@ -66,7 +66,7 @@ public class GenSqlServiceTest {
 	@Test
 	public void testGenSqlScriptFileTotal_01() {
 		logger.debug(Common.PROCESSING + fileFolder);
-		String fileName = "Data7.xlsx";
+		String fileName = "Data10.xlsx";
 		String path = fileFolder + fileName;
 		String sqlFileName = "totalScript.sql";
 

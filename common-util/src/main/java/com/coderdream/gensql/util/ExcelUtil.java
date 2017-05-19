@@ -1,18 +1,25 @@
 package com.coderdream.gensql.util;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
+import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -21,7 +28,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.b510.excel.common.Common;
+import com.coderdream.gensql.bean.IsbgHumanMap;
+import com.coderdream.gensql.bean.IsbgProject;
+import com.coderdream.gensql.bean.IsbgProjectFinish;
+import com.coderdream.gensql.bean.IsbgProjectFinishComparator;
+import com.coderdream.gensql.bean.PdrcBsmDispatch;
+import com.coderdream.gensql.bean.PdrcEnpPrize;
+import com.coderdream.gensql.bean.PdrcTmSalary;
 import com.coderdream.gensql.bean.TableStructure;
+import com.coderdream.gensql.service.DataService;
 
 public class ExcelUtil {
 
@@ -114,6 +129,57 @@ public class ExcelUtil {
 	 * @return
 	 * @throws IOException
 	 */
+	public static List<String[]> readAllData(String path, String sheetName) throws IOException {
+		logger.debug(Common.PROCESSING + path);
+
+		InputStream is = new FileInputStream(path);
+		XSSFWorkbook xssfWorkbook = new XSSFWorkbook(is);
+		List<String[]> arrayList = new ArrayList<String[]>();
+		// Read the Sheet
+		XSSFSheet xssfSheet = xssfWorkbook.getSheet(sheetName);
+		if (xssfSheet == null) {
+			xssfWorkbook.close();
+			return null;
+		}
+
+		// Read the Row
+		for (int rowNum = 0; rowNum <= xssfSheet.getLastRowNum(); rowNum++) {
+			XSSFRow xssfRow = xssfSheet.getRow(rowNum);
+			if (xssfRow != null) {
+				short minColIx = xssfRow.getFirstCellNum();
+				short maxColIx = xssfRow.getLastCellNum();
+				int size = maxColIx - minColIx;
+				String[] strArray = new String[size];
+
+				for (short colIx = minColIx; colIx < maxColIx; colIx++) {
+					XSSFCell cell = xssfRow.getCell(colIx, MissingCellPolicy.RETURN_BLANK_AS_NULL);
+					if (cell == null) {
+						continue;
+					}
+					try {
+						strArray[colIx] = getValue(xssfRow.getCell(colIx, MissingCellPolicy.RETURN_BLANK_AS_NULL));
+						// ... do something with cell
+					} catch (ArrayIndexOutOfBoundsException e) {
+						e.printStackTrace();
+					}
+				}
+
+				arrayList.add(strArray);
+			}
+		}
+
+		xssfWorkbook.close();
+		return arrayList;
+	}
+
+	/**
+	 * Read the Excel 2010
+	 * 
+	 * @param path
+	 *            the path of the excel file
+	 * @return
+	 * @throws IOException
+	 */
 	public static List<String[]> readData(String path, String sheetName) throws IOException {
 		logger.debug(Common.PROCESSING + path);
 
@@ -126,8 +192,9 @@ public class ExcelUtil {
 			xssfWorkbook.close();
 			return null;
 		}
+
 		// Read the Row
-		for (int rowNum = 0; rowNum <= xssfSheet.getLastRowNum(); rowNum++) {
+		for (int rowNum = 1; rowNum <= xssfSheet.getLastRowNum(); rowNum++) {
 			XSSFRow xssfRow = xssfSheet.getRow(rowNum);
 			if (xssfRow != null) {
 				short minColIx = xssfRow.getFirstCellNum();
@@ -136,18 +203,22 @@ public class ExcelUtil {
 				String[] strArray = new String[size];
 
 				for (short colIx = minColIx; colIx < maxColIx; colIx++) {
-					XSSFCell cell = xssfRow.getCell(colIx);
+					XSSFCell cell = xssfRow.getCell(colIx, MissingCellPolicy.RETURN_BLANK_AS_NULL);
 					if (cell == null) {
 						continue;
 					}
-
-					strArray[colIx] = getValue(xssfRow.getCell(colIx));
-					// ... do something with cell
+					try {
+						strArray[colIx] = getValue(xssfRow.getCell(colIx, MissingCellPolicy.RETURN_BLANK_AS_NULL));
+						// ... do something with cell
+					} catch (ArrayIndexOutOfBoundsException e) {
+						e.printStackTrace();
+					}
 				}
 
 				arrayList.add(strArray);
 			}
 		}
+
 		xssfWorkbook.close();
 		return arrayList;
 	}
@@ -193,12 +264,11 @@ public class ExcelUtil {
 		return list;
 	}
 
-	@SuppressWarnings({ "static-access", "deprecation" })
 	private static String getValue(XSSFCell cell) {
 		if (null != cell) {
-			if (cell.getCellType() == XSSFCell.CELL_TYPE_BOOLEAN) {
+			if (cell.getCellTypeEnum() == CellType.BOOLEAN) {
 				return String.valueOf(cell.getBooleanCellValue());
-			} else if (cell.getCellType() == cell.CELL_TYPE_NUMERIC) {
+			} else if (cell.getCellTypeEnum() == CellType.NUMERIC) {
 				String cellValue = "";
 				if (HSSFDateUtil.isCellDateFormatted(cell)) { // 判断是日期类型
 					SimpleDateFormat dateformat = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
@@ -248,5 +318,333 @@ public class ExcelUtil {
 			return path.substring(path.lastIndexOf(Common.POINT) + 1, path.length());
 		}
 		return Common.EMPTY;
+	}
+
+	public static void readingAndRewritingIsbgProjectInfo(String path) {
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(path);
+
+		List<IsbgProjectFinish> isbgProjectFinishList = new ArrayList<IsbgProjectFinish>();
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
+		List<PdrcBsmDispatch> pdrcBsmDispatchList = DataService.getPdrcBsmDispatchList(path);
+		List<PdrcEnpPrize> pdrcEnpPrizeList = DataService.getPdrcEnpPrizeList(path);
+
+		String startDateString = "2016-01-01";
+		String endDateString = "2017-12-31";
+		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryListWithDateRange(path, startDateString,
+				endDateString);
+
+		XSSFWorkbook xssfWorkbook = null;
+		InputStream inp = null;
+		try {
+			inp = new FileInputStream(path);
+			xssfWorkbook = new XSSFWorkbook(inp);
+			// One
+			writeSheetIsbgProject(isbgProjectMap, isbgProjectFinishList, xssfWorkbook);
+
+			// Two
+			Collections.sort(isbgProjectFinishList, new IsbgProjectFinishComparator());
+			writeSheetIsbgProjectFinish(isbgProjectFinishList, xssfWorkbook);
+
+			// Three
+			writeSheetIsbgHumanMap(isbgHumanMapList, xssfWorkbook);
+
+			// Four PDRC_BSM_Dispatch
+			writeSheetPdrcBsmDispatch(pdrcBsmDispatchList, xssfWorkbook);
+
+			// Five PDRC_B_ENPPRIZE
+			writeSheetPdrcEnpPrize(pdrcEnpPrizeList, xssfWorkbook);
+
+			// Six PDRC_TM_SALARY
+			writeSheetPdrcTmSalary(pdrcTmSalaryList, xssfWorkbook);
+
+			// Write the output to a file
+			FileOutputStream fileOut = new FileOutputStream(path);
+			xssfWorkbook.write(fileOut);
+			fileOut.close();
+			inp.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (EncryptedDocumentException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				xssfWorkbook.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	private static void writeSheetIsbgProject(Map<String, IsbgProject> isbgProjectMap,
+			List<IsbgProjectFinish> isbgProjectFinishList, XSSFWorkbook xssfWorkbook) throws IOException {
+		String sheetName1 = "ISBG_Project";
+		XSSFSheet xssfSheet1 = xssfWorkbook.getSheet(sheetName1);
+		if (xssfSheet1 == null) {
+			xssfWorkbook.close();
+		}
+
+		// Read the Row
+		for (int rowNum = 1; rowNum <= xssfSheet1.getLastRowNum(); rowNum++) {
+			XSSFRow xssfRow = xssfSheet1.getRow(rowNum);
+			if (xssfRow != null) {
+				XSSFCell cell = xssfRow.getCell(0, MissingCellPolicy.RETURN_BLANK_AS_NULL);
+				if (cell == null) {
+					System.out.println("EERRR");
+					break;
+				}
+				String projectNo = getValue(cell);
+				IsbgProject isbgProject = isbgProjectMap.get(projectNo);
+				System.out.println(isbgProject);
+				// 0.ID
+				// 1.ProjectNewNo
+				// 2.ProjectName
+				// 3.ProjectMgr_WorkID
+				// 4.ProjectMgr_Name
+
+				// 5.ProjectStartDateTime
+				String projectStartDateTime = isbgProject.getProjectStartDateTime();
+				XSSFCell cell5 = xssfRow.createCell(5);
+				cell5.setCellType(CellType.STRING);
+				cell5.setCellValue(projectStartDateTime);
+
+				// 6.ProjectEndDateTime
+				String projectEndDateTime = isbgProject.getProjectEndDateTime();
+				XSSFCell cell6 = xssfRow.createCell(6);
+				cell6.setCellType(CellType.STRING);
+				cell6.setCellValue(projectEndDateTime);
+
+				// 7.PDRC
+				String pdrd = isbgProject.getPdrc();
+				XSSFCell cell7 = xssfRow.createCell(7);
+				cell7.setCellType(CellType.STRING);
+				cell7.setCellValue(pdrd);
+
+				// 8.IsFinish
+				String isFinish = isbgProject.getIsFinish();
+				XSSFCell cell8 = xssfRow.createCell(8);
+				cell8.setCellType(CellType.STRING);
+				cell8.setCellValue(isFinish);
+				if ("true".equals(isFinish)) {
+					IsbgProjectFinish isbgProjectFinish = new IsbgProjectFinish();
+					isbgProjectFinish.setProjectStartDateTime(projectStartDateTime);
+					isbgProjectFinish.setProjectEndDateTime(projectEndDateTime);
+					isbgProjectFinish.setProjectId(isbgProject.getProjectId());
+					isbgProjectFinishList.add(isbgProjectFinish);
+				}
+			}
+		}
+	}
+
+	private static void writeSheetIsbgProjectFinish(List<IsbgProjectFinish> isbgProjectFinishList,
+			XSSFWorkbook xssfWorkbook) throws IOException {
+		// Two
+		String sheetName2 = "ISBG_Project_Finish";
+		XSSFSheet xssfSheet2 = xssfWorkbook.getSheet(sheetName2);
+		if (xssfSheet2 == null) {
+			xssfWorkbook.close();
+		}
+
+		// Read the Row
+		int rowSize = isbgProjectFinishList.size();
+		for (int rowNum = 1; rowNum <= rowSize; rowNum++) {
+			XSSFRow xssfRow = xssfSheet2.createRow(rowNum);
+			if (xssfRow != null) {
+				IsbgProjectFinish isbgProjectFinish = isbgProjectFinishList.get(rowNum - 1);
+
+				// 0.ProjectStartDateTime
+				String projectStartDateTime = isbgProjectFinish.getProjectStartDateTime();
+				XSSFCell cell0 = xssfRow.createCell(0);
+				cell0.setCellType(CellType.STRING);
+				cell0.setCellValue(projectStartDateTime);
+
+				// 1.ProjectEndDateTime
+				String projectEndDateTime = isbgProjectFinish.getProjectEndDateTime();
+				XSSFCell cell1 = xssfRow.createCell(1);
+				cell1.setCellType(CellType.STRING);
+				cell1.setCellValue(projectEndDateTime);
+
+				// 2.projectId
+				String projectId = isbgProjectFinish.getProjectId();
+				XSSFCell cell2 = xssfRow.createCell(2);
+				cell2.setCellType(CellType.STRING);
+				cell2.setCellValue(projectId);
+			}
+		}
+	}
+
+	// ISBG_HumanMap
+	private static void writeSheetIsbgHumanMap(List<IsbgHumanMap> isbgHumanMapList, XSSFWorkbook xssfWorkbook)
+			throws IOException {
+		// Three
+		String sheetName2 = "ISBG_HumanMap";
+		XSSFSheet xssfSheet2 = xssfWorkbook.getSheet(sheetName2);
+		if (xssfSheet2 == null) {
+			xssfWorkbook.close();
+		}
+
+		// Read the Row
+		int rowSize = isbgHumanMapList.size();
+		for (int rowNum = 1; rowNum <= rowSize; rowNum++) {
+			XSSFRow xssfRow = xssfSheet2.createRow(rowNum);
+			if (xssfRow != null) {
+				IsbgHumanMap isbgHumanMap = isbgHumanMapList.get(rowNum - 1);
+
+				String staffWorkID = isbgHumanMap.getStaffWorkID();
+				XSSFCell cell0 = xssfRow.createCell(0);
+				cell0.setCellType(CellType.STRING);
+				cell0.setCellValue(staffWorkID);
+
+				String staffName = isbgHumanMap.getStaffName();
+				XSSFCell cell1 = xssfRow.createCell(1);
+				cell1.setCellType(CellType.STRING);
+				cell1.setCellValue(staffName);
+
+				String projectID = isbgHumanMap.getProjectID();
+				XSSFCell cell2 = xssfRow.createCell(2);
+				cell2.setCellType(CellType.STRING);
+				cell2.setCellValue(projectID);
+
+				String inProDate = isbgHumanMap.getInProDate();
+				XSSFCell cell3 = xssfRow.createCell(3);
+				cell3.setCellType(CellType.STRING);
+				cell3.setCellValue(inProDate);
+
+				String inProState = isbgHumanMap.getInProState();
+				XSSFCell cell4 = xssfRow.createCell(4);
+				cell4.setCellType(CellType.STRING);
+				cell4.setCellValue(inProState);
+
+				String outProDate = isbgHumanMap.getOutProDate();
+				XSSFCell cell5 = xssfRow.createCell(5);
+				cell5.setCellType(CellType.STRING);
+				cell5.setCellValue(outProDate);
+
+				String predictOutProDate = isbgHumanMap.getPredictOutProDate();
+				XSSFCell cell6 = xssfRow.createCell(6);
+				cell6.setCellType(CellType.STRING);
+				cell6.setCellValue(predictOutProDate);
+
+				String isPay = isbgHumanMap.getIsPay();
+				XSSFCell cell7 = xssfRow.createCell(7);
+				cell7.setCellType(CellType.STRING);
+				cell7.setCellValue(isPay);
+			}
+		}
+	}
+
+	private static void writeSheetPdrcBsmDispatch(List<PdrcBsmDispatch> pdrcBsmDispatchList, XSSFWorkbook xssfWorkbook)
+			throws IOException {
+		String sheetName2 = "PDRC_BSM_Dispatch";
+		XSSFSheet xssfSheet2 = xssfWorkbook.getSheet(sheetName2);
+		if (xssfSheet2 == null) {
+			xssfWorkbook.close();
+		}
+
+		// Read the Row
+		int rowSize = pdrcBsmDispatchList.size();
+		for (int rowNum = 1; rowNum <= rowSize; rowNum++) {
+			XSSFRow xssfRow = xssfSheet2.createRow(rowNum);
+			if (xssfRow != null) {
+				PdrcBsmDispatch pdrcBsmDispatch = pdrcBsmDispatchList.get(rowNum - 1);
+
+				String projectID = pdrcBsmDispatch.getProjectID();
+				XSSFCell cell0 = xssfRow.createCell(0);
+				cell0.setCellType(CellType.STRING);
+				cell0.setCellValue(projectID);
+
+				String staffWorkID = pdrcBsmDispatch.getStaffWorkID();
+				XSSFCell cell1 = xssfRow.createCell(1);
+				cell1.setCellType(CellType.STRING);
+				cell1.setCellValue(staffWorkID);
+
+				String dispatchMonth = pdrcBsmDispatch.getDispatchMonth();
+				XSSFCell cell2 = xssfRow.createCell(2);
+				cell2.setCellType(CellType.STRING);
+				cell2.setCellValue(dispatchMonth);
+
+				String confrimTime = pdrcBsmDispatch.getConfrimTime();
+				XSSFCell cell3 = xssfRow.createCell(3);
+				cell3.setCellType(CellType.STRING);
+				cell3.setCellValue(confrimTime);
+
+				String bsmState = pdrcBsmDispatch.getBsmState();
+				XSSFCell cell4 = xssfRow.createCell(4);
+				cell4.setCellType(CellType.STRING);
+				cell4.setCellValue(bsmState);
+
+				String bsm = pdrcBsmDispatch.getBsm();
+				XSSFCell cell5 = xssfRow.createCell(5);
+				cell5.setCellType(CellType.STRING);
+				cell5.setCellValue(bsm);
+			}
+		}
+	}
+
+	// PDRC_B_ENPPRIZE
+	private static void writeSheetPdrcEnpPrize(List<PdrcEnpPrize> pdrcEnpPrizeList, XSSFWorkbook xssfWorkbook)
+			throws IOException {
+		String sheetName2 = "PDRC_B_ENPPRIZE";
+		XSSFSheet xssfSheet2 = xssfWorkbook.getSheet(sheetName2);
+		if (xssfSheet2 == null) {
+			xssfWorkbook.close();
+		}
+
+		// Read the Row
+		int rowSize = pdrcEnpPrizeList.size();
+		for (int rowNum = 1; rowNum <= rowSize; rowNum++) {
+			XSSFRow xssfRow = xssfSheet2.createRow(rowNum);
+			if (xssfRow != null) {
+				PdrcEnpPrize pdrcBsmDispatch = pdrcEnpPrizeList.get(rowNum - 1);
+				String workID = pdrcBsmDispatch.getWorkID();
+				XSSFCell cell0 = xssfRow.createCell(0);
+				cell0.setCellType(CellType.STRING);
+				cell0.setCellValue(workID);
+
+				String monthDate = pdrcBsmDispatch.getMonthDate();
+				XSSFCell cell1 = xssfRow.createCell(1);
+				cell1.setCellType(CellType.STRING);
+				cell1.setCellValue(monthDate);
+
+				String prize = pdrcBsmDispatch.getPrize();
+				XSSFCell cell2 = xssfRow.createCell(2);
+				cell2.setCellType(CellType.STRING);
+				cell2.setCellValue(prize);
+			}
+		}
+	}
+
+	// PDRC_TM_SALARY
+	private static void writeSheetPdrcTmSalary(List<PdrcTmSalary> pdrcTmSalaryList, XSSFWorkbook xssfWorkbook)
+			throws IOException {
+		String sheetName2 = "PDRC_TM_SALARY";
+		XSSFSheet xssfSheet2 = xssfWorkbook.getSheet(sheetName2);
+		if (xssfSheet2 == null) {
+			xssfWorkbook.close();
+		}
+
+		// Read the Row
+		int rowSize = pdrcTmSalaryList.size();
+		for (int rowNum = 1; rowNum <= rowSize; rowNum++) {
+			XSSFRow xssfRow = xssfSheet2.createRow(rowNum);
+			if (xssfRow != null) {
+				PdrcTmSalary pdrcTmSalary = pdrcTmSalaryList.get(rowNum - 1);
+				String tmWorkID = pdrcTmSalary.getTmWorkID();
+				XSSFCell cell0 = xssfRow.createCell(0);
+				cell0.setCellType(CellType.STRING);
+				cell0.setCellValue(tmWorkID);
+
+				String monthDate = pdrcTmSalary.getMonthDate();
+				XSSFCell cell1 = xssfRow.createCell(1);
+				cell1.setCellType(CellType.STRING);
+				cell1.setCellValue(monthDate);
+
+				String averageSalary = pdrcTmSalary.getAverageSalary();
+				XSSFCell cell2 = xssfRow.createCell(2);
+				cell2.setCellType(CellType.STRING);
+				cell2.setCellValue(averageSalary);
+			}
+		}
 	}
 }
