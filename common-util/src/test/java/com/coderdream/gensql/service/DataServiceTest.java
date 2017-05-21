@@ -5,6 +5,8 @@ import java.util.Map;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.coderdream.gensql.bean.IsbgHumanMap;
 import com.coderdream.gensql.bean.IsbgProject;
@@ -18,8 +20,7 @@ import com.coderdream.gensql.util.Constants;
 
 public class DataServiceTest {
 
-	// private static final Logger logger =
-	// LoggerFactory.getLogger(DataServiceTest.class);
+	 private static final Logger logger = LoggerFactory.getLogger(DataServiceTest.class);
 
 	private String fileFolder;
 
@@ -38,6 +39,7 @@ public class DataServiceTest {
 		List<PdrcTm> list = dataService.getPdrcTmList(path);
 		for (PdrcTm pdrcTm : list) {
 			System.out.println(pdrcTm);
+			logger.debug(pdrcTm.toString());
 		}
 	}
 
