@@ -16,6 +16,7 @@ import com.b510.excel.common.Common;
 import com.coderdream.gensql.bean.IsbgHumanMap;
 import com.coderdream.gensql.bean.IsbgHumanMapComparator;
 import com.coderdream.gensql.bean.IsbgProject;
+import com.coderdream.gensql.bean.MemberParticipate;
 import com.coderdream.gensql.bean.PdrcBsmDispatch;
 import com.coderdream.gensql.bean.PdrcBsmDispatchComparator;
 import com.coderdream.gensql.bean.PdrcEnpPrize;
@@ -159,11 +160,15 @@ public class DataService {
 		return pmWorkIDListMap;
 	}
 
+	/**
+	 * @param path
+	 * @return
+	 */
 	public static Map<String, List<PdrcStaffManage>> getPdrcStaffManageListMap(String path) {
+		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = new HashMap<String, List<PdrcStaffManage>>();
 		List<PdrcStaffManage> pdrcStaffManageList = null;
 		logger.debug(Common.PROCESSING + path);
 		String sheetName = "PDRC_StaffManage";
-		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = new HashMap<String, List<PdrcStaffManage>>();
 		try {
 			List<String[]> arrayList = ExcelUtil.readAllData(path, sheetName);
 			if (null != arrayList && 1 < arrayList.size()) {
@@ -511,7 +516,8 @@ public class DataService {
 				// 如果随机数是4、5、6，就让他晚入项目这么多天
 				if (Constants.IDEL_RANDOM_DAYS_MIN < randomNumber && randomNumber < Constants.IDEL_RANDOM_DAYS_MAX) {
 					isbgHumanMap.setInProDate(DateUtil.getNextDate(inProDate, randomNumber));
-					logger.error("############### \t" + workID + "\t" + inProDate + "\t" + DateUtil.getNextDate(isbgHumanMap.getInProDate(),-1) + "\t" + randomNumber);
+					logger.error("############### \t" + workID + "\t" + inProDate + "\t"
+							+ DateUtil.getNextDate(isbgHumanMap.getInProDate(), -1) + "\t" + randomNumber);
 					count++;
 				}
 
@@ -522,6 +528,33 @@ public class DataService {
 		Collections.sort(isbgHumanMapList, new IsbgHumanMapComparator());
 
 		return isbgHumanMapList;
+	}
+
+	public static List<MemberParticipate> getMemberParticipateList(String path) {
+		List<MemberParticipate> memberParticipateList = new ArrayList<MemberParticipate>();
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
+		System.out.println(isbgHumanMapList.size());
+		MemberParticipate memberParticipate = null;
+		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
+			System.out.println(isbgHumanMap);
+			memberParticipate = new MemberParticipate();
+			String staffWorkID = isbgHumanMap.getStaffWorkID();
+			String projectID = isbgHumanMap.getProjectID();
+			String inProDate = isbgHumanMap.getInProDate();
+			String predictOutProDate = isbgHumanMap.getPredictOutProDate();
+			
+			memberParticipate.setStaffWorkID(staffWorkID);
+			memberParticipate.setProjectID(projectID);
+			memberParticipate.setProjectStartDate(inProDate);
+			memberParticipate.setProjectEndDate(predictOutProDate);
+			
+			// TODO
+			
+			memberParticipateList.add(memberParticipate);
+
+		}
+
+		return memberParticipateList;
 	}
 
 	public static List<PdrcBsmDispatch> getPdrcBsmDispatchList(String path) {
@@ -607,6 +640,7 @@ public class DataService {
 			}
 		}
 
+		Map<String, String> workIDBsmMap = DataService.getWorkIDBsmMap(path);
 		PdrcEnpPrize pdrcEnpPrize = null;
 		for (String key : bsmMap.keySet()) {
 			pdrcEnpPrize = new PdrcEnpPrize();
@@ -616,11 +650,15 @@ public class DataService {
 			pdrcEnpPrize.setWorkID(arr[0]);
 			pdrcEnpPrize.setMonthDate(arr[1]);
 			Double p = MathUtil.setScale(MathUtil.sumNumberList(tempBsmList), 2);
-			p *= Constants.PDRD_BONUS;
-			DecimalFormat df = new DecimalFormat("#");
-			pdrcEnpPrize.setPrize(df.format(p));
+			String origBsm = workIDBsmMap.get(arr[0]);
+			p -= Double.parseDouble(origBsm);
 
-			pdrcEnpPrizeList.add(pdrcEnpPrize);
+			if (0 > p) {
+				p *= Constants.PDRD_BONUS;
+				DecimalFormat df = new DecimalFormat("#"); // TODO
+				pdrcEnpPrize.setPrize(df.format(p));
+				pdrcEnpPrizeList.add(pdrcEnpPrize);
+			}
 		}
 
 		Collections.sort(pdrcEnpPrizeList, new PdrcEnpPrizeComparator());
