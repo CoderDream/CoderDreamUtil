@@ -1,5 +1,7 @@
 package com.coderdream.gensql.service;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.List;
 import java.util.Map;
 
@@ -10,17 +12,18 @@ import org.slf4j.LoggerFactory;
 
 import com.coderdream.gensql.bean.IsbgHumanMap;
 import com.coderdream.gensql.bean.IsbgProject;
+import com.coderdream.gensql.bean.MemberParticipate;
 import com.coderdream.gensql.bean.PdrcBsmDispatch;
 import com.coderdream.gensql.bean.PdrcEnpPrize;
 import com.coderdream.gensql.bean.PdrcStaffManage;
 import com.coderdream.gensql.bean.PdrcTm;
 import com.coderdream.gensql.bean.PdrcTmSalary;
-import com.coderdream.gensql.bean.PmRmRelation;
+import com.coderdream.gensql.bean.PmTmRelation;
 import com.coderdream.gensql.util.Constants;
 
 public class DataServiceTest {
 
-	 private static final Logger logger = LoggerFactory.getLogger(DataServiceTest.class);
+	private static final Logger logger = LoggerFactory.getLogger(DataServiceTest.class);
 
 	private String fileFolder;
 
@@ -68,20 +71,59 @@ public class DataServiceTest {
 		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = DataService.getPdrcStaffManageListMap(path);
 
 		for (String key : pdrcStaffManageListMap.keySet()) {
-
 			List<PdrcStaffManage> pdrcStaffManageList = pdrcStaffManageListMap.get(key);
-
 			System.out.println("TM WorkId\t" + key);
 			for (PdrcStaffManage pdrcStaffManage : pdrcStaffManageList) {
 				System.out.println("WorkId\t\t" + pdrcStaffManage.getWorkID());
 			}
 		}
 	}
+	
+	
+	@Test
+	public void testGetMemberParticipateMap() { // TODO
+		String path = fileFolder + dataFileName;
+		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(totalIsbgProjectList);
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path, isbgProjectMap);
+		Map<String, Double> memberParticipateMap = DataService.getMemberParticipateMap(isbgHumanMapList);
+		for (String key : memberParticipateMap.keySet()) {
+			Double memberParticipateValue = memberParticipateMap.get(key);
+			System.out.println(key + "\t" + memberParticipateValue);
+		}
+	}
+		
+
+	@Test
+	public void testGetMemberParticipateList() {
+		String path = fileFolder + dataFileName;
+		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(totalIsbgProjectList);
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path, isbgProjectMap);
+		List<MemberParticipate> memberParticipateList = DataService.getMemberParticipateList(isbgHumanMapList);
+		System.out.println("size: \t" + memberParticipateList.size());
+		for (MemberParticipate memberParticipate : memberParticipateList) {
+			System.out.println(memberParticipate.getProjectID() + "\t" + memberParticipate.getStaffWorkID() + "\t"
+					+ memberParticipate.getMonthDate() + "\t"
+							+ memberParticipate.getParticipateRate());
+		}
+	}
+
+	@Test
+	public void testGetBsmSumByTmWorkId() {
+		String path = fileFolder + dataFileName;
+		String tmWorkId = "B-13454";
+		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = DataService.getPdrcStaffManageListMap(path);
+		Double result = DataService.getBsmSumByTmWorkId(pdrcStaffManageListMap, tmWorkId);
+		Double expectValue = new Double(10.4);
+		assertEquals(expectValue, result);
+	}
 
 	@Test
 	public void testGetPdrcTmSalaryList() {
 		String path = fileFolder + dataFileName;
-		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryList(path);
+		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = DataService.getPdrcStaffManageListMap(path);
+		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryList(pdrcStaffManageListMap);
 		for (PdrcTmSalary pdrcTmSalary : pdrcTmSalaryList) {
 			System.out.println(pdrcTmSalary);
 		}
@@ -92,8 +134,9 @@ public class DataServiceTest {
 		String path = fileFolder + dataFileName;
 		String startDateString = "2016-01-01";
 		String endDateString = "2017-12-31";
-		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryListWithDateRange(path, startDateString,
-				endDateString);
+		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = DataService.getPdrcStaffManageListMap(path);
+		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryListWithDateRange(pdrcStaffManageListMap,
+				startDateString, endDateString);
 		System.out.println("########### size:  " + pdrcTmSalaryList.size());
 		for (PdrcTmSalary pdrcTmSalary : pdrcTmSalaryList) {
 			System.out.println(pdrcTmSalary);
@@ -101,19 +144,29 @@ public class DataServiceTest {
 	}
 
 	@Test
-	public void testGetPmRmRelationList() {
+	public void testGetPmTmRelationList() {
 		String path = fileFolder + dataFileName;
 
-		List<PmRmRelation> pmRmRelationList = DataService.getPmRmRelationList(path);
+		List<PmTmRelation> pmRmRelationList = DataService.getPmTmRelationList(path);
 
-		for (PmRmRelation pmRmRelation : pmRmRelationList) {
+		for (PmTmRelation pmRmRelation : pmRmRelationList) {
 			String pmWorkID = pmRmRelation.getPmWorkID();
-			String rmWorkID = pmRmRelation.getRmWorkID();
-			List<String> workIDList = pmRmRelation.getWorkIDList();
-			for (String workID : workIDList) {
-				System.out.println(pmWorkID + "\t" + rmWorkID + "\t" + workID);
-			}
+			String tmWorkID = pmRmRelation.getTmWorkID();
+			System.out.println(pmWorkID + "\t" + tmWorkID);
+			// List<String> workIDList = pmRmRelation.getWorkIDList();
+			// for (String workID : workIDList) {
+			// System.out.println(pmWorkID + "\t" + tmWorkID + "\t" + workID);
+			// }
 		}
+	}
+
+	@Test
+	public void testGetTmWorkIDByPmWorkID() {
+		String path = fileFolder + dataFileName;
+		String pmWorkIDParam = "B-14444";
+		String tmWorkID = DataService.getTmWorkIDByPmWorkID(path, pmWorkIDParam);
+		String expectValue = "B-13454";
+		assertEquals(expectValue, tmWorkID);
 	}
 
 	@Test
@@ -135,6 +188,17 @@ public class DataServiceTest {
 	}
 
 	@Test
+	public void testGetPmWorkIDTmWorkIDMap() {
+		String path = fileFolder + dataFileName;
+		Map<String, String> pmWorkIDTmWorkIDMap = DataService.getPmWorkIDTmWorkIDMap(path);
+
+		for (String pmWorkID : pmWorkIDTmWorkIDMap.keySet()) {
+			String tmWorkID = pmWorkIDTmWorkIDMap.get(pmWorkID);
+			System.out.println(pmWorkID + "\t" + tmWorkID);
+		}
+	}
+
+	@Test
 	public void testGetPmWorkIDListMap() {
 		String path = fileFolder + dataFileName;
 		Map<String, List<String>> pmWorkIDListMap = DataService.getPmWorkIDListMap(path);
@@ -147,19 +211,22 @@ public class DataServiceTest {
 		}
 	}
 
-	@Test
-	public void testGetIsbgHumanMapList() {
-		String path = fileFolder + dataFileName;
-		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapList(path);
-		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
-			System.out.println(isbgHumanMap);
-		}
-	}
+//	@Test
+//	public void testGetIsbgHumanMapList() {
+//		String path = fileFolder + dataFileName;
+//		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapList(path);
+//		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
+//			System.out.println(isbgHumanMap);
+//		}
+//	}
 
 	@Test
 	public void testGetIsbgHumanMapListInfo() {
 		String path = fileFolder + dataFileName;
-		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
+//		List<IsbgHumanMap> isbgHumanMapList
+		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(totalIsbgProjectList);
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path, isbgProjectMap);
 		System.out.println(isbgHumanMapList.size());
 		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
 			System.out.println(isbgHumanMap);
@@ -168,18 +235,20 @@ public class DataServiceTest {
 
 	@Test
 	public void testGetIsbgProjectListInfo() {
-		String path = fileFolder + dataFileName;
+		String path = fileFolder + dataFileName; // TODO
 		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
 		for (IsbgProject isbgProject : totalIsbgProjectList) {
-			// System.out.println(isbgProject);
-			System.out.println(isbgProject.getProjectStartDateTime() + "\t" + isbgProject.getProjectEndDateTime());
+			 System.out.println(isbgProject);
+//			System.out.println(isbgProject.getProjectStartDateTime() + "\t" + isbgProject.getProjectEndDateTime() + "\t"
+//					+ isbgProject.getPdrc());
 		}
 	}
 
 	@Test
 	public void testGetIsbgProjectMap() {
 		String path = fileFolder + dataFileName;
-		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(path);
+		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(totalIsbgProjectList);
 
 		for (String key : isbgProjectMap.keySet()) {
 			IsbgProject isbgProject = isbgProjectMap.get(key);
@@ -189,8 +258,10 @@ public class DataServiceTest {
 
 	@Test
 	public void testGetWorkingDaysMap() {
-		String path = fileFolder + dataFileName;
-		Map<String, Integer> workIdDaysMap = DataService.getWorkingDaysMap(path);
+		String path = fileFolder + dataFileName; // TODO 3
+		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(totalIsbgProjectList);
+		Map<String, Integer> workIdDaysMap = DataService.getWorkingDaysMap(path, isbgProjectMap);
 
 		for (String key : workIdDaysMap.keySet()) {
 			Integer value = workIdDaysMap.get(key);
@@ -214,8 +285,13 @@ public class DataServiceTest {
 
 	@Test
 	public void testGetPdrcBsmDispatchList() {
-		String path = fileFolder + dataFileName;
-		List<PdrcBsmDispatch> pdrcBsmDispatchList = DataService.getPdrcBsmDispatchList(path);
+		String path = fileFolder + dataFileName; // TODO
+		
+		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(totalIsbgProjectList);
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path, isbgProjectMap);
+		List<PdrcBsmDispatch> pdrcBsmDispatchList = DataService.getPdrcBsmDispatchList(path, isbgHumanMapList);
+		System.out.println("size: \t" + pdrcBsmDispatchList.size());
 		for (PdrcBsmDispatch pdrcBsmDispatch : pdrcBsmDispatchList) {
 			System.out.println(pdrcBsmDispatch);
 		}
@@ -224,7 +300,10 @@ public class DataServiceTest {
 	@Test
 	public void testGetPdrcEnpPrizeList() {
 		String path = fileFolder + dataFileName;
-		List<PdrcEnpPrize> pdrcEnpPrizeList = DataService.getPdrcEnpPrizeList(path);
+		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(totalIsbgProjectList);
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path, isbgProjectMap);
+		List<PdrcEnpPrize> pdrcEnpPrizeList = DataService.getPdrcEnpPrizeList(path, isbgHumanMapList);
 		for (PdrcEnpPrize pdrcEnpPrize : pdrcEnpPrizeList) {
 			System.out.println(pdrcEnpPrize);
 		}

@@ -34,6 +34,7 @@ import com.coderdream.gensql.bean.IsbgProjectFinish;
 import com.coderdream.gensql.bean.IsbgProjectFinishComparator;
 import com.coderdream.gensql.bean.PdrcBsmDispatch;
 import com.coderdream.gensql.bean.PdrcEnpPrize;
+import com.coderdream.gensql.bean.PdrcStaffManage;
 import com.coderdream.gensql.bean.PdrcTmSalary;
 import com.coderdream.gensql.bean.TableStructure;
 import com.coderdream.gensql.service.DataService;
@@ -321,16 +322,19 @@ public class ExcelUtil {
 	}
 
 	public static void readingAndRewritingIsbgProjectInfo(String path) {
-		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(path);
+		// TODO
+		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
+		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(totalIsbgProjectList);
 
 		List<IsbgProjectFinish> isbgProjectFinishList = new ArrayList<IsbgProjectFinish>();
-		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
-		List<PdrcBsmDispatch> pdrcBsmDispatchList = DataService.getPdrcBsmDispatchList(path);
-		List<PdrcEnpPrize> pdrcEnpPrizeList = DataService.getPdrcEnpPrizeList(path);
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path, isbgProjectMap);
+		List<PdrcBsmDispatch> pdrcBsmDispatchList = DataService.getPdrcBsmDispatchList(path, isbgHumanMapList);
+		List<PdrcEnpPrize> pdrcEnpPrizeList = DataService.getPdrcEnpPrizeList(path, isbgHumanMapList);
+		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = DataService.getPdrcStaffManageListMap(path);
 
 		String startDateString = Constants.PROJECT_START_DATE;
 		String endDateString = Constants.PROJECT_END_DATE;
-		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryListWithDateRange(path, startDateString,
+		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryListWithDateRange(pdrcStaffManageListMap, startDateString,
 				endDateString);
 
 		XSSFWorkbook xssfWorkbook = null;
@@ -338,7 +342,7 @@ public class ExcelUtil {
 		try {
 			inp = new FileInputStream(path);
 			xssfWorkbook = new XSSFWorkbook(inp);
-			// One
+			// One ISBG_Project
 			writeSheetIsbgProject(isbgProjectMap, isbgProjectFinishList, xssfWorkbook);
 
 			// Two

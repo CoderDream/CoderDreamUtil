@@ -4,11 +4,11 @@ import java.util.List;
 
 /**
  */
-public class PmRmRelation {
+public class PmTmRelation {
 
 	private String pmWorkID;
 
-	private String rmWorkID;
+	private String tmWorkID;
 
 	private List<String> workIDList;
 
@@ -20,12 +20,12 @@ public class PmRmRelation {
 		this.pmWorkID = pmWorkID;
 	}
 
-	public String getRmWorkID() {
-		return rmWorkID;
+	public String getTmWorkID() {
+		return tmWorkID;
 	}
 
-	public void setRmWorkID(String rmWorkID) {
-		this.rmWorkID = rmWorkID;
+	public void setTmWorkID(String rmWorkID) {
+		this.tmWorkID = rmWorkID;
 	}
 
 	public List<String> getWorkIDList() {

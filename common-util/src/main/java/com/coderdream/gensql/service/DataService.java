@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 import org.apache.commons.beanutils.BeanUtils;
 import org.slf4j.Logger;
@@ -17,6 +18,7 @@ import com.coderdream.gensql.bean.IsbgHumanMap;
 import com.coderdream.gensql.bean.IsbgHumanMapComparator;
 import com.coderdream.gensql.bean.IsbgProject;
 import com.coderdream.gensql.bean.MemberParticipate;
+import com.coderdream.gensql.bean.MemberParticipateComparator;
 import com.coderdream.gensql.bean.PdrcBsmDispatch;
 import com.coderdream.gensql.bean.PdrcBsmDispatchComparator;
 import com.coderdream.gensql.bean.PdrcEnpPrize;
@@ -25,7 +27,7 @@ import com.coderdream.gensql.bean.PdrcStaffManage;
 import com.coderdream.gensql.bean.PdrcTm;
 import com.coderdream.gensql.bean.PdrcTmSalary;
 import com.coderdream.gensql.bean.PdrcTmSalaryComparator;
-import com.coderdream.gensql.bean.PmRmRelation;
+import com.coderdream.gensql.bean.PmTmRelation;
 import com.coderdream.gensql.util.Constants;
 import com.coderdream.gensql.util.DateUtil;
 import com.coderdream.gensql.util.ExcelUtil;
@@ -93,8 +95,8 @@ public class DataService {
 		return list;
 	}
 
-	public static List<PmRmRelation> getPmRmRelationList(String path) {
-		List<PmRmRelation> pmRmRelationList = null;
+	public static List<PmTmRelation> getPmTmRelationList(String path) {
+		List<PmTmRelation> pmTmRelationList = null;
 		List<String> pmList = null;
 
 		logger.debug(Common.PROCESSING + path);
@@ -102,7 +104,7 @@ public class DataService {
 		try {
 			List<String[]> arrayList = ExcelUtil.readData(path, sheetName);
 			if (null != arrayList && 0 < arrayList.size()) {
-				logger.debug("Size: \t" + arrayList.size());
+				// logger.debug("Size: \t" + arrayList.size());
 				pmList = new ArrayList<String>();
 
 				for (int i = 0; i < arrayList.size(); i++) {
@@ -118,18 +120,18 @@ public class DataService {
 		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = getPdrcStaffManageListMap(path);
 
 		if (pdrcStaffManageListMap.size() > 0) {
-			pmRmRelationList = new ArrayList<PmRmRelation>();
+			pmTmRelationList = new ArrayList<PmTmRelation>();
 		}
 		int index = 0;
-		PmRmRelation pmRmRelation = null;
+		PmTmRelation pmRmRelation = null;
 		List<String> workIDList = null;
 		for (String key : pdrcStaffManageListMap.keySet()) {
 
-			pmRmRelation = new PmRmRelation();
+			pmRmRelation = new PmTmRelation();
 			List<PdrcStaffManage> pdrcStaffManageList = pdrcStaffManageListMap.get(key);
 			String pmWorkID = pmList.get(index++);
 			pmRmRelation.setPmWorkID(pmWorkID);
-			pmRmRelation.setRmWorkID(key);
+			pmRmRelation.setTmWorkID(key);
 
 			// System.out.println("RM WorkId\t" + key);
 			workIDList = new ArrayList<String>();
@@ -141,17 +143,17 @@ public class DataService {
 				pmRmRelation.setWorkIDList(workIDList);
 			}
 
-			pmRmRelationList.add(pmRmRelation);
+			pmTmRelationList.add(pmRmRelation);
 		}
 
-		return pmRmRelationList;
+		return pmTmRelationList;
 	}
 
 	public static Map<String, List<String>> getPmWorkIDListMap(String path) {
 		Map<String, List<String>> pmWorkIDListMap = new HashMap<String, List<String>>();
-		List<PmRmRelation> pmRmRelationList = DataService.getPmRmRelationList(path);
+		List<PmTmRelation> pmRmRelationList = DataService.getPmTmRelationList(path);
 
-		for (PmRmRelation pmRmRelation : pmRmRelationList) {
+		for (PmTmRelation pmRmRelation : pmRmRelationList) {
 			String pmWorkID = pmRmRelation.getPmWorkID();
 			List<String> workIDList = pmRmRelation.getWorkIDList();
 			pmWorkIDListMap.put(pmWorkID, workIDList);
@@ -160,12 +162,42 @@ public class DataService {
 		return pmWorkIDListMap;
 	}
 
+	public static String getTmWorkIDByPmWorkID(String path, String pmWorkIDParam) {
+		String tmWorkID = "";
+		List<PmTmRelation> pmRmRelationList = DataService.getPmTmRelationList(path);
+
+		for (PmTmRelation pmRmRelation : pmRmRelationList) {
+			String pmWorkID = pmRmRelation.getPmWorkID();
+
+			if (pmWorkIDParam.equals(pmWorkID)) {
+				tmWorkID = pmRmRelation.getTmWorkID();
+				break;
+			}
+		}
+
+		return tmWorkID;
+	}
+
+	public static Map<String, String> getPmWorkIDTmWorkIDMap(String path) {
+		Map<String, String> pmWorkIDTmWorkIDMap = new TreeMap<String, String>();
+		List<PmTmRelation> pmRmRelationList = DataService.getPmTmRelationList(path);
+
+		for (PmTmRelation pmRmRelation : pmRmRelationList) {
+			String pmWorkID = pmRmRelation.getPmWorkID();
+			String tmWorkID = pmRmRelation.getTmWorkID();
+			pmWorkIDTmWorkIDMap.put(pmWorkID, tmWorkID);
+
+		}
+
+		return pmWorkIDTmWorkIDMap;
+	}
+
 	/**
 	 * @param path
 	 * @return
 	 */
 	public static Map<String, List<PdrcStaffManage>> getPdrcStaffManageListMap(String path) {
-		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = new HashMap<String, List<PdrcStaffManage>>();
+		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = new TreeMap<String, List<PdrcStaffManage>>();
 		List<PdrcStaffManage> pdrcStaffManageList = null;
 		logger.debug(Common.PROCESSING + path);
 		String sheetName = "PDRC_StaffManage";
@@ -202,11 +234,37 @@ public class DataService {
 		return pdrcStaffManageListMap;
 	}
 
-	public static List<PdrcTmSalary> getPdrcTmSalaryList(String path) {
+	/**
+	 * @param path
+	 * @return
+	 */
+	public static Double getBsmSumByTmWorkId(Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap,
+			String tmWorkId) {
+		Double sum = new Double(0);
+
+		for (String key : pdrcStaffManageListMap.keySet()) {
+			// System.out.println("TM WorkId\t" + key);
+			if (tmWorkId.equals(key)) {
+				List<PdrcStaffManage> pdrcStaffManageList = pdrcStaffManageListMap.get(key);
+				for (PdrcStaffManage pdrcStaffManage : pdrcStaffManageList) {
+					String normalMam = pdrcStaffManage.getNormalMam();
+					Double normalMamDouble = Double.valueOf(normalMam);
+					sum += normalMamDouble;
+					// System.out.println("WorkId\t\t" +
+					// pdrcStaffManage.getWorkID());
+				}
+			}
+		}
+
+		return sum;
+	}
+
+	public static List<PdrcTmSalary> getPdrcTmSalaryList(Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap) {
 		List<PdrcTmSalary> pdrcTmSalaryList = new ArrayList<PdrcTmSalary>();
 		List<PdrcStaffManage> pdrcStaffManageList = null;
-		logger.debug(Common.PROCESSING + path);
-		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = DataService.getPdrcStaffManageListMap(path);
+		logger.debug(Common.PROCESSING);
+		// Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap =
+		// DataService.getPdrcStaffManageListMap(path);
 		PdrcTmSalary pdrcTmSalary = null;
 		for (String key : pdrcStaffManageListMap.keySet()) {
 
@@ -230,13 +288,13 @@ public class DataService {
 		return pdrcTmSalaryList;
 	}
 
-	public static List<PdrcTmSalary> getPdrcTmSalaryListWithDateRange(String path, String startDateString,
-			String endDateString) {
+	public static List<PdrcTmSalary> getPdrcTmSalaryListWithDateRange(
+			Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap, String startDateString, String endDateString) {
 		List<PdrcTmSalary> pdrcTmSalaryList = new ArrayList<PdrcTmSalary>();
 
 		List<String> monthList = DateUtil.getMonthBetween(startDateString, endDateString);
 
-		List<PdrcTmSalary> basePdrcTmSalaryList = DataService.getPdrcTmSalaryList(path);
+		List<PdrcTmSalary> basePdrcTmSalaryList = DataService.getPdrcTmSalaryList(pdrcStaffManageListMap);
 		PdrcTmSalary newPdrcTmSalary = null;
 		try {
 			for (String monthDate : monthList) {
@@ -276,11 +334,13 @@ public class DataService {
 		return workIDBsmMap;
 	}
 
-	public List<PdrcStaffManage> getPdrcStaffManageListByRmWorkId(String path, String RmWorkId) {
-		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = getPdrcStaffManageListMap(path);
+	public List<PdrcStaffManage> getPdrcStaffManageListByTmWorkId(
+			Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap, String tmWorkIdParam) {
+		// Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap =
+		// getPdrcStaffManageListMap(path);
 		List<PdrcStaffManage> pdrcStaffManageList = null;
 		for (String key : pdrcStaffManageListMap.keySet()) {
-			if (RmWorkId.equalsIgnoreCase(key)) {
+			if (tmWorkIdParam.equalsIgnoreCase(key)) {
 				pdrcStaffManageList = pdrcStaffManageListMap.get(key);
 			}
 		}
@@ -341,15 +401,16 @@ public class DataService {
 		return isbgProjectListMap;
 	}
 
-	public static List<IsbgProject> getIsbgProjectListInfo(String path) {
+	public static List<IsbgProject> getIsbgProjectListInfo(String path) { // TODO
 		List<IsbgProject> totalIsbgProjectList = new ArrayList<IsbgProject>();
 		Map<String, List<IsbgProject>> isbgProjectListMap = getIsbgProjectListMap(path);
-
+		Map<String, String> pmWorkIDTmWorkIDMap = DataService.getPmWorkIDTmWorkIDMap(path);
+		Map<String, List<PdrcStaffManage>> pdrcStaffManageListMap = DataService.getPdrcStaffManageListMap(path);
 		for (String key : isbgProjectListMap.keySet()) {
 			List<IsbgProject> isbgProjectList = isbgProjectListMap.get(key);
 
 			String beginDateString = Constants.PROJECT_START_DATE;
-			// 总是
+			// 总和
 			int total = DateUtil.getDateRange(beginDateString, Constants.PROJECT_END_DATE);
 			// 个数
 			int count = isbgProjectList.size();
@@ -371,8 +432,19 @@ public class DataService {
 				isbgProject.setProjectStartDateTime(projectStartDateTime);
 				isbgProject.setProjectEndDateTime(projectEndDateTime);
 
-				Integer pdrc = integerList.get(i) * Constants.PDRD_PRICE;
-				isbgProject.setPdrc(pdrc.toString());
+				Double participateSum = DateUtil.getMonthBetweenParticipateSum(isbgProject.getProjectStartDateTime(),
+						isbgProject.getProjectEndDateTime());
+
+				String tmWorkID = pmWorkIDTmWorkIDMap.get(isbgProject.getProjectMgrWorkID());
+				Double bsmSumTeam = DataService.getBsmSumByTmWorkId(pdrcStaffManageListMap, tmWorkID);
+
+				// 计算得到项目预算：周期之和*BSM之和
+				Double bsmSum = participateSum * bsmSumTeam;
+
+				// 计算
+				Double pdrc = bsmSum * Constants.PDRD_PRICE;
+				Integer pdrcInteger = pdrc.intValue();
+				isbgProject.setPdrc(pdrcInteger.toString());
 
 				String isFinish = DateUtil.beforeToday(projectEndDateTime) ? "true" : "false";
 				isbgProject.setIsFinish(isFinish);
@@ -384,18 +456,20 @@ public class DataService {
 		return totalIsbgProjectList;
 	}
 
-	public static Map<String, IsbgProject> getIsbgProjectMap(String path) {
+	public static Map<String, IsbgProject> getIsbgProjectMap(List<IsbgProject> totalIsbgProjectList) {
 		Map<String, IsbgProject> isbgProjectMap = new HashMap<String, IsbgProject>();
 
-		List<IsbgProject> totalIsbgProjectList = getIsbgProjectListInfo(path);
+//		List<IsbgProject> totalIsbgProjectList = DataService.getIsbgProjectListInfo(path);
 		for (IsbgProject isbgProject : totalIsbgProjectList) {
+			System.out.println(isbgProject);
 			isbgProjectMap.put(isbgProject.getProjectId(), isbgProject);
 		}
 
 		return isbgProjectMap;
 	}
 
-	public static List<IsbgHumanMap> getIsbgHumanMapList(String path) {
+	public static List<IsbgHumanMap> getIsbgHumanMapListBackup(String path) {
+		// TODO
 		List<IsbgHumanMap> isbgHumanMapList = new ArrayList<IsbgHumanMap>();
 
 		logger.debug(Common.PROCESSING + path);
@@ -438,9 +512,9 @@ public class DataService {
 		return isbgHumanMapList;
 	}
 
-	public static Map<String, Integer> getWorkingDaysMap(String path) {
+	public static Map<String, Integer> getWorkingDaysMap(String path, Map<String, IsbgProject> isbgProjectMap) {
 		Map<String, Integer> workIdDaysMap = new HashMap<String, Integer>();
-		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapList(path);
+		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path, isbgProjectMap);
 		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
 
 			String staffWorkID = isbgHumanMap.getStaffWorkID();
@@ -463,12 +537,12 @@ public class DataService {
 		return workIdDaysMap;
 	}
 
-	public static List<IsbgHumanMap> getIsbgHumanMapListInfo(String path) {
+	public static List<IsbgHumanMap> getIsbgHumanMapListInfo(String path, Map<String, IsbgProject> isbgProjectMap) {
 		int count = 0;
 		List<IsbgHumanMap> isbgHumanMapList = new ArrayList<IsbgHumanMap>();
 		Map<String, List<String>> pmWorkIDListMap = DataService.getPmWorkIDListMap(path);
 
-		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(path);
+//		Map<String, IsbgProject> isbgProjectMap = DataService.getIsbgProjectMap(path);
 		IsbgHumanMap isbgHumanMap = null;
 		for (String key : isbgProjectMap.keySet()) {
 			IsbgProject isbgProject = isbgProjectMap.get(key);
@@ -530,45 +604,169 @@ public class DataService {
 		return isbgHumanMapList;
 	}
 
-	public static List<MemberParticipate> getMemberParticipateList(String path) {
+	public static List<MemberParticipate> getMemberParticipateList(List<IsbgHumanMap> isbgHumanMapList) {
 		List<MemberParticipate> memberParticipateList = new ArrayList<MemberParticipate>();
-		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
+		//List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
 		System.out.println(isbgHumanMapList.size());
 		MemberParticipate memberParticipate = null;
+		MemberParticipate newMemberParticipate = null;
+		try {
+			for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
+				// System.out.println(isbgHumanMap);
+				memberParticipate = new MemberParticipate();
+				String staffWorkID = isbgHumanMap.getStaffWorkID();
+				String projectID = isbgHumanMap.getProjectID();
+				String beginDateString = isbgHumanMap.getInProDate();
+				String endDateString = isbgHumanMap.getPredictOutProDate();
+
+				memberParticipate.setStaffWorkID(staffWorkID);
+				memberParticipate.setProjectID(projectID);
+				memberParticipate.setProjectStartDate(beginDateString);
+				memberParticipate.setProjectEndDate(endDateString);
+
+				Map<String, Double> participateMap = DateUtil.getMonthBetweenParticipateWithMonth(beginDateString,
+						endDateString);
+
+				for (String monthDate : participateMap.keySet()) {
+					newMemberParticipate = new MemberParticipate();
+					BeanUtils.copyProperties(newMemberParticipate, memberParticipate);
+					Double participateValue = participateMap.get(monthDate);
+					// System.out.println(monthDate + "\t" + participateValue);
+					newMemberParticipate.setMonthDate(monthDate);
+					newMemberParticipate.setParticipateRate(participateValue);
+
+					memberParticipateList.add(newMemberParticipate);
+				}
+			}
+		} catch (IllegalAccessException e) {
+			e.printStackTrace();
+		} catch (InvocationTargetException e) {
+			e.printStackTrace();
+		}
+
+		Collections.sort(memberParticipateList, new MemberParticipateComparator());
+		return memberParticipateList; 
+	}
+
+	public static Map<String, Double> getMemberParticipateMap(List<IsbgHumanMap> isbgHumanMapList) {
+		Map<String, Double> memberParticipateMap = new TreeMap<String, Double>();
+
+		List<MemberParticipate> memberParticipateList = DataService.getMemberParticipateList(isbgHumanMapList);
+		System.out.println("size: \t" + memberParticipateList.size());
+		for (MemberParticipate memberParticipate : memberParticipateList) {
+			String projectID = memberParticipate.getProjectID();
+			String staffWorkID = memberParticipate.getStaffWorkID();
+			String monthDate = memberParticipate.getMonthDate();
+			Double participateRate = memberParticipate.getParticipateRate();
+			memberParticipateMap.put(projectID + ":" + staffWorkID + ":" + monthDate, participateRate);
+		}
+
+		return memberParticipateMap; 
+	}
+
+	public static List<PdrcBsmDispatch> getPdrcBsmDispatchList(String path, List<IsbgHumanMap> isbgHumanMapList) {
+		List<PdrcBsmDispatch> pdrcBsmDispatchList = new ArrayList<PdrcBsmDispatch>();
+//		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
+		Map<String, String> workIDBsmMap = DataService.getWorkIDBsmMap(path);
+		Map<String, Double> memberParticipateMap = DataService.getMemberParticipateMap(isbgHumanMapList);
+		for (String key : memberParticipateMap.keySet()) {
+			Double memberParticipateValue = memberParticipateMap.get(key);
+			System.out.println(key + "\t" + memberParticipateValue);
+		}
+		
+		PdrcBsmDispatch pdrcBsmDispatch = null;
 		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
-			System.out.println(isbgHumanMap);
-			memberParticipate = new MemberParticipate();
 			String staffWorkID = isbgHumanMap.getStaffWorkID();
 			String projectID = isbgHumanMap.getProjectID();
 			String inProDate = isbgHumanMap.getInProDate();
 			String predictOutProDate = isbgHumanMap.getPredictOutProDate();
-			
-			memberParticipate.setStaffWorkID(staffWorkID);
-			memberParticipate.setProjectID(projectID);
-			memberParticipate.setProjectStartDate(inProDate);
-			memberParticipate.setProjectEndDate(predictOutProDate);
-			
-			// TODO
-			
-			memberParticipateList.add(memberParticipate);
 
+			String bsmState = Constants.BSM_STATE_DEFAULT;
+			String bsm = "0";
+
+			List<String> dateList = DateUtil.getMonthBetween(inProDate, predictOutProDate);
+			for (String monthStr : dateList) {
+				pdrcBsmDispatch = new PdrcBsmDispatch();
+
+				pdrcBsmDispatch.setProjectID(projectID);
+				pdrcBsmDispatch.setStaffWorkID(staffWorkID);
+
+				String dispatchMonth = monthStr;
+				String confrimTime = "NULL";
+
+				// 成员当月参与度
+				Double  memberParticipateValue = memberParticipateMap.get(projectID + ":" + staffWorkID + ":" + monthStr); 
+				if(null == memberParticipateValue) {
+					System.out.println("#####");					
+					memberParticipateValue = new Double(1000);
+				}
+				
+				// TODO 获取本月月末日期
+				String monthEnd = DateUtil.getMonthEnd(monthStr);
+				
+				boolean compareResult = DateUtil.beforeDate(monthStr, monthEnd);
+				
+				// 已结项
+				if (DateUtil.beforeToday(predictOutProDate)) {
+					confrimTime = predictOutProDate;
+
+					// 已评价
+					bsmState = Constants.BSM_STATE_CONFIRM;
+
+					int randomNumber = MathUtil.getRandomByRange(Constants.BSM_RATE_MIN, Constants.BSM_RATE_MAX);
+					double dRandomNumber = randomNumber * 0.1;
+					String baseBsm = workIDBsmMap.get(staffWorkID);
+
+					Double dBsm = dRandomNumber * Double.parseDouble(baseBsm) * memberParticipateValue;
+
+					if ("0.0".equals(dBsm.toString())) {
+						System.out.println("#####");
+					}
+
+					bsm = MathUtil.setScale(dBsm, 2).toString();
+				} // 未结项，但是上月需评价（BSM状态为【已分配】） TODO
+				else if(compareResult) {
+					confrimTime = "NULL";
+
+					// 已评价
+					bsmState = Constants.BSM_STATE_NOT_CONFIRM;
+
+					int randomNumber = MathUtil.getRandomByRange(Constants.BSM_RATE_MIN, Constants.BSM_RATE_MAX);
+					double dRandomNumber = randomNumber * 0.1;
+					String baseBsm = workIDBsmMap.get(staffWorkID);
+
+					Double dBsm = dRandomNumber * Double.parseDouble(baseBsm) * memberParticipateValue;
+
+					if ("0.0".equals(dBsm.toString())) {
+						System.out.println("#####");
+					}
+
+					bsm = MathUtil.setScale(dBsm, 2).toString();
+				}
+
+				pdrcBsmDispatch.setDispatchMonth(dispatchMonth);
+				pdrcBsmDispatch.setConfrimTime(confrimTime);
+				pdrcBsmDispatch.setBsmState(bsmState);
+				pdrcBsmDispatch.setBsm(bsm);
+
+				pdrcBsmDispatchList.add(pdrcBsmDispatch);
+			}
 		}
 
-		return memberParticipateList;
+		Collections.sort(pdrcBsmDispatchList, new PdrcBsmDispatchComparator());
+
+		return pdrcBsmDispatchList;
 	}
 
-	public static List<PdrcBsmDispatch> getPdrcBsmDispatchList(String path) {
+	public static List<PdrcBsmDispatch> getPdrcBsmDispatchListBackup(String path, List<IsbgHumanMap> isbgHumanMapList) {
 		List<PdrcBsmDispatch> pdrcBsmDispatchList = new ArrayList<PdrcBsmDispatch>();
-		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
+//		List<IsbgHumanMap> isbgHumanMapList = DataService.getIsbgHumanMapListInfo(path);
 		Map<String, String> workIDBsmMap = DataService.getWorkIDBsmMap(path);
 		PdrcBsmDispatch pdrcBsmDispatch = null;
 		for (IsbgHumanMap isbgHumanMap : isbgHumanMapList) {
-
 			String staffWorkID = isbgHumanMap.getStaffWorkID();
-
 			String projectID = isbgHumanMap.getProjectID();
 			String inProDate = isbgHumanMap.getInProDate();
-
 			String predictOutProDate = isbgHumanMap.getPredictOutProDate();
 
 			String bsmState = Constants.BSM_STATE_DEFAULT;
@@ -605,7 +803,6 @@ public class DataService {
 
 				pdrcBsmDispatch.setDispatchMonth(dispatchMonth);
 				pdrcBsmDispatch.setConfrimTime(confrimTime);
-
 				pdrcBsmDispatch.setBsmState(bsmState);
 				pdrcBsmDispatch.setBsm(bsm);
 
@@ -618,9 +815,9 @@ public class DataService {
 		return pdrcBsmDispatchList;
 	}
 
-	public static List<PdrcEnpPrize> getPdrcEnpPrizeList(String path) {
+	public static List<PdrcEnpPrize> getPdrcEnpPrizeList(String path, List<IsbgHumanMap> isbgHumanMapList) {
 		List<PdrcEnpPrize> pdrcEnpPrizeList = new ArrayList<PdrcEnpPrize>();
-		List<PdrcBsmDispatch> pdrcBsmDispatchList = DataService.getPdrcBsmDispatchList(path);
+		List<PdrcBsmDispatch> pdrcBsmDispatchList = DataService.getPdrcBsmDispatchList(path, isbgHumanMapList);
 		Map<String, List<String>> bsmMap = new HashMap<String, List<String>>();
 		List<String> bsmList = null;
 		for (PdrcBsmDispatch pdrcBsmDispatch : pdrcBsmDispatchList) {
@@ -630,11 +827,15 @@ public class DataService {
 			String bsm = pdrcBsmDispatch.getBsm();
 			String key = staffWorkID + ":" + dispatchMonth;
 
+			if("B-10097".equals(staffWorkID)) {
+				System.out.println(pdrcBsmDispatch.getDispatchMonth()+"\t"+pdrcBsmDispatch.getBsm());
+			}
+			
 			bsmList = bsmMap.get(key);
 			if (null == bsmList || 1 > bsmList.size()) {
 				bsmList = new ArrayList<>();
 			}
-			if ("3".equals(bsmState)) {
+			if (!"1".equals(bsmState)) {
 				bsmList.add(bsm);
 				bsmMap.put(key, bsmList);
 			}
@@ -643,6 +844,9 @@ public class DataService {
 		Map<String, String> workIDBsmMap = DataService.getWorkIDBsmMap(path);
 		PdrcEnpPrize pdrcEnpPrize = null;
 		for (String key : bsmMap.keySet()) {
+			if("B-10097:2017-02-01".equals(key)) {
+				System.out.println("EEE");
+			}
 			pdrcEnpPrize = new PdrcEnpPrize();
 			List<String> tempBsmList = bsmMap.get(key);
 
@@ -653,7 +857,7 @@ public class DataService {
 			String origBsm = workIDBsmMap.get(arr[0]);
 			p -= Double.parseDouble(origBsm);
 
-			if (0 > p) {
+			if (0 < p) {
 				p *= Constants.PDRD_BONUS;
 				DecimalFormat df = new DecimalFormat("#"); // TODO
 				pdrcEnpPrize.setPrize(df.format(p));

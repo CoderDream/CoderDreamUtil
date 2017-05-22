@@ -47,6 +47,9 @@ public class Constants {
 
 	/** 未评价 */
 	public static String BSM_STATE_DEFAULT = "1";
+	
+	/** 已分配 */
+	public static String BSM_STATE_NOT_CONFIRM = "2";
 
 	/** 已评价 */
 	public static String BSM_STATE_CONFIRM = "3";

@@ -1,6 +1,7 @@
 package com.coderdream.gensql.bean;
 
 /**
+ * 项目成员参与度
  */
 public class MemberParticipate {
 
@@ -14,7 +15,7 @@ public class MemberParticipate {
 	
 	private String monthDate;
 
-	private String participateRate;
+	private Double participateRate;
 
 	public String getStaffWorkID() {
 		return staffWorkID;
@@ -56,11 +57,11 @@ public class MemberParticipate {
 		this.monthDate = monthDate;
 	}
 
-	public String getParticipateRate() {
+	public Double getParticipateRate() {
 		return participateRate;
 	}
 
-	public void setParticipateRate(String participateRate) {
+	public void setParticipateRate(Double participateRate) {
 		this.participateRate = participateRate;
 	}
 

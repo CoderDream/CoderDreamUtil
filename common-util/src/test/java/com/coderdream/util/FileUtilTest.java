@@ -1,14 +1,8 @@
 package com.coderdream.util;
 
-import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.coderdream.readfolder.util.FileUtil;
-
 public class FileUtilTest {
 
-	private static final Logger logger = LoggerFactory.getLogger(FileUtilTest.class);
+	//private static final Logger logger = LoggerFactory.getLogger(FileUtilTest.class);
 
 //	@Test
 //	public void testTraverseFolder1() {
