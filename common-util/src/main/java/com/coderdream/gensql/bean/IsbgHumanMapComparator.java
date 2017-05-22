@@ -2,7 +2,7 @@ package com.coderdream.gensql.bean;
 
 import java.util.Comparator;
 
-import com.coderdream.gensql.util.DateUtil;
+import com.coderdream.util.DateUtil;
 
 /**
  http://www.cnblogs.com/aheizi/p/5207870.html

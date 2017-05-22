@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import com.coderdream.gensql.util.ExcelUtil;
 import com.coderdream.readfolder.util.FileUtil;
+import com.coderdream.util.ExcelUtil;
 
 public class GenSqlService {
 

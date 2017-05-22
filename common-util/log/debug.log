@@ -6216,4 +6216,1092 @@
  2017-05-22 16:46:05,051 DEBUG [main]: Size: 	100
  2017-05-22 16:46:05,053 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
  2017-05-22 16:46:05,053 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:42,963 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:43,008 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:47,622 DEBUG [main]: Size: 	35
+ 2017-05-22 20:36:47,752 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:47,752 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:48,688 DEBUG [main]: Size: 	100
+ 2017-05-22 20:36:48,701 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:48,702 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:49,148 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:49,149 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:49,764 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:49,766 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:50,542 ERROR [main]: integerList	[16, 8, 12, 12, 15, 19, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:50,688 ERROR [main]: integerList	[16, 15, 18, 11, 14, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:50,754 ERROR [main]: integerList	[11, 13, 13, 14, 13, 17, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:50,787 ERROR [main]: integerList	[7, 8, 9, 10, 19, 9, 18, 8, 8, 10, 7, 12, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:50,881 ERROR [main]: integerList	[16, 16, 14, 9, 19, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:51,071 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:51,072 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:52,223 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:52,224 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:52,665 DEBUG [main]: Size: 	100
+ 2017-05-22 20:36:52,667 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:52,667 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:52,985 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:52,986 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:53,412 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:53,413 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:53,900 ERROR [main]: integerList	[15, 18, 14, 10, 10, 7, 10, 8, 9, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,912 ERROR [main]: integerList	[16, 7, 10, 10, 14, 9, 10, 13, 12, 8, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,921 ERROR [main]: integerList	[17, 7, 10, 13, 13, 17, 9, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,952 ERROR [main]: integerList	[9, 12, 15, 7, 14, 13, 13, 8, 9, 8, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,964 ERROR [main]: integerList	[8, 7, 14, 10, 9, 11, 9, 15, 7, 17, 10, 7, 7, 8, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:54,024 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:54,025 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:54,309 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:54,310 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:55,320 ERROR [main]: ############### 	B-10294	2017-01-24	2017-01-26	3
+ 2017-05-22 20:36:55,322 ERROR [main]: ############### 	B-13550	2017-05-12	2017-05-15	4
+ 2017-05-22 20:36:55,323 ERROR [main]: ############### 	B-12110	2017-01-30	2017-02-03	5
+ 2017-05-22 20:36:55,325 ERROR [main]: ############### 	B-10364	2017-02-03	2017-02-07	5
+ 2017-05-22 20:36:55,327 ERROR [main]: ############### 	B-11382	2017-05-27	2017-06-01	6
+ 2017-05-22 20:36:55,330 ERROR [main]: ############### 	B-13585	2017-03-12	2017-03-16	5
+ 2017-05-22 20:36:55,332 ERROR [main]: ############### 	B-13416	2017-04-03	2017-04-05	3
+ 2017-05-22 20:36:55,336 ERROR [main]: ############### 	B-12788	2017-06-17	2017-06-20	4
+ 2017-05-22 20:36:55,338 ERROR [main]: ############### 	B-13086	2017-05-13	2017-05-18	6
+ 2017-05-22 20:36:55,339 ERROR [main]: ############### 	B-10097	2017-05-06	2017-05-11	6
+ 2017-05-22 20:36:55,340 ERROR [main]: ############### 	B-12788	2017-01-22	2017-01-25	4
+ 2017-05-22 20:36:55,340 ERROR [main]: ############### 	B-12479	2017-02-06	2017-02-08	3
+ 2017-05-22 20:36:55,341 ERROR [main]: ############### 	B-12486	2017-02-06	2017-02-08	3
+ 2017-05-22 20:36:55,342 ERROR [main]: ############### 	B-12788	2017-02-06	2017-02-09	4
+ 2017-05-22 20:36:55,343 ERROR [main]: ############### 	B-12788	2017-04-28	2017-04-30	3
+ 2017-05-22 20:36:55,344 ERROR [main]: ############### 	B-13158	2017-04-22	2017-04-25	4
+ 2017-05-22 20:36:55,347 ERROR [main]: ############### 	B-13618	2017-04-29	2017-05-02	4
+ 2017-05-22 20:36:55,349 ERROR [main]: ############### 	B-12788	2017-04-19	2017-04-24	6
+ 2017-05-22 20:36:55,350 ERROR [main]: ############### 	B-12486	2017-06-10	2017-06-13	4
+ 2017-05-22 20:36:55,353 ERROR [main]: ############### 	B-11382	2017-06-17	2017-06-19	3
+ 2017-05-22 20:36:55,354 ERROR [main]: ############### 	B-13416	2017-04-12	2017-04-16	5
+ 2017-05-22 20:36:55,356 ERROR [main]: ############### 	B-10437	2017-05-06	2017-05-08	3
+ 2017-05-22 20:36:55,357 ERROR [main]: ############### 	B-10255	2017-03-18	2017-03-20	3
+ 2017-05-22 20:36:55,358 ERROR [main]: ############### 	B-10771	2017-01-18	2017-01-23	6
+ 2017-05-22 20:36:55,359 ERROR [main]: ############### 	B-11034	2017-01-18	2017-01-22	5
+ 2017-05-22 20:36:55,360 ERROR [main]: ############### 	B-10771	2017-06-03	2017-06-05	3
+ 2017-05-22 20:36:55,361 ERROR [main]: getIsbgHumanMapListInfo idel count: 26
+ 2017-05-22 20:36:55,889 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:55,890 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:56,019 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:56,019 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:56,204 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:56,206 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:56,531 DEBUG [main]: Processing...
+ 2017-05-22 20:36:56,547 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:56,548 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:56,802 DEBUG [main]: Size: 	100
+ 2017-05-22 20:36:56,803 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:56,804 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:57,004 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:57,005 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:57,287 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:57,288 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:57,639 ERROR [main]: integerList	[7, 18, 10, 19, 14, 10, 11, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,655 ERROR [main]: integerList	[8, 13, 19, 16, 16, 11, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,669 ERROR [main]: integerList	[12, 8, 9, 15, 14, 17, 8, 10, 8, 7, 9, 7, 7, 7, 8, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,683 ERROR [main]: integerList	[13, 8, 16, 8, 9, 16, 12, 10, 8, 11, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,703 ERROR [main]: integerList	[17, 8, 16, 14, 18, 9, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,775 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:57,778 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:57,915 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:57,916 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:58,098 ERROR [main]: ############### 	B-12122	2017-04-03	2017-04-05	3
+ 2017-05-22 20:36:58,099 ERROR [main]: ############### 	B-12629	2017-04-03	2017-04-08	6
+ 2017-05-22 20:36:58,102 ERROR [main]: ############### 	B-12737	2017-04-03	2017-04-08	6
+ 2017-05-22 20:36:58,103 ERROR [main]: ############### 	B-12187	2017-05-06	2017-05-08	3
+ 2017-05-22 20:36:58,104 ERROR [main]: ############### 	B-13550	2017-05-13	2017-05-16	4
+ 2017-05-22 20:36:58,106 ERROR [main]: ############### 	B-13086	2017-02-05	2017-02-09	5
+ 2017-05-22 20:36:58,106 ERROR [main]: ############### 	B-13140	2017-02-05	2017-02-07	3
+ 2017-05-22 20:36:58,107 ERROR [main]: ############### 	B-13158	2017-02-05	2017-02-10	6
+ 2017-05-22 20:36:58,108 ERROR [main]: ############### 	B-13416	2017-05-27	2017-06-01	6
+ 2017-05-22 20:36:58,109 ERROR [main]: ############### 	B-10255	2017-06-24	2017-06-28	5
+ 2017-05-22 20:36:58,110 ERROR [main]: ############### 	B-12486	2017-06-03	2017-06-05	3
+ 2017-05-22 20:36:58,115 ERROR [main]: ############### 	B-10437	2017-05-19	2017-05-23	5
+ 2017-05-22 20:36:58,115 ERROR [main]: ############### 	B-12479	2017-05-13	2017-05-15	3
+ 2017-05-22 20:36:58,120 ERROR [main]: ############### 	B-13550	2017-01-01	2017-01-05	5
+ 2017-05-22 20:36:58,120 ERROR [main]: ############### 	B-12056	2017-04-22	2017-04-24	3
+ 2017-05-22 20:36:58,121 ERROR [main]: ############### 	B-13158	2017-05-13	2017-05-18	6
+ 2017-05-22 20:36:58,122 ERROR [main]: ############### 	B-12629	2017-01-22	2017-01-26	5
+ 2017-05-22 20:36:58,122 ERROR [main]: ############### 	B-12788	2017-02-07	2017-02-09	3
+ 2017-05-22 20:36:58,123 ERROR [main]: ############### 	B-11059	2017-04-12	2017-04-16	5
+ 2017-05-22 20:36:58,125 ERROR [main]: ############### 	B-10294	2017-01-01	2017-01-03	3
+ 2017-05-22 20:36:58,129 ERROR [main]: ############### 	B-13385	2017-04-22	2017-04-26	5
+ 2017-05-22 20:36:58,130 ERROR [main]: ############### 	B-13367	2017-04-29	2017-05-02	4
+ 2017-05-22 20:36:58,132 ERROR [main]: ############### 	B-10803	2017-02-14	2017-02-18	5
+ 2017-05-22 20:36:58,133 ERROR [main]: ############### 	B-12844	2017-05-27	2017-06-01	6
+ 2017-05-22 20:36:58,134 ERROR [main]: ############### 	B-12187	2017-06-10	2017-06-15	6
+ 2017-05-22 20:36:58,136 ERROR [main]: ############### 	B-10294	2017-05-20	2017-05-25	6
+ 2017-05-22 20:36:58,137 ERROR [main]: ############### 	B-10771	2017-04-28	2017-05-02	5
+ 2017-05-22 20:36:58,138 ERROR [main]: ############### 	B-10437	2017-05-05	2017-05-09	5
+ 2017-05-22 20:36:58,140 ERROR [main]: ############### 	B-12122	2017-01-01	2017-01-05	5
+ 2017-05-22 20:36:58,141 ERROR [main]: ############### 	B-10401	2017-06-10	2017-06-13	4
+ 2017-05-22 20:36:58,142 ERROR [main]: ############### 	B-13550	2017-06-03	2017-06-08	6
+ 2017-05-22 20:36:58,167 ERROR [main]: ############### 	B-13618	2017-06-03	2017-06-08	6
+ 2017-05-22 20:36:58,177 ERROR [main]: ############### 	B-13158	2017-06-17	2017-06-19	3
+ 2017-05-22 20:36:58,182 ERROR [main]: getIsbgHumanMapListInfo idel count: 33
+ 2017-05-22 20:36:59,541 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:59,542 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:59,842 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:36:59,843 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:00,107 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:00,108 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:00,363 DEBUG [main]: Size: 	100
+ 2017-05-22 20:37:00,364 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:00,366 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:00,572 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:00,573 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:00,802 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:00,802 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:01,028 ERROR [main]: integerList	[8, 9, 13, 15, 18, 15, 11, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,032 ERROR [main]: integerList	[15, 8, 12, 18, 11, 16, 8, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,035 ERROR [main]: integerList	[7, 15, 13, 9, 10, 16, 16, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,037 ERROR [main]: integerList	[13, 10, 15, 15, 18, 8, 9, 7, 7, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,040 ERROR [main]: integerList	[15, 12, 11, 14, 18, 13, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,057 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:01,058 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:01,542 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:01,542 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:01,838 ERROR [main]: ############### 	B-12629	2017-04-06	2017-04-08	3
+ 2017-05-22 20:37:01,838 ERROR [main]: ############### 	B-12486	2017-05-06	2017-05-08	3
+ 2017-05-22 20:37:01,838 ERROR [main]: ############### 	B-12056	2017-06-24	2017-06-28	5
+ 2017-05-22 20:37:01,839 ERROR [main]: ############### 	B-12479	2017-01-14	2017-01-16	3
+ 2017-05-22 20:37:01,840 ERROR [main]: ############### 	B-13618	2017-01-31	2017-02-03	4
+ 2017-05-22 20:37:01,840 ERROR [main]: ############### 	B-13367	2017-05-20	2017-05-22	3
+ 2017-05-22 20:37:01,848 ERROR [main]: ############### 	B-13385	2017-05-06	2017-05-11	6
+ 2017-05-22 20:37:01,849 ERROR [main]: ############### 	B-10987	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:01,849 ERROR [main]: ############### 	B-11059	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:01,850 ERROR [main]: ############### 	B-13585	2017-06-03	2017-06-05	3
+ 2017-05-22 20:37:01,851 ERROR [main]: ############### 	B-13585	2017-03-21	2017-03-26	6
+ 2017-05-22 20:37:01,852 ERROR [main]: ############### 	B-10294	2017-03-06	2017-03-11	6
+ 2017-05-22 20:37:01,852 ERROR [main]: ############### 	B-13454	2017-04-14	2017-04-16	3
+ 2017-05-22 20:37:01,853 ERROR [main]: ############### 	B-12629	2017-05-20	2017-05-25	6
+ 2017-05-22 20:37:01,853 ERROR [main]: ############### 	B-12788	2017-05-20	2017-05-22	3
+ 2017-05-22 20:37:01,855 ERROR [main]: ############### 	B-12788	2017-06-24	2017-06-29	6
+ 2017-05-22 20:37:01,856 ERROR [main]: ############### 	B-11382	2017-04-29	2017-05-01	3
+ 2017-05-22 20:37:01,857 ERROR [main]: ############### 	B-12110	2017-01-01	2017-01-05	5
+ 2017-05-22 20:37:01,857 ERROR [main]: ############### 	B-13550	2017-05-06	2017-05-09	4
+ 2017-05-22 20:37:01,858 ERROR [main]: ############### 	B-13585	2017-02-08	2017-02-12	5
+ 2017-05-22 20:37:01,858 ERROR [main]: ############### 	B-13545	2017-04-15	2017-04-20	6
+ 2017-05-22 20:37:01,859 ERROR [main]: ############### 	B-11382	2017-03-25	2017-03-29	5
+ 2017-05-22 20:37:01,859 ERROR [main]: ############### 	B-10987	2017-02-05	2017-02-07	3
+ 2017-05-22 20:37:01,859 ERROR [main]: ############### 	B-13545	2017-02-14	2017-02-19	6
+ 2017-05-22 20:37:01,860 ERROR [main]: ############### 	B-12844	2017-04-21	2017-04-24	4
+ 2017-05-22 20:37:01,862 ERROR [main]: ############### 	B-13367	2017-04-15	2017-04-18	4
+ 2017-05-22 20:37:01,863 ERROR [main]: ############### 	B-13416	2017-04-15	2017-04-20	6
+ 2017-05-22 20:37:01,864 ERROR [main]: ############### 	B-10612	2017-05-06	2017-05-10	5
+ 2017-05-22 20:37:01,865 ERROR [main]: ############### 	B-12110	2017-06-03	2017-06-08	6
+ 2017-05-22 20:37:01,865 ERROR [main]: ############### 	B-10097	2017-01-16	2017-01-18	3
+ 2017-05-22 20:37:01,866 ERROR [main]: ############### 	B-10364	2017-01-16	2017-01-18	3
+ 2017-05-22 20:37:01,866 ERROR [main]: ############### 	B-13585	2017-04-13	2017-04-18	6
+ 2017-05-22 20:37:01,867 ERROR [main]: getIsbgHumanMapListInfo idel count: 32
+ 2017-05-22 20:37:02,400 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:02,402 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:02,586 DEBUG [main]: Size: 	100
+ 2017-05-22 20:37:02,588 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:02,588 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:02,765 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:02,765 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,066 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,067 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,200 ERROR [main]: integerList	[12, 9, 10, 9, 11, 7, 10, 11, 8, 13, 10, 12, 8, 8, 7, 7, 7, 7, 7, 8]
+ 2017-05-22 20:37:03,203 ERROR [main]: integerList	[17, 11, 12, 15, 9, 18, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:03,206 ERROR [main]: integerList	[13, 12, 13, 13, 7, 15, 13, 7, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:03,208 ERROR [main]: integerList	[11, 13, 15, 9, 17, 14, 11, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:03,211 ERROR [main]: integerList	[15, 16, 18, 13, 9, 10, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:03,239 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,239 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,373 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,374 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,526 ERROR [main]: ############### 	B-13585	2017-05-06	2017-05-08	3
+ 2017-05-22 20:37:03,527 ERROR [main]: ############### 	B-13158	2017-05-26	2017-05-30	5
+ 2017-05-22 20:37:03,528 ERROR [main]: ############### 	B-10803	2017-03-15	2017-03-19	5
+ 2017-05-22 20:37:03,528 ERROR [main]: ############### 	B-11034	2017-03-15	2017-03-17	3
+ 2017-05-22 20:37:03,529 ERROR [main]: ############### 	B-13140	2017-05-03	2017-05-07	5
+ 2017-05-22 20:37:03,531 ERROR [main]: ############### 	B-12737	2017-05-13	2017-05-15	3
+ 2017-05-22 20:37:03,532 ERROR [main]: ############### 	B-13416	2017-01-13	2017-01-15	3
+ 2017-05-22 20:37:03,532 ERROR [main]: ############### 	B-10364	2017-03-06	2017-03-09	4
+ 2017-05-22 20:37:03,533 ERROR [main]: ############### 	B-13585	2017-06-17	2017-06-22	6
+ 2017-05-22 20:37:03,534 ERROR [main]: ############### 	B-12122	2017-02-09	2017-02-14	6
+ 2017-05-22 20:37:03,534 ERROR [main]: ############### 	B-12737	2017-02-09	2017-02-14	6
+ 2017-05-22 20:37:03,537 ERROR [main]: ############### 	B-10437	2017-06-24	2017-06-27	4
+ 2017-05-22 20:37:03,538 ERROR [main]: ############### 	B-13158	2017-03-10	2017-03-12	3
+ 2017-05-22 20:37:03,538 ERROR [main]: ############### 	B-13385	2017-03-10	2017-03-15	6
+ 2017-05-22 20:37:03,539 ERROR [main]: ############### 	B-10437	2017-06-17	2017-06-20	4
+ 2017-05-22 20:37:03,540 ERROR [main]: ############### 	B-13158	2017-04-21	2017-04-25	5
+ 2017-05-22 20:37:03,540 ERROR [main]: ############### 	B-13545	2017-02-21	2017-02-23	3
+ 2017-05-22 20:37:03,541 ERROR [main]: ############### 	B-10987	2017-05-27	2017-05-29	3
+ 2017-05-22 20:37:03,541 ERROR [main]: ############### 	B-11059	2017-01-01	2017-01-04	4
+ 2017-05-22 20:37:03,542 ERROR [main]: ############### 	B-10097	2017-04-22	2017-04-24	3
+ 2017-05-22 20:37:03,542 ERROR [main]: ############### 	B-11382	2017-06-17	2017-06-19	3
+ 2017-05-22 20:37:03,543 ERROR [main]: ############### 	B-12110	2017-06-03	2017-06-06	4
+ 2017-05-22 20:37:03,544 ERROR [main]: ############### 	B-10401	2017-01-18	2017-01-20	3
+ 2017-05-22 20:37:03,544 ERROR [main]: getIsbgHumanMapListInfo idel count: 23
+ 2017-05-22 20:37:03,720 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,721 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,925 DEBUG [main]: Size: 	100
+ 2017-05-22 20:37:03,926 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:03,926 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,157 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,157 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,343 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,347 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,496 ERROR [main]: integerList	[11, 11, 12, 19, 13, 14, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,499 ERROR [main]: integerList	[15, 18, 10, 18, 14, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,501 ERROR [main]: integerList	[15, 13, 9, 17, 17, 8, 9, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,504 ERROR [main]: integerList	[14, 12, 12, 17, 18, 7, 8, 8, 7, 7, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,507 ERROR [main]: integerList	[16, 9, 11, 11, 16, 15, 7, 11, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,521 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,521 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,661 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,661 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:04,842 ERROR [main]: ############### 	B-10294	2017-05-27	2017-05-29	3
+ 2017-05-22 20:37:04,842 ERROR [main]: ############### 	B-13550	2017-05-13	2017-05-15	3
+ 2017-05-22 20:37:04,843 ERROR [main]: ############### 	B-11382	2017-05-13	2017-05-16	4
+ 2017-05-22 20:37:04,855 ERROR [main]: ############### 	B-11382	2017-06-24	2017-06-26	3
+ 2017-05-22 20:37:04,856 ERROR [main]: ############### 	B-12486	2017-01-15	2017-01-20	6
+ 2017-05-22 20:37:04,858 ERROR [main]: ############### 	B-13367	2017-05-20	2017-05-24	5
+ 2017-05-22 20:37:04,859 ERROR [main]: ############### 	B-13416	2017-05-27	2017-05-29	3
+ 2017-05-22 20:37:04,859 ERROR [main]: ############### 	B-10294	2017-06-24	2017-06-27	4
+ 2017-05-22 20:37:04,863 ERROR [main]: ############### 	B-10771	2017-05-20	2017-05-23	4
+ 2017-05-22 20:37:04,868 ERROR [main]: ############### 	B-12347	2017-05-13	2017-05-17	5
+ 2017-05-22 20:37:04,888 ERROR [main]: ############### 	B-10401	2017-03-17	2017-03-21	5
+ 2017-05-22 20:37:04,889 ERROR [main]: ############### 	B-12479	2017-05-20	2017-05-23	4
+ 2017-05-22 20:37:04,889 ERROR [main]: ############### 	B-12629	2017-05-20	2017-05-24	5
+ 2017-05-22 20:37:04,890 ERROR [main]: ############### 	B-12122	2017-06-17	2017-06-20	4
+ 2017-05-22 20:37:04,890 ERROR [main]: ############### 	B-12056	2017-01-01	2017-01-03	3
+ 2017-05-22 20:37:04,891 ERROR [main]: ############### 	B-13618	2017-05-13	2017-05-17	5
+ 2017-05-22 20:37:04,892 ERROR [main]: ############### 	B-12187	2017-01-27	2017-02-01	6
+ 2017-05-22 20:37:04,892 ERROR [main]: ############### 	B-10803	2017-04-15	2017-04-18	4
+ 2017-05-22 20:37:04,893 ERROR [main]: ############### 	B-10803	2017-01-29	2017-01-31	3
+ 2017-05-22 20:37:04,895 ERROR [main]: ############### 	B-11034	2017-01-29	2017-02-02	5
+ 2017-05-22 20:37:04,897 ERROR [main]: ############### 	B-13618	2017-04-22	2017-04-26	5
+ 2017-05-22 20:37:04,898 ERROR [main]: ############### 	B-10401	2017-05-13	2017-05-18	6
+ 2017-05-22 20:37:04,898 ERROR [main]: ############### 	B-13454	2017-03-03	2017-03-07	5
+ 2017-05-22 20:37:04,899 ERROR [main]: ############### 	B-12056	2017-03-20	2017-03-23	4
+ 2017-05-22 20:37:04,899 ERROR [main]: ############### 	B-10437	2017-02-07	2017-02-10	4
+ 2017-05-22 20:37:04,899 ERROR [main]: ############### 	B-13618	2017-03-08	2017-03-11	4
+ 2017-05-22 20:37:04,900 ERROR [main]: ############### 	B-12347	2017-05-27	2017-06-01	6
+ 2017-05-22 20:37:04,900 ERROR [main]: ############### 	B-10097	2017-04-08	2017-04-12	5
+ 2017-05-22 20:37:04,901 ERROR [main]: ############### 	B-12187	2017-06-10	2017-06-13	4
+ 2017-05-22 20:37:04,901 ERROR [main]: ############### 	B-12844	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:04,902 ERROR [main]: ############### 	B-12486	2017-03-15	2017-03-18	4
+ 2017-05-22 20:37:04,902 ERROR [main]: ############### 	B-10294	2017-05-20	2017-05-23	4
+ 2017-05-22 20:37:04,903 ERROR [main]: ############### 	B-10401	2017-04-22	2017-04-24	3
+ 2017-05-22 20:37:04,903 ERROR [main]: ############### 	B-13416	2017-06-24	2017-06-28	5
+ 2017-05-22 20:37:04,904 ERROR [main]: ############### 	B-13454	2017-06-17	2017-06-19	3
+ 2017-05-22 20:37:04,906 ERROR [main]: ############### 	B-10437	2017-06-03	2017-06-08	6
+ 2017-05-22 20:37:04,907 ERROR [main]: getIsbgHumanMapListInfo idel count: 36
+ 2017-05-22 20:37:05,031 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:05,031 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:06,137 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:06,137 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:06,724 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:06,724 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:06,917 DEBUG [main]: Size: 	100
+ 2017-05-22 20:37:06,918 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:06,918 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:07,039 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:07,039 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:07,228 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:07,228 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:07,441 ERROR [main]: integerList	[12, 11, 15, 14, 19, 11, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,444 ERROR [main]: integerList	[15, 17, 10, 10, 9, 13, 13, 7, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,447 ERROR [main]: integerList	[17, 18, 15, 15, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,450 ERROR [main]: integerList	[10, 10, 12, 8, 9, 13, 14, 18, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,453 ERROR [main]: integerList	[12, 14, 12, 9, 8, 16, 11, 7, 13, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,528 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:07,529 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:07,813 DEBUG [main]: Processing...
+ 2017-05-22 20:37:07,968 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:07,968 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:08,072 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:08,074 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:08,235 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:08,236 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:08,502 DEBUG [main]: Size: 	100
+ 2017-05-22 20:37:08,502 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:08,503 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:08,837 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:08,838 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:09,103 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:09,104 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:09,268 ERROR [main]: integerList	[17, 12, 11, 17, 18, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,273 ERROR [main]: integerList	[10, 14, 8, 17, 18, 10, 13, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,279 ERROR [main]: integerList	[11, 17, 7, 15, 15, 8, 13, 8, 8, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,283 ERROR [main]: integerList	[9, 18, 12, 13, 14, 11, 9, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,287 ERROR [main]: integerList	[11, 14, 15, 11, 18, 7, 7, 12, 7, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,318 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:09,318 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:09,484 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:09,486 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:09,642 ERROR [main]: ############### 	B-10401	2017-04-29	2017-05-04	6
+ 2017-05-22 20:37:09,646 ERROR [main]: ############### 	B-10987	2017-03-15	2017-03-18	4
+ 2017-05-22 20:37:09,648 ERROR [main]: ############### 	B-12110	2017-05-27	2017-05-30	4
+ 2017-05-22 20:37:09,649 ERROR [main]: ############### 	B-12737	2017-06-03	2017-06-06	4
+ 2017-05-22 20:37:09,649 ERROR [main]: ############### 	B-12788	2017-06-03	2017-06-05	3
+ 2017-05-22 20:37:09,664 ERROR [main]: ############### 	B-12187	2017-03-19	2017-03-22	4
+ 2017-05-22 20:37:09,670 ERROR [main]: ############### 	B-10771	2017-04-05	2017-04-07	3
+ 2017-05-22 20:37:09,670 ERROR [main]: ############### 	B-13618	2017-01-01	2017-01-03	3
+ 2017-05-22 20:37:09,671 ERROR [main]: ############### 	B-12347	2017-01-28	2017-02-02	6
+ 2017-05-22 20:37:09,671 ERROR [main]: ############### 	B-12737	2017-01-28	2017-01-30	3
+ 2017-05-22 20:37:09,672 ERROR [main]: ############### 	B-13385	2017-06-10	2017-06-12	3
+ 2017-05-22 20:37:09,672 ERROR [main]: ############### 	B-12347	2017-02-09	2017-02-12	4
+ 2017-05-22 20:37:09,672 ERROR [main]: ############### 	B-10987	2017-06-24	2017-06-26	3
+ 2017-05-22 20:37:09,673 ERROR [main]: ############### 	B-13140	2017-04-01	2017-04-03	3
+ 2017-05-22 20:37:09,673 ERROR [main]: ############### 	B-10612	2017-02-05	2017-02-10	6
+ 2017-05-22 20:37:09,674 ERROR [main]: ############### 	B-10612	2017-02-20	2017-02-24	5
+ 2017-05-22 20:37:09,675 ERROR [main]: ############### 	B-11034	2017-02-20	2017-02-22	3
+ 2017-05-22 20:37:09,675 ERROR [main]: ############### 	B-12479	2017-06-10	2017-06-13	4
+ 2017-05-22 20:37:09,676 ERROR [main]: ############### 	B-12844	2017-03-08	2017-03-10	3
+ 2017-05-22 20:37:09,676 ERROR [main]: ############### 	B-10987	2017-05-06	2017-05-10	5
+ 2017-05-22 20:37:09,677 ERROR [main]: ############### 	B-10364	2017-04-01	2017-04-06	6
+ 2017-05-22 20:37:09,677 ERROR [main]: ############### 	B-13454	2017-01-11	2017-01-13	3
+ 2017-05-22 20:37:09,679 ERROR [main]: ############### 	B-10255	2017-01-11	2017-01-16	6
+ 2017-05-22 20:37:09,680 ERROR [main]: ############### 	B-13585	2017-04-15	2017-04-20	6
+ 2017-05-22 20:37:09,680 ERROR [main]: getIsbgHumanMapListInfo idel count: 24
+ 2017-05-22 20:37:09,797 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:09,797 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:11,241 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:11,242 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:11,394 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:11,395 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:11,576 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:11,576 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:11,803 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:11,834 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:12,008 DEBUG [main]: Size: 	100
+ 2017-05-22 20:37:12,039 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:12,040 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:12,292 DEBUG [main]: PdrcTm [workID=B-13454, rmWorkID=B-13685]
+ 2017-05-22 20:37:12,292 DEBUG [main]: PdrcTm [workID=B-13545, rmWorkID=B-13685]
+ 2017-05-22 20:37:12,293 DEBUG [main]: PdrcTm [workID=B-13550, rmWorkID=B-13685]
+ 2017-05-22 20:37:12,293 DEBUG [main]: PdrcTm [workID=B-13585, rmWorkID=B-14165]
+ 2017-05-22 20:37:12,293 DEBUG [main]: PdrcTm [workID=B-13618, rmWorkID=B-14165]
+ 2017-05-22 20:37:12,294 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:12,295 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:12,447 DEBUG [main]: Size: 	100
+ 2017-05-22 20:37:12,459 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:12,460 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:12,629 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:12,633 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:12,975 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:12,975 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:13,139 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:13,140 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:13,343 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:13,344 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:13,517 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:13,702 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:13,898 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:14,089 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:14,242 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:14,433 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:14,792 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:14,949 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:15,143 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:15,384 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:15,579 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:15,686 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:15,901 DEBUG [main]: Processing...TableStructure.xlsx
+ 2017-05-22 20:37:15,906 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:15,906 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:15,906 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:17,451 DEBUG [main]: T_Users	ID	nvarchar		
+ 2017-05-22 20:37:17,451 DEBUG [main]: T_Users	UserName	nvarchar		
+ 2017-05-22 20:37:17,452 DEBUG [main]: T_Users	UserPWD	nvarchar		
+ 2017-05-22 20:37:17,452 DEBUG [main]: T_Users	CreateDate	date		
+ 2017-05-22 20:37:17,453 DEBUG [main]: Processing...TableStructure.xlsx
+ 2017-05-22 20:37:17,454 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:17,455 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:17,455 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:18,508 DEBUG [main]: ISBG_HumanMap	ID	varchar		
+ 2017-05-22 20:37:18,509 DEBUG [main]: Processing...TableStructure.xlsx
+ 2017-05-22 20:37:18,515 DEBUG [main]: Processing...TableStructure.xlsx
+ 2017-05-22 20:37:18,516 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:18,517 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:19,915 DEBUG [main]: Processing...TableStructure.xlsx
+ 2017-05-22 20:37:19,916 DEBUG [main]: Processing...TableStructure.xlsx
+ 2017-05-22 20:37:19,916 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:19,917 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:21,143 DEBUG [main]: Processing...TableStructure.xlsx
+ 2017-05-22 20:37:21,150 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:21,151 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:21,959 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:21,959 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:22,686 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:22,686 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:22,686 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:22,789 DEBUG [main]: Size: 	100
+ 2017-05-22 20:37:22,789 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:22,789 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:22,879 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:22,879 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:22,936 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:22,936 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:23,033 ERROR [main]: integerList	[16, 7, 9, 8, 12, 14, 11, 8, 17, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,037 ERROR [main]: integerList	[18, 14, 17, 16, 7, 8, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,039 ERROR [main]: integerList	[12, 9, 9, 16, 16, 17, 9, 7, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,042 ERROR [main]: integerList	[17, 8, 10, 17, 13, 16, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,046 ERROR [main]: integerList	[15, 7, 11, 14, 17, 11, 10, 11, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,090 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:23,091 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:23,416 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:23,417 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:23,604 ERROR [main]: ############### 	B-12629	2017-02-22	2017-02-24	3
+ 2017-05-22 20:37:23,604 ERROR [main]: ############### 	B-12056	2017-03-27	2017-04-01	6
+ 2017-05-22 20:37:23,605 ERROR [main]: ############### 	B-11382	2017-06-24	2017-06-26	3
+ 2017-05-22 20:37:23,605 ERROR [main]: ############### 	B-13454	2017-02-19	2017-02-24	6
+ 2017-05-22 20:37:23,606 ERROR [main]: ############### 	B-13385	2017-05-27	2017-06-01	6
+ 2017-05-22 20:37:23,606 ERROR [main]: ############### 	B-10401	2017-06-24	2017-06-29	6
+ 2017-05-22 20:37:23,607 ERROR [main]: ############### 	B-11059	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:23,607 ERROR [main]: ############### 	B-10612	2017-05-13	2017-05-17	5
+ 2017-05-22 20:37:23,608 ERROR [main]: ############### 	B-13585	2017-06-17	2017-06-22	6
+ 2017-05-22 20:37:23,608 ERROR [main]: ############### 	B-13385	2017-05-13	2017-05-15	3
+ 2017-05-22 20:37:23,608 ERROR [main]: ############### 	B-13416	2017-06-10	2017-06-15	6
+ 2017-05-22 20:37:23,609 ERROR [main]: ############### 	B-12347	2017-04-29	2017-05-03	5
+ 2017-05-22 20:37:23,609 ERROR [main]: ############### 	B-10803	2017-06-17	2017-06-20	4
+ 2017-05-22 20:37:23,610 ERROR [main]: ############### 	B-11034	2017-05-27	2017-05-31	5
+ 2017-05-22 20:37:23,610 ERROR [main]: ############### 	B-10255	2017-04-08	2017-04-12	5
+ 2017-05-22 20:37:23,610 ERROR [main]: ############### 	B-12187	2017-06-10	2017-06-12	3
+ 2017-05-22 20:37:23,611 ERROR [main]: ############### 	B-11059	2017-03-30	2017-04-02	4
+ 2017-05-22 20:37:23,612 ERROR [main]: ############### 	B-13585	2017-01-01	2017-01-05	5
+ 2017-05-22 20:37:23,612 ERROR [main]: ############### 	B-12187	2017-01-01	2017-01-06	6
+ 2017-05-22 20:37:23,612 ERROR [main]: ############### 	B-13385	2017-06-24	2017-06-29	6
+ 2017-05-22 20:37:23,612 ERROR [main]: ############### 	B-10255	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:23,613 ERROR [main]: ############### 	B-13454	2017-06-17	2017-06-21	5
+ 2017-05-22 20:37:23,613 ERROR [main]: ############### 	B-10294	2017-06-17	2017-06-19	3
+ 2017-05-22 20:37:23,614 ERROR [main]: ############### 	B-10612	2017-03-04	2017-03-08	5
+ 2017-05-22 20:37:23,615 ERROR [main]: ############### 	B-10771	2017-03-04	2017-03-08	5
+ 2017-05-22 20:37:23,615 ERROR [main]: ############### 	B-10803	2017-06-03	2017-06-06	4
+ 2017-05-22 20:37:23,616 ERROR [main]: ############### 	B-12110	2017-02-17	2017-02-21	5
+ 2017-05-22 20:37:23,617 ERROR [main]: getIsbgHumanMapListInfo idel count: 27
+ 2017-05-22 20:37:23,651 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:23,652 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:24,145 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:24,145 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:24,847 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:24,848 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:24,943 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:24,944 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:25,019 DEBUG [main]: Processing...
+ 2017-05-22 20:37:31,061 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:31,061 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/TableStructure.xlsx
+ 2017-05-22 20:37:32,798 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:32,799 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:33,456 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:33,457 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data7.xlsx
+ 2017-05-22 20:37:33,744 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:33,747 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:34,051 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:34,051 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 20:37:34,654 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/
+ 2017-05-22 20:37:34,655 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-22 21:06:47,633 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:06:47,646 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:07:21,877 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:07:21,890 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:08:22,749 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:08:22,785 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:15:03,640 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:15:03,652 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:15:06,681 DEBUG [main]: Size: 	105
+ 2017-05-22 21:16:40,842 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:16:40,859 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:16:43,796 DEBUG [main]: Size: 	105
+ 2017-05-22 21:16:43,801 DEBUG [main]: Excavator [workDate=2017/04/02 12:00:00, income=0.0, expend=2990.0, category=加油费, location=步行街, comment=null, balance=-2990.0, amount=1.0, unitPrice=2990.0, fraction=0.0, grossProfitRate=0.6179401993355482, grossProfit=0.0]
+ 2017-05-22 21:16:43,801 DEBUG [main]: Excavator [workDate=2017/04/02 12:00:00, income=640.0, expend=0.0, category=装车, location=步行街, comment=null, balance=-2850.0, amount=20.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,801 DEBUG [main]: Excavator [workDate=2017/04/02 12:00:00, income=112.0, expend=0.0, category=装车, location=步行街, comment=null, balance=-2738.0, amount=4.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,802 DEBUG [main]: Excavator [workDate=2017/04/02 12:00:00, income=0.0, expend=500.0, category=维修保养, location=步行街, comment=null, balance=-3490.0, amount=1.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,802 DEBUG [main]: Excavator [workDate=2017/04/02 12:00:00, income=0.0, expend=130.0, category=维修保养, location=步行街, comment=机油, balance=-2868.0, amount=1.0, unitPrice=130.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,805 DEBUG [main]: Excavator [workDate=2017/04/03 12:00:00, income=3776.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=908.0, amount=118.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,805 DEBUG [main]: Excavator [workDate=2017/04/03 12:00:00, income=420.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=1328.0, amount=14.0, unitPrice=30.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,805 DEBUG [main]: Excavator [workDate=2017/04/04 12:00:00, income=0.0, expend=1630.0, category=加油费, location=步行街, comment=null, balance=-302.0, amount=1.0, unitPrice=1630.0, fraction=0.0, grossProfitRate=0.7562069997008675, grossProfit=0.0]
+ 2017-05-22 21:16:43,806 DEBUG [main]: Excavator [workDate=2017/04/04 12:00:00, income=5056.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=4754.0, amount=158.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,806 DEBUG [main]: Excavator [workDate=2017/04/05 12:00:00, income=0.0, expend=1770.0, category=加油费, location=步行街, comment=null, balance=2984.0, amount=1.0, unitPrice=1770.0, fraction=0.0, grossProfitRate=0.738243123336291, grossProfit=0.0]
+ 2017-05-22 21:16:43,807 DEBUG [main]: Excavator [workDate=2017/04/05 12:00:00, income=0.0, expend=110.0, category=维修保养, location=步行街, comment=小壶美孚拍, balance=2874.0, amount=1.0, unitPrice=110.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,807 DEBUG [main]: Excavator [workDate=2017/04/05 12:00:00, income=4992.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7866.0, amount=156.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,808 DEBUG [main]: Excavator [workDate=2017/04/08 12:00:00, income=0.0, expend=220.0, category=维修保养, location=步行街, comment=机油滤芯, balance=7646.0, amount=1.0, unitPrice=220.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,810 DEBUG [main]: Excavator [workDate=2017/04/08 12:00:00, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=燃油粗滤芯, balance=7446.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,811 DEBUG [main]: Excavator [workDate=2017/04/08 12:00:00, income=0.0, expend=220.0, category=维修保养, location=步行街, comment=燃油细滤芯, balance=7226.0, amount=1.0, unitPrice=220.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,811 DEBUG [main]: Excavator [workDate=2017/04/08 12:00:00, income=0.0, expend=170.0, category=维修保养, location=步行街, comment=先导滤芯, balance=7056.0, amount=1.0, unitPrice=170.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,812 DEBUG [main]: Excavator [workDate=2017/04/08 12:00:00, income=0.0, expend=430.0, category=维修保养, location=步行街, comment=液压油滤芯, balance=6626.0, amount=1.0, unitPrice=430.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,812 DEBUG [main]: Excavator [workDate=2017/04/08 12:00:00, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=工时费, balance=6426.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,812 DEBUG [main]: Excavator [workDate=2017/04/08 12:00:00, income=0.0, expend=180.0, category=维修保养, location=步行街, comment=阀芯, balance=6246.0, amount=1.0, unitPrice=180.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,813 DEBUG [main]: Excavator [workDate=2017/04/12 12:00:00, income=0.0, expend=1050.0, category=维修保养, location=步行街, comment=阀柱（信号阀）, balance=5196.0, amount=7.0, unitPrice=150.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,813 DEBUG [main]: Excavator [workDate=2017/04/12 12:00:00, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=工时费, balance=4996.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,813 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=650.0, category=维修保养, location=步行街, comment=泵线束, balance=4346.0, amount=1.0, unitPrice=650.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,814 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=2000.0, category=维修保养, location=步行街, comment=速度慢检测及维修, balance=2346.0, amount=1.0, unitPrice=2000.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,814 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=580.0, category=维修保养, location=步行街, comment=修车两餐, balance=1766.0, amount=1.0, unitPrice=580.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,815 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=2230.0, category=加油费, location=步行街, comment=null, balance=-464.0, amount=1.0, unitPrice=2230.0, fraction=0.0, grossProfitRate=0.6069792033838561, grossProfit=0.0]
+ 2017-05-22 21:16:43,815 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=3136.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=2672.0, amount=98.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,815 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=308.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=2980.0, amount=11.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,816 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=1350.0, category=维修保养, location=步行街, comment=行走马达柱塞, balance=1630.0, amount=9.0, unitPrice=150.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,816 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=380.0, category=维修保养, location=步行街, comment=九孔板, balance=1250.0, amount=1.0, unitPrice=380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,816 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=380.0, category=维修保养, location=步行街, comment=钢头, balance=870.0, amount=1.0, unitPrice=380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,817 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=1480.0, category=维修保养, location=步行街, comment=摇摆, balance=-610.0, amount=1.0, unitPrice=1480.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,817 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=70.0, category=维修保养, location=步行街, comment=摇摆（内悬）, balance=-680.0, amount=1.0, unitPrice=70.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,817 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=160.0, category=维修保养, location=步行街, comment=刹车片, balance=-840.0, amount=2.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,818 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=280.0, category=维修保养, location=步行街, comment=幺镜油封, balance=-1120.0, amount=1.0, unitPrice=280.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,818 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=360.0, category=维修保养, location=步行街, comment=修理包, balance=-1480.0, amount=1.0, unitPrice=360.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,819 DEBUG [main]: Excavator [workDate=2017/04/13 12:00:00, income=0.0, expend=-380.0, category=维修保养, location=步行街, comment=折扣, balance=-1100.0, amount=1.0, unitPrice=-380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,819 DEBUG [main]: Excavator [workDate=2017/04/14 12:00:00, income=1750.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=650.0, amount=3.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,819 DEBUG [main]: Excavator [workDate=2017/04/14 12:00:00, income=4832.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=5482.0, amount=151.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,820 DEBUG [main]: Excavator [workDate=2017/04/14 12:00:00, income=448.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=5930.0, amount=16.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,820 DEBUG [main]: Excavator [workDate=2017/04/15 12:00:00, income=0.0, expend=2000.0, category=加油费, location=步行街, comment=null, balance=3930.0, amount=328.0, unitPrice=6.1, fraction=0.8, grossProfitRate=0.647887323943662, grossProfit=0.0]
+ 2017-05-22 21:16:43,820 DEBUG [main]: Excavator [workDate=2017/04/15 12:00:00, income=3232.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7162.0, amount=101.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,821 DEBUG [main]: Excavator [workDate=2017/04/15 12:00:00, income=448.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=7610.0, amount=16.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,821 DEBUG [main]: Excavator [workDate=2017/04/16 12:00:00, income=0.0, expend=250.0, category=维修保养, location=步行街, comment=修车午餐, balance=7360.0, amount=1.0, unitPrice=250.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,821 DEBUG [main]: Excavator [workDate=2017/04/19 12:00:00, income=0.0, expend=1900.0, category=加油费, location=步行街, comment=null, balance=5460.0, amount=1.0, unitPrice=1900.0, fraction=0.0, grossProfitRate=0.5614035087719298, grossProfit=0.0]
+ 2017-05-22 21:16:43,822 DEBUG [main]: Excavator [workDate=2017/04/19 12:00:00, income=2208.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7668.0, amount=69.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,822 DEBUG [main]: Excavator [workDate=2017/04/19 12:00:00, income=224.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=7892.0, amount=8.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,822 DEBUG [main]: Excavator [workDate=2017/04/20 12:00:00, income=0.0, expend=3060.0, category=维修保养, location=步行街, comment=小松18L液压油, balance=4832.0, amount=9.0, unitPrice=340.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,823 DEBUG [main]: Excavator [workDate=2017/04/20 12:00:00, income=0.0, expend=360.0, category=维修保养, location=步行街, comment=小松18L齿轮油, balance=4472.0, amount=1.0, unitPrice=360.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,823 DEBUG [main]: Excavator [workDate=2017/04/20 12:00:00, income=0.0, expend=60.0, category=维修保养, location=步行街, comment=O型圈, balance=4412.0, amount=1.0, unitPrice=60.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,823 DEBUG [main]: Excavator [workDate=2017/04/20 12:00:00, income=0.0, expend=340.0, category=维修保养, location=步行街, comment=黄油, balance=4072.0, amount=2.0, unitPrice=170.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,824 DEBUG [main]: Excavator [workDate=2017/04/20 12:00:00, income=0.0, expend=100.0, category=维修保养, location=步行街, comment=上水管, balance=3972.0, amount=1.0, unitPrice=100.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,824 DEBUG [main]: Excavator [workDate=2017/04/20 12:00:00, income=0.0, expend=3400.0, category=维修保养, location=步行街, comment=修理费, balance=572.0, amount=1.0, unitPrice=3400.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,824 DEBUG [main]: Excavator [workDate=2017/04/22 12:00:00, income=0.0, expend=1610.0, category=加油费, location=步行街, comment=null, balance=-1038.0, amount=265.0, unitPrice=6.1, fraction=6.5, grossProfitRate=0.7213568708895812, grossProfit=0.0]
+ 2017-05-22 21:16:43,825 DEBUG [main]: Excavator [workDate=2017/04/22 12:00:00, income=3776.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=2738.0, amount=118.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,825 DEBUG [main]: Excavator [workDate=2017/04/22 12:00:00, income=392.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=3130.0, amount=14.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,825 DEBUG [main]: Excavator [workDate=2017/04/23 12:00:00, income=0.0, expend=1890.0, category=加油费, location=步行街, comment=null, balance=1240.0, amount=310.0, unitPrice=6.1, fraction=1.0, grossProfitRate=0.6067415730337079, grossProfit=0.0]
+ 2017-05-22 21:16:43,825 DEBUG [main]: Excavator [workDate=2017/04/23 12:00:00, income=2496.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=3736.0, amount=78.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,826 DEBUG [main]: Excavator [workDate=2017/04/23 12:00:00, income=420.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=4156.0, amount=15.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,826 DEBUG [main]: Excavator [workDate=2017/04/24 12:00:00, income=1984.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=6140.0, amount=62.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,826 DEBUG [main]: Excavator [workDate=2017/04/28 12:00:00, income=0.0, expend=2670.0, category=加油费, location=步行街, comment=null, balance=3470.0, amount=1.0, unitPrice=2670.0, fraction=0.0, grossProfitRate=0.5870708320445407, grossProfit=0.0]
+ 2017-05-22 21:16:43,827 DEBUG [main]: Excavator [workDate=2017/04/28 12:00:00, income=3296.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=6766.0, amount=103.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,827 DEBUG [main]: Excavator [workDate=2017/04/28 12:00:00, income=500.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=7266.0, amount=1.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,827 DEBUG [main]: Excavator [workDate=2017/04/29 12:00:00, income=2912.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=10178.0, amount=91.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,828 DEBUG [main]: Excavator [workDate=2017/04/29 12:00:00, income=1250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=11428.0, amount=2.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,828 DEBUG [main]: Excavator [workDate=2017/04/30 12:00:00, income=0.0, expend=2900.0, category=加油费, location=步行街, comment=null, balance=8528.0, amount=1.0, unitPrice=2900.0, fraction=0.0, grossProfitRate=0.6325392802838318, grossProfit=0.0]
+ 2017-05-22 21:16:43,828 DEBUG [main]: Excavator [workDate=2017/04/30 12:00:00, income=2976.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=11504.0, amount=93.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,829 DEBUG [main]: Excavator [workDate=2017/04/30 12:00:00, income=0.0, expend=246.0, category=维修保养, location=步行街, comment=修车餐, balance=11258.0, amount=1.0, unitPrice=246.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,829 DEBUG [main]: Excavator [workDate=2017/05/05 12:00:00, income=2016.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=13274.0, amount=63.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,829 DEBUG [main]: Excavator [workDate=2017/05/06 12:00:00, income=0.0, expend=1800.0, category=加油费, location=步行街, comment=null, balance=11474.0, amount=1.0, unitPrice=1800.0, fraction=0.0, grossProfitRate=0.6456692913385826, grossProfit=0.0]
+ 2017-05-22 21:16:43,830 DEBUG [main]: Excavator [workDate=2017/05/06 12:00:00, income=1280.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=12754.0, amount=40.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,830 DEBUG [main]: Excavator [workDate=2017/05/06 12:00:00, income=2000.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=14754.0, amount=4.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,830 DEBUG [main]: Excavator [workDate=2017/05/12 12:00:00, income=0.0, expend=2900.0, category=加油费, location=步行街, comment=null, balance=11854.0, amount=1.0, unitPrice=2900.0, fraction=0.0, grossProfitRate=0.590568967951433, grossProfit=0.0]
+ 2017-05-22 21:16:43,831 DEBUG [main]: Excavator [workDate=2017/05/14 12:00:00, income=2848.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=14702.0, amount=89.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,831 DEBUG [main]: Excavator [workDate=2017/05/14 12:00:00, income=1335.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=16037.0, amount=2.67, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,832 DEBUG [main]: Excavator [workDate=2017/05/15 12:00:00, income=0.0, expend=2800.0, category=加油费, location=步行街, comment=null, balance=13237.0, amount=1.0, unitPrice=2800.0, fraction=0.0, grossProfitRate=0.497937959476421, grossProfit=0.0]
+ 2017-05-22 21:16:43,832 DEBUG [main]: Excavator [workDate=2017/05/15 12:00:00, income=2112.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=15349.0, amount=66.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,832 DEBUG [main]: Excavator [workDate=2017/05/15 12:00:00, income=665.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=16014.0, amount=1.33, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,833 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=3328.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=19342.0, amount=104.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,833 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=1088.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20430.0, amount=34.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,833 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=112.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=20542.0, amount=4.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,834 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=0.0, expend=960.0, category=维修保养, location=步行街, comment=小松68#18L液压油, balance=19582.0, amount=3.0, unitPrice=320.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,834 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=0.0, expend=100.0, category=维修保养, location=步行街, comment=日立O型圈（优）, balance=19482.0, amount=1.0, unitPrice=100.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,835 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=0.0, expend=400.0, category=维修保养, location=步行街, comment=手柄油封修理, balance=19082.0, amount=1.0, unitPrice=400.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,835 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=0.0, expend=50.0, category=维修保养, location=步行街, comment=反光镜, balance=19032.0, amount=1.0, unitPrice=50.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,836 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=0.0, expend=80.0, category=维修保养, location=步行街, comment=脚垫, balance=18952.0, amount=1.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,836 DEBUG [main]: Excavator [workDate=2017/05/16 12:00:00, income=0.0, expend=80.0, category=维修保养, location=步行街, comment=喇叭, balance=18872.0, amount=1.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,837 DEBUG [main]: Excavator [workDate=2017/05/17 12:00:00, income=0.0, expend=3110.0, category=加油费, location=步行街, comment=null, balance=15762.0, amount=1.0, unitPrice=3110.0, fraction=0.0, grossProfitRate=0.6233954952773069, grossProfit=0.0]
+ 2017-05-22 21:16:43,837 DEBUG [main]: Excavator [workDate=2017/05/17 12:00:00, income=4672.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20434.0, amount=146.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,837 DEBUG [main]: Excavator [workDate=2017/05/17 12:00:00, income=476.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=20910.0, amount=17.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,837 DEBUG [main]: Excavator [workDate=2017/05/17 12:00:00, income=0.0, expend=30.0, category=维修保养, location=步行街, comment=螺口, balance=20880.0, amount=1.0, unitPrice=30.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,838 DEBUG [main]: Excavator [workDate=2017/05/17 12:00:00, income=0.0, expend=180.0, category=维修保养, location=步行街, comment=活动扳手, balance=20700.0, amount=1.0, unitPrice=180.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,838 DEBUG [main]: Excavator [workDate=2017/05/17 12:00:00, income=0.0, expend=57.0, category=维修保养, location=步行街, comment=扳手, balance=20643.0, amount=1.0, unitPrice=57.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,839 DEBUG [main]: Excavator [workDate=2017/05/18 12:00:00, income=0.0, expend=2439.9999999999995, category=加油费, location=步行街, comment=null, balance=18203.0, amount=418.0, unitPrice=5.85, fraction=5.3, grossProfitRate=0.6385185185185185, grossProfit=0.0]
+ 2017-05-22 21:16:43,839 DEBUG [main]: Excavator [workDate=2017/05/18 12:00:00, income=2528.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20731.0, amount=79.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,839 DEBUG [main]: Excavator [workDate=2017/05/18 12:00:00, income=532.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=21263.0, amount=19.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,839 DEBUG [main]: Excavator [workDate=2017/05/18 12:00:00, income=1250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=22513.0, amount=2.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,840 DEBUG [main]: Excavator [workDate=2017/05/19 12:00:00, income=0.0, expend=1409.9999999999998, category=加油费, location=步行街, comment=null, balance=21103.0, amount=242.0, unitPrice=5.85, fraction=5.7, grossProfitRate=0.6961206896551724, grossProfit=0.0]
+ 2017-05-22 21:16:43,840 DEBUG [main]: Excavator [workDate=2017/05/19 12:00:00, income=2784.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=23887.0, amount=87.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,840 DEBUG [main]: Excavator [workDate=2017/05/19 12:00:00, income=196.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=24083.0, amount=7.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,841 DEBUG [main]: Excavator [workDate=2017/05/19 12:00:00, income=250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=24333.0, amount=0.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,841 DEBUG [main]: Excavator [workDate=2017/05/20 12:00:00, income=0.0, expend=1590.0, category=加油费, location=步行街, comment=null, balance=22743.0, amount=1.0, unitPrice=1900.0, fraction=0.0, grossProfitRate=0.674313805817288, grossProfit=0.0]
+ 2017-05-22 21:16:43,841 DEBUG [main]: Excavator [workDate=2017/05/20 12:00:00, income=3264.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=26007.0, amount=102.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,842 DEBUG [main]: Excavator [workDate=2017/05/20 12:00:00, income=28.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=26035.0, amount=1.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:16:43,842 DEBUG [main]: Excavator [workDate=2017/05/21 12:00:00, income=0.0, expend=1469.9999999999998, category=加油费, location=步行街, comment=null, balance=24565.0, amount=252.0, unitPrice=5.85, fraction=4.2, grossProfitRate=4.2, grossProfit=0.0]
+ 2017-05-22 21:16:43,842 DEBUG [main]: Excavator [workDate=2017/05/21 12:00:00, income=192.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=24757.0, amount=6.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:21,347 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:18:21,360 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:18:24,199 DEBUG [main]: Size: 	105
+ 2017-05-22 21:18:24,203 DEBUG [main]: Excavator [workDate=2017/04/02, income=0.0, expend=2990.0, category=加油费, location=步行街, comment=null, balance=-2990.0, amount=1.0, unitPrice=2990.0, fraction=0.0, grossProfitRate=0.6179401993355482, grossProfit=0.0]
+ 2017-05-22 21:18:24,203 DEBUG [main]: Excavator [workDate=2017/04/02, income=640.0, expend=0.0, category=装车, location=步行街, comment=null, balance=-2850.0, amount=20.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,204 DEBUG [main]: Excavator [workDate=2017/04/02, income=112.0, expend=0.0, category=装车, location=步行街, comment=null, balance=-2738.0, amount=4.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,204 DEBUG [main]: Excavator [workDate=2017/04/02, income=0.0, expend=500.0, category=维修保养, location=步行街, comment=null, balance=-3490.0, amount=1.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,205 DEBUG [main]: Excavator [workDate=2017/04/02, income=0.0, expend=130.0, category=维修保养, location=步行街, comment=机油, balance=-2868.0, amount=1.0, unitPrice=130.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,205 DEBUG [main]: Excavator [workDate=2017/04/03, income=3776.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=908.0, amount=118.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,205 DEBUG [main]: Excavator [workDate=2017/04/03, income=420.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=1328.0, amount=14.0, unitPrice=30.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,206 DEBUG [main]: Excavator [workDate=2017/04/04, income=0.0, expend=1630.0, category=加油费, location=步行街, comment=null, balance=-302.0, amount=1.0, unitPrice=1630.0, fraction=0.0, grossProfitRate=0.7562069997008675, grossProfit=0.0]
+ 2017-05-22 21:18:24,206 DEBUG [main]: Excavator [workDate=2017/04/04, income=5056.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=4754.0, amount=158.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,207 DEBUG [main]: Excavator [workDate=2017/04/05, income=0.0, expend=1770.0, category=加油费, location=步行街, comment=null, balance=2984.0, amount=1.0, unitPrice=1770.0, fraction=0.0, grossProfitRate=0.738243123336291, grossProfit=0.0]
+ 2017-05-22 21:18:24,207 DEBUG [main]: Excavator [workDate=2017/04/05, income=0.0, expend=110.0, category=维修保养, location=步行街, comment=小壶美孚拍, balance=2874.0, amount=1.0, unitPrice=110.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,207 DEBUG [main]: Excavator [workDate=2017/04/05, income=4992.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7866.0, amount=156.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,207 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=220.0, category=维修保养, location=步行街, comment=机油滤芯, balance=7646.0, amount=1.0, unitPrice=220.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,210 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=燃油粗滤芯, balance=7446.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,210 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=220.0, category=维修保养, location=步行街, comment=燃油细滤芯, balance=7226.0, amount=1.0, unitPrice=220.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,210 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=170.0, category=维修保养, location=步行街, comment=先导滤芯, balance=7056.0, amount=1.0, unitPrice=170.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,211 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=430.0, category=维修保养, location=步行街, comment=液压油滤芯, balance=6626.0, amount=1.0, unitPrice=430.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,211 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=工时费, balance=6426.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,211 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=180.0, category=维修保养, location=步行街, comment=阀芯, balance=6246.0, amount=1.0, unitPrice=180.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,211 DEBUG [main]: Excavator [workDate=2017/04/12, income=0.0, expend=1050.0, category=维修保养, location=步行街, comment=阀柱（信号阀）, balance=5196.0, amount=7.0, unitPrice=150.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,212 DEBUG [main]: Excavator [workDate=2017/04/12, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=工时费, balance=4996.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,212 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=650.0, category=维修保养, location=步行街, comment=泵线束, balance=4346.0, amount=1.0, unitPrice=650.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,212 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=2000.0, category=维修保养, location=步行街, comment=速度慢检测及维修, balance=2346.0, amount=1.0, unitPrice=2000.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,212 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=580.0, category=维修保养, location=步行街, comment=修车两餐, balance=1766.0, amount=1.0, unitPrice=580.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,213 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=2230.0, category=加油费, location=步行街, comment=null, balance=-464.0, amount=1.0, unitPrice=2230.0, fraction=0.0, grossProfitRate=0.6069792033838561, grossProfit=0.0]
+ 2017-05-22 21:18:24,213 DEBUG [main]: Excavator [workDate=2017/04/13, income=3136.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=2672.0, amount=98.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,213 DEBUG [main]: Excavator [workDate=2017/04/13, income=308.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=2980.0, amount=11.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,213 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=1350.0, category=维修保养, location=步行街, comment=行走马达柱塞, balance=1630.0, amount=9.0, unitPrice=150.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,214 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=380.0, category=维修保养, location=步行街, comment=九孔板, balance=1250.0, amount=1.0, unitPrice=380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,214 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=380.0, category=维修保养, location=步行街, comment=钢头, balance=870.0, amount=1.0, unitPrice=380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,214 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=1480.0, category=维修保养, location=步行街, comment=摇摆, balance=-610.0, amount=1.0, unitPrice=1480.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,214 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=70.0, category=维修保养, location=步行街, comment=摇摆（内悬）, balance=-680.0, amount=1.0, unitPrice=70.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,215 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=160.0, category=维修保养, location=步行街, comment=刹车片, balance=-840.0, amount=2.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,215 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=280.0, category=维修保养, location=步行街, comment=幺镜油封, balance=-1120.0, amount=1.0, unitPrice=280.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,215 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=360.0, category=维修保养, location=步行街, comment=修理包, balance=-1480.0, amount=1.0, unitPrice=360.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,216 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=-380.0, category=维修保养, location=步行街, comment=折扣, balance=-1100.0, amount=1.0, unitPrice=-380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,216 DEBUG [main]: Excavator [workDate=2017/04/14, income=1750.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=650.0, amount=3.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,216 DEBUG [main]: Excavator [workDate=2017/04/14, income=4832.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=5482.0, amount=151.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,216 DEBUG [main]: Excavator [workDate=2017/04/14, income=448.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=5930.0, amount=16.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,217 DEBUG [main]: Excavator [workDate=2017/04/15, income=0.0, expend=2000.0, category=加油费, location=步行街, comment=null, balance=3930.0, amount=328.0, unitPrice=6.1, fraction=0.8, grossProfitRate=0.647887323943662, grossProfit=0.0]
+ 2017-05-22 21:18:24,217 DEBUG [main]: Excavator [workDate=2017/04/15, income=3232.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7162.0, amount=101.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,217 DEBUG [main]: Excavator [workDate=2017/04/15, income=448.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=7610.0, amount=16.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,217 DEBUG [main]: Excavator [workDate=2017/04/16, income=0.0, expend=250.0, category=维修保养, location=步行街, comment=修车午餐, balance=7360.0, amount=1.0, unitPrice=250.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,218 DEBUG [main]: Excavator [workDate=2017/04/19, income=0.0, expend=1900.0, category=加油费, location=步行街, comment=null, balance=5460.0, amount=1.0, unitPrice=1900.0, fraction=0.0, grossProfitRate=0.5614035087719298, grossProfit=0.0]
+ 2017-05-22 21:18:24,218 DEBUG [main]: Excavator [workDate=2017/04/19, income=2208.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7668.0, amount=69.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,218 DEBUG [main]: Excavator [workDate=2017/04/19, income=224.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=7892.0, amount=8.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,218 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=3060.0, category=维修保养, location=步行街, comment=小松18L液压油, balance=4832.0, amount=9.0, unitPrice=340.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,218 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=360.0, category=维修保养, location=步行街, comment=小松18L齿轮油, balance=4472.0, amount=1.0, unitPrice=360.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,219 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=60.0, category=维修保养, location=步行街, comment=O型圈, balance=4412.0, amount=1.0, unitPrice=60.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,219 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=340.0, category=维修保养, location=步行街, comment=黄油, balance=4072.0, amount=2.0, unitPrice=170.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,219 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=100.0, category=维修保养, location=步行街, comment=上水管, balance=3972.0, amount=1.0, unitPrice=100.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,219 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=3400.0, category=维修保养, location=步行街, comment=修理费, balance=572.0, amount=1.0, unitPrice=3400.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,219 DEBUG [main]: Excavator [workDate=2017/04/22, income=0.0, expend=1610.0, category=加油费, location=步行街, comment=null, balance=-1038.0, amount=265.0, unitPrice=6.1, fraction=6.5, grossProfitRate=0.7213568708895812, grossProfit=0.0]
+ 2017-05-22 21:18:24,220 DEBUG [main]: Excavator [workDate=2017/04/22, income=3776.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=2738.0, amount=118.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,220 DEBUG [main]: Excavator [workDate=2017/04/22, income=392.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=3130.0, amount=14.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,220 DEBUG [main]: Excavator [workDate=2017/04/23, income=0.0, expend=1890.0, category=加油费, location=步行街, comment=null, balance=1240.0, amount=310.0, unitPrice=6.1, fraction=1.0, grossProfitRate=0.6067415730337079, grossProfit=0.0]
+ 2017-05-22 21:18:24,220 DEBUG [main]: Excavator [workDate=2017/04/23, income=2496.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=3736.0, amount=78.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,220 DEBUG [main]: Excavator [workDate=2017/04/23, income=420.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=4156.0, amount=15.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,221 DEBUG [main]: Excavator [workDate=2017/04/24, income=1984.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=6140.0, amount=62.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,221 DEBUG [main]: Excavator [workDate=2017/04/28, income=0.0, expend=2670.0, category=加油费, location=步行街, comment=null, balance=3470.0, amount=1.0, unitPrice=2670.0, fraction=0.0, grossProfitRate=0.5870708320445407, grossProfit=0.0]
+ 2017-05-22 21:18:24,221 DEBUG [main]: Excavator [workDate=2017/04/28, income=3296.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=6766.0, amount=103.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,221 DEBUG [main]: Excavator [workDate=2017/04/28, income=500.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=7266.0, amount=1.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,221 DEBUG [main]: Excavator [workDate=2017/04/29, income=2912.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=10178.0, amount=91.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,221 DEBUG [main]: Excavator [workDate=2017/04/29, income=1250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=11428.0, amount=2.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,222 DEBUG [main]: Excavator [workDate=2017/04/30, income=0.0, expend=2900.0, category=加油费, location=步行街, comment=null, balance=8528.0, amount=1.0, unitPrice=2900.0, fraction=0.0, grossProfitRate=0.6325392802838318, grossProfit=0.0]
+ 2017-05-22 21:18:24,222 DEBUG [main]: Excavator [workDate=2017/04/30, income=2976.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=11504.0, amount=93.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,222 DEBUG [main]: Excavator [workDate=2017/04/30, income=0.0, expend=246.0, category=维修保养, location=步行街, comment=修车餐, balance=11258.0, amount=1.0, unitPrice=246.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,222 DEBUG [main]: Excavator [workDate=2017/05/05, income=2016.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=13274.0, amount=63.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,222 DEBUG [main]: Excavator [workDate=2017/05/06, income=0.0, expend=1800.0, category=加油费, location=步行街, comment=null, balance=11474.0, amount=1.0, unitPrice=1800.0, fraction=0.0, grossProfitRate=0.6456692913385826, grossProfit=0.0]
+ 2017-05-22 21:18:24,223 DEBUG [main]: Excavator [workDate=2017/05/06, income=1280.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=12754.0, amount=40.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,223 DEBUG [main]: Excavator [workDate=2017/05/06, income=2000.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=14754.0, amount=4.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,223 DEBUG [main]: Excavator [workDate=2017/05/12, income=0.0, expend=2900.0, category=加油费, location=步行街, comment=null, balance=11854.0, amount=1.0, unitPrice=2900.0, fraction=0.0, grossProfitRate=0.590568967951433, grossProfit=0.0]
+ 2017-05-22 21:18:24,223 DEBUG [main]: Excavator [workDate=2017/05/14, income=2848.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=14702.0, amount=89.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,223 DEBUG [main]: Excavator [workDate=2017/05/14, income=1335.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=16037.0, amount=2.67, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,224 DEBUG [main]: Excavator [workDate=2017/05/15, income=0.0, expend=2800.0, category=加油费, location=步行街, comment=null, balance=13237.0, amount=1.0, unitPrice=2800.0, fraction=0.0, grossProfitRate=0.497937959476421, grossProfit=0.0]
+ 2017-05-22 21:18:24,224 DEBUG [main]: Excavator [workDate=2017/05/15, income=2112.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=15349.0, amount=66.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,224 DEBUG [main]: Excavator [workDate=2017/05/15, income=665.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=16014.0, amount=1.33, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,224 DEBUG [main]: Excavator [workDate=2017/05/16, income=3328.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=19342.0, amount=104.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,225 DEBUG [main]: Excavator [workDate=2017/05/16, income=1088.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20430.0, amount=34.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,225 DEBUG [main]: Excavator [workDate=2017/05/16, income=112.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=20542.0, amount=4.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,225 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=960.0, category=维修保养, location=步行街, comment=小松68#18L液压油, balance=19582.0, amount=3.0, unitPrice=320.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,225 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=100.0, category=维修保养, location=步行街, comment=日立O型圈（优）, balance=19482.0, amount=1.0, unitPrice=100.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,225 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=400.0, category=维修保养, location=步行街, comment=手柄油封修理, balance=19082.0, amount=1.0, unitPrice=400.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,226 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=50.0, category=维修保养, location=步行街, comment=反光镜, balance=19032.0, amount=1.0, unitPrice=50.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,226 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=80.0, category=维修保养, location=步行街, comment=脚垫, balance=18952.0, amount=1.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,226 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=80.0, category=维修保养, location=步行街, comment=喇叭, balance=18872.0, amount=1.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,226 DEBUG [main]: Excavator [workDate=2017/05/17, income=0.0, expend=3110.0, category=加油费, location=步行街, comment=null, balance=15762.0, amount=1.0, unitPrice=3110.0, fraction=0.0, grossProfitRate=0.6233954952773069, grossProfit=0.0]
+ 2017-05-22 21:18:24,226 DEBUG [main]: Excavator [workDate=2017/05/17, income=4672.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20434.0, amount=146.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,227 DEBUG [main]: Excavator [workDate=2017/05/17, income=476.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=20910.0, amount=17.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,227 DEBUG [main]: Excavator [workDate=2017/05/17, income=0.0, expend=30.0, category=维修保养, location=步行街, comment=螺口, balance=20880.0, amount=1.0, unitPrice=30.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,227 DEBUG [main]: Excavator [workDate=2017/05/17, income=0.0, expend=180.0, category=维修保养, location=步行街, comment=活动扳手, balance=20700.0, amount=1.0, unitPrice=180.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,227 DEBUG [main]: Excavator [workDate=2017/05/17, income=0.0, expend=57.0, category=维修保养, location=步行街, comment=扳手, balance=20643.0, amount=1.0, unitPrice=57.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,227 DEBUG [main]: Excavator [workDate=2017/05/18, income=0.0, expend=2439.9999999999995, category=加油费, location=步行街, comment=null, balance=18203.0, amount=418.0, unitPrice=5.85, fraction=5.3, grossProfitRate=0.6385185185185185, grossProfit=0.0]
+ 2017-05-22 21:18:24,228 DEBUG [main]: Excavator [workDate=2017/05/18, income=2528.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20731.0, amount=79.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,228 DEBUG [main]: Excavator [workDate=2017/05/18, income=532.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=21263.0, amount=19.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,228 DEBUG [main]: Excavator [workDate=2017/05/18, income=1250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=22513.0, amount=2.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,228 DEBUG [main]: Excavator [workDate=2017/05/19, income=0.0, expend=1409.9999999999998, category=加油费, location=步行街, comment=null, balance=21103.0, amount=242.0, unitPrice=5.85, fraction=5.7, grossProfitRate=0.6961206896551724, grossProfit=0.0]
+ 2017-05-22 21:18:24,228 DEBUG [main]: Excavator [workDate=2017/05/19, income=2784.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=23887.0, amount=87.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,229 DEBUG [main]: Excavator [workDate=2017/05/19, income=196.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=24083.0, amount=7.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,229 DEBUG [main]: Excavator [workDate=2017/05/19, income=250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=24333.0, amount=0.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,229 DEBUG [main]: Excavator [workDate=2017/05/20, income=0.0, expend=1590.0, category=加油费, location=步行街, comment=null, balance=22743.0, amount=1.0, unitPrice=1900.0, fraction=0.0, grossProfitRate=0.674313805817288, grossProfit=0.0]
+ 2017-05-22 21:18:24,229 DEBUG [main]: Excavator [workDate=2017/05/20, income=3264.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=26007.0, amount=102.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,230 DEBUG [main]: Excavator [workDate=2017/05/20, income=28.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=26035.0, amount=1.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:18:24,232 DEBUG [main]: Excavator [workDate=2017/05/21, income=0.0, expend=1469.9999999999998, category=加油费, location=步行街, comment=null, balance=24565.0, amount=252.0, unitPrice=5.85, fraction=4.2, grossProfitRate=4.2, grossProfit=0.0]
+ 2017-05-22 21:18:24,233 DEBUG [main]: Excavator [workDate=2017/05/21, income=192.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=24757.0, amount=6.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:11,712 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:33:11,720 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:33:11,727 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:33:14,862 DEBUG [main]: Size: 	105
+ 2017-05-22 21:33:14,866 DEBUG [main]: Excavator [workDate=2017/04/02, income=0.0, expend=2990.0, category=加油费, location=步行街, comment=null, balance=-2990.0, amount=1.0, unitPrice=2990.0, fraction=0.0, grossProfitRate=0.6179401993355482, grossProfit=0.0]
+ 2017-05-22 21:33:14,888 DEBUG [main]: Excavator [workDate=2017/04/02, income=640.0, expend=0.0, category=装车, location=步行街, comment=null, balance=-2850.0, amount=20.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,889 DEBUG [main]: Excavator [workDate=2017/04/02, income=112.0, expend=0.0, category=装车, location=步行街, comment=null, balance=-2738.0, amount=4.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,890 DEBUG [main]: Excavator [workDate=2017/04/02, income=0.0, expend=500.0, category=维修保养, location=步行街, comment=null, balance=-3490.0, amount=1.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,891 DEBUG [main]: Excavator [workDate=2017/04/02, income=0.0, expend=130.0, category=维修保养, location=步行街, comment=机油, balance=-2868.0, amount=1.0, unitPrice=130.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,892 DEBUG [main]: Excavator [workDate=2017/04/03, income=3776.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=908.0, amount=118.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,894 DEBUG [main]: Excavator [workDate=2017/04/03, income=420.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=1328.0, amount=14.0, unitPrice=30.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,894 DEBUG [main]: Excavator [workDate=2017/04/04, income=0.0, expend=1630.0, category=加油费, location=步行街, comment=null, balance=-302.0, amount=1.0, unitPrice=1630.0, fraction=0.0, grossProfitRate=0.7562069997008675, grossProfit=0.0]
+ 2017-05-22 21:33:14,895 DEBUG [main]: Excavator [workDate=2017/04/04, income=5056.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=4754.0, amount=158.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,896 DEBUG [main]: Excavator [workDate=2017/04/05, income=0.0, expend=1770.0, category=加油费, location=步行街, comment=null, balance=2984.0, amount=1.0, unitPrice=1770.0, fraction=0.0, grossProfitRate=0.738243123336291, grossProfit=0.0]
+ 2017-05-22 21:33:14,896 DEBUG [main]: Excavator [workDate=2017/04/05, income=0.0, expend=110.0, category=维修保养, location=步行街, comment=小壶美孚拍, balance=2874.0, amount=1.0, unitPrice=110.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,897 DEBUG [main]: Excavator [workDate=2017/04/05, income=4992.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7866.0, amount=156.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,901 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=220.0, category=维修保养, location=步行街, comment=机油滤芯, balance=7646.0, amount=1.0, unitPrice=220.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,901 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=燃油粗滤芯, balance=7446.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,902 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=220.0, category=维修保养, location=步行街, comment=燃油细滤芯, balance=7226.0, amount=1.0, unitPrice=220.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,903 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=170.0, category=维修保养, location=步行街, comment=先导滤芯, balance=7056.0, amount=1.0, unitPrice=170.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,904 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=430.0, category=维修保养, location=步行街, comment=液压油滤芯, balance=6626.0, amount=1.0, unitPrice=430.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,904 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=工时费, balance=6426.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,905 DEBUG [main]: Excavator [workDate=2017/04/08, income=0.0, expend=180.0, category=维修保养, location=步行街, comment=阀芯, balance=6246.0, amount=1.0, unitPrice=180.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,906 DEBUG [main]: Excavator [workDate=2017/04/12, income=0.0, expend=1050.0, category=维修保养, location=步行街, comment=阀柱（信号阀）, balance=5196.0, amount=7.0, unitPrice=150.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,906 DEBUG [main]: Excavator [workDate=2017/04/12, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=工时费, balance=4996.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,907 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=650.0, category=维修保养, location=步行街, comment=泵线束, balance=4346.0, amount=1.0, unitPrice=650.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,907 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=2000.0, category=维修保养, location=步行街, comment=速度慢检测及维修, balance=2346.0, amount=1.0, unitPrice=2000.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,908 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=580.0, category=维修保养, location=步行街, comment=修车两餐, balance=1766.0, amount=1.0, unitPrice=580.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,909 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=2230.0, category=加油费, location=步行街, comment=null, balance=-464.0, amount=1.0, unitPrice=2230.0, fraction=0.0, grossProfitRate=0.6069792033838561, grossProfit=0.0]
+ 2017-05-22 21:33:14,910 DEBUG [main]: Excavator [workDate=2017/04/13, income=3136.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=2672.0, amount=98.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,910 DEBUG [main]: Excavator [workDate=2017/04/13, income=308.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=2980.0, amount=11.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,911 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=1350.0, category=维修保养, location=步行街, comment=行走马达柱塞, balance=1630.0, amount=9.0, unitPrice=150.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,912 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=380.0, category=维修保养, location=步行街, comment=九孔板, balance=1250.0, amount=1.0, unitPrice=380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,913 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=380.0, category=维修保养, location=步行街, comment=钢头, balance=870.0, amount=1.0, unitPrice=380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,914 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=1480.0, category=维修保养, location=步行街, comment=摇摆, balance=-610.0, amount=1.0, unitPrice=1480.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,914 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=70.0, category=维修保养, location=步行街, comment=摇摆（内悬）, balance=-680.0, amount=1.0, unitPrice=70.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,915 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=160.0, category=维修保养, location=步行街, comment=刹车片, balance=-840.0, amount=2.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,915 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=280.0, category=维修保养, location=步行街, comment=幺镜油封, balance=-1120.0, amount=1.0, unitPrice=280.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,916 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=360.0, category=维修保养, location=步行街, comment=修理包, balance=-1480.0, amount=1.0, unitPrice=360.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,917 DEBUG [main]: Excavator [workDate=2017/04/13, income=0.0, expend=-380.0, category=维修保养, location=步行街, comment=折扣, balance=-1100.0, amount=1.0, unitPrice=-380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,918 DEBUG [main]: Excavator [workDate=2017/04/14, income=1750.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=650.0, amount=3.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,919 DEBUG [main]: Excavator [workDate=2017/04/14, income=4832.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=5482.0, amount=151.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,919 DEBUG [main]: Excavator [workDate=2017/04/14, income=448.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=5930.0, amount=16.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,920 DEBUG [main]: Excavator [workDate=2017/04/15, income=0.0, expend=2000.0, category=加油费, location=步行街, comment=null, balance=3930.0, amount=328.0, unitPrice=6.1, fraction=0.8, grossProfitRate=0.647887323943662, grossProfit=0.0]
+ 2017-05-22 21:33:14,922 DEBUG [main]: Excavator [workDate=2017/04/15, income=3232.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7162.0, amount=101.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,924 DEBUG [main]: Excavator [workDate=2017/04/15, income=448.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=7610.0, amount=16.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,928 DEBUG [main]: Excavator [workDate=2017/04/16, income=0.0, expend=250.0, category=维修保养, location=步行街, comment=修车午餐, balance=7360.0, amount=1.0, unitPrice=250.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,929 DEBUG [main]: Excavator [workDate=2017/04/19, income=0.0, expend=1900.0, category=加油费, location=步行街, comment=null, balance=5460.0, amount=1.0, unitPrice=1900.0, fraction=0.0, grossProfitRate=0.5614035087719298, grossProfit=0.0]
+ 2017-05-22 21:33:14,931 DEBUG [main]: Excavator [workDate=2017/04/19, income=2208.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7668.0, amount=69.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,933 DEBUG [main]: Excavator [workDate=2017/04/19, income=224.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=7892.0, amount=8.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,934 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=3060.0, category=维修保养, location=步行街, comment=小松18L液压油, balance=4832.0, amount=9.0, unitPrice=340.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,935 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=360.0, category=维修保养, location=步行街, comment=小松18L齿轮油, balance=4472.0, amount=1.0, unitPrice=360.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,936 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=60.0, category=维修保养, location=步行街, comment=O型圈, balance=4412.0, amount=1.0, unitPrice=60.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,994 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=340.0, category=维修保养, location=步行街, comment=黄油, balance=4072.0, amount=2.0, unitPrice=170.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,995 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=100.0, category=维修保养, location=步行街, comment=上水管, balance=3972.0, amount=1.0, unitPrice=100.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,995 DEBUG [main]: Excavator [workDate=2017/04/20, income=0.0, expend=3400.0, category=维修保养, location=步行街, comment=修理费, balance=572.0, amount=1.0, unitPrice=3400.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:14,996 DEBUG [main]: Excavator [workDate=2017/04/22, income=0.0, expend=1610.0, category=加油费, location=步行街, comment=null, balance=-1038.0, amount=265.0, unitPrice=6.1, fraction=6.5, grossProfitRate=0.7213568708895812, grossProfit=0.0]
+ 2017-05-22 21:33:14,997 DEBUG [main]: Excavator [workDate=2017/04/22, income=3776.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=2738.0, amount=118.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,009 DEBUG [main]: Excavator [workDate=2017/04/22, income=392.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=3130.0, amount=14.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,010 DEBUG [main]: Excavator [workDate=2017/04/23, income=0.0, expend=1890.0, category=加油费, location=步行街, comment=null, balance=1240.0, amount=310.0, unitPrice=6.1, fraction=1.0, grossProfitRate=0.6067415730337079, grossProfit=0.0]
+ 2017-05-22 21:33:15,011 DEBUG [main]: Excavator [workDate=2017/04/23, income=2496.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=3736.0, amount=78.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,024 DEBUG [main]: Excavator [workDate=2017/04/23, income=420.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=4156.0, amount=15.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,026 DEBUG [main]: Excavator [workDate=2017/04/24, income=1984.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=6140.0, amount=62.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,027 DEBUG [main]: Excavator [workDate=2017/04/28, income=0.0, expend=2670.0, category=加油费, location=步行街, comment=null, balance=3470.0, amount=1.0, unitPrice=2670.0, fraction=0.0, grossProfitRate=0.5870708320445407, grossProfit=0.0]
+ 2017-05-22 21:33:15,030 DEBUG [main]: Excavator [workDate=2017/04/28, income=3296.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=6766.0, amount=103.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,033 DEBUG [main]: Excavator [workDate=2017/04/28, income=500.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=7266.0, amount=1.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,038 DEBUG [main]: Excavator [workDate=2017/04/29, income=2912.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=10178.0, amount=91.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,039 DEBUG [main]: Excavator [workDate=2017/04/29, income=1250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=11428.0, amount=2.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,044 DEBUG [main]: Excavator [workDate=2017/04/30, income=0.0, expend=2900.0, category=加油费, location=步行街, comment=null, balance=8528.0, amount=1.0, unitPrice=2900.0, fraction=0.0, grossProfitRate=0.6325392802838318, grossProfit=0.0]
+ 2017-05-22 21:33:15,048 DEBUG [main]: Excavator [workDate=2017/04/30, income=2976.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=11504.0, amount=93.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,050 DEBUG [main]: Excavator [workDate=2017/04/30, income=0.0, expend=246.0, category=维修保养, location=步行街, comment=修车餐, balance=11258.0, amount=1.0, unitPrice=246.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,056 DEBUG [main]: Excavator [workDate=2017/05/05, income=2016.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=13274.0, amount=63.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,058 DEBUG [main]: Excavator [workDate=2017/05/06, income=0.0, expend=1800.0, category=加油费, location=步行街, comment=null, balance=11474.0, amount=1.0, unitPrice=1800.0, fraction=0.0, grossProfitRate=0.6456692913385826, grossProfit=0.0]
+ 2017-05-22 21:33:15,060 DEBUG [main]: Excavator [workDate=2017/05/06, income=1280.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=12754.0, amount=40.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,060 DEBUG [main]: Excavator [workDate=2017/05/06, income=2000.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=14754.0, amount=4.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,061 DEBUG [main]: Excavator [workDate=2017/05/12, income=0.0, expend=2900.0, category=加油费, location=步行街, comment=null, balance=11854.0, amount=1.0, unitPrice=2900.0, fraction=0.0, grossProfitRate=0.590568967951433, grossProfit=0.0]
+ 2017-05-22 21:33:15,062 DEBUG [main]: Excavator [workDate=2017/05/14, income=2848.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=14702.0, amount=89.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,064 DEBUG [main]: Excavator [workDate=2017/05/14, income=1335.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=16037.0, amount=2.67, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,066 DEBUG [main]: Excavator [workDate=2017/05/15, income=0.0, expend=2800.0, category=加油费, location=步行街, comment=null, balance=13237.0, amount=1.0, unitPrice=2800.0, fraction=0.0, grossProfitRate=0.497937959476421, grossProfit=0.0]
+ 2017-05-22 21:33:15,066 DEBUG [main]: Excavator [workDate=2017/05/15, income=2112.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=15349.0, amount=66.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,068 DEBUG [main]: Excavator [workDate=2017/05/15, income=665.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=16014.0, amount=1.33, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,069 DEBUG [main]: Excavator [workDate=2017/05/16, income=3328.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=19342.0, amount=104.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,070 DEBUG [main]: Excavator [workDate=2017/05/16, income=1088.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20430.0, amount=34.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,070 DEBUG [main]: Excavator [workDate=2017/05/16, income=112.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=20542.0, amount=4.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,073 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=960.0, category=维修保养, location=步行街, comment=小松68#18L液压油, balance=19582.0, amount=3.0, unitPrice=320.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,075 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=100.0, category=维修保养, location=步行街, comment=日立O型圈（优）, balance=19482.0, amount=1.0, unitPrice=100.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,076 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=400.0, category=维修保养, location=步行街, comment=手柄油封修理, balance=19082.0, amount=1.0, unitPrice=400.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,077 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=50.0, category=维修保养, location=步行街, comment=反光镜, balance=19032.0, amount=1.0, unitPrice=50.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,078 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=80.0, category=维修保养, location=步行街, comment=脚垫, balance=18952.0, amount=1.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,079 DEBUG [main]: Excavator [workDate=2017/05/16, income=0.0, expend=80.0, category=维修保养, location=步行街, comment=喇叭, balance=18872.0, amount=1.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,083 DEBUG [main]: Excavator [workDate=2017/05/17, income=0.0, expend=3110.0, category=加油费, location=步行街, comment=null, balance=15762.0, amount=1.0, unitPrice=3110.0, fraction=0.0, grossProfitRate=0.6233954952773069, grossProfit=0.0]
+ 2017-05-22 21:33:15,084 DEBUG [main]: Excavator [workDate=2017/05/17, income=4672.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20434.0, amount=146.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,085 DEBUG [main]: Excavator [workDate=2017/05/17, income=476.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=20910.0, amount=17.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,086 DEBUG [main]: Excavator [workDate=2017/05/17, income=0.0, expend=30.0, category=维修保养, location=步行街, comment=螺口, balance=20880.0, amount=1.0, unitPrice=30.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,088 DEBUG [main]: Excavator [workDate=2017/05/17, income=0.0, expend=180.0, category=维修保养, location=步行街, comment=活动扳手, balance=20700.0, amount=1.0, unitPrice=180.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,089 DEBUG [main]: Excavator [workDate=2017/05/17, income=0.0, expend=57.0, category=维修保养, location=步行街, comment=扳手, balance=20643.0, amount=1.0, unitPrice=57.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,090 DEBUG [main]: Excavator [workDate=2017/05/18, income=0.0, expend=2439.9999999999995, category=加油费, location=步行街, comment=null, balance=18203.0, amount=418.0, unitPrice=5.85, fraction=5.3, grossProfitRate=0.6385185185185185, grossProfit=0.0]
+ 2017-05-22 21:33:15,094 DEBUG [main]: Excavator [workDate=2017/05/18, income=2528.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=20731.0, amount=79.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,095 DEBUG [main]: Excavator [workDate=2017/05/18, income=532.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=21263.0, amount=19.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,113 DEBUG [main]: Excavator [workDate=2017/05/18, income=1250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=22513.0, amount=2.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,114 DEBUG [main]: Excavator [workDate=2017/05/19, income=0.0, expend=1409.9999999999998, category=加油费, location=步行街, comment=null, balance=21103.0, amount=242.0, unitPrice=5.85, fraction=5.7, grossProfitRate=0.6961206896551724, grossProfit=0.0]
+ 2017-05-22 21:33:15,117 DEBUG [main]: Excavator [workDate=2017/05/19, income=2784.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=23887.0, amount=87.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,118 DEBUG [main]: Excavator [workDate=2017/05/19, income=196.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=24083.0, amount=7.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,119 DEBUG [main]: Excavator [workDate=2017/05/19, income=250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=24333.0, amount=0.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,120 DEBUG [main]: Excavator [workDate=2017/05/20, income=0.0, expend=1590.0, category=加油费, location=步行街, comment=null, balance=22743.0, amount=1.0, unitPrice=1900.0, fraction=0.0, grossProfitRate=0.674313805817288, grossProfit=0.0]
+ 2017-05-22 21:33:15,121 DEBUG [main]: Excavator [workDate=2017/05/20, income=3264.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=26007.0, amount=102.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,122 DEBUG [main]: Excavator [workDate=2017/05/20, income=28.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=26035.0, amount=1.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,122 DEBUG [main]: Excavator [workDate=2017/05/21, income=0.0, expend=1469.9999999999998, category=加油费, location=步行街, comment=null, balance=24565.0, amount=252.0, unitPrice=5.85, fraction=4.2, grossProfitRate=4.2, grossProfit=0.0]
+ 2017-05-22 21:33:15,123 DEBUG [main]: Excavator [workDate=2017/05/21, income=192.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=24757.0, amount=6.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:33:15,124 DEBUG [main]: grossIncome	84540.0
+ 2017-05-22 21:33:46,887 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:33:46,895 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:33:46,901 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:33:49,656 DEBUG [main]: Size: 	105
+ 2017-05-22 21:33:49,687 DEBUG [main]: grossIncome	84540.0
+ 2017-05-22 21:35:40,522 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:35:40,527 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:35:40,532 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:35:43,036 DEBUG [main]: Size: 	105
+ 2017-05-22 21:35:43,099 DEBUG [main]: grossIncome	84540.0
+ 2017-05-22 21:37:40,498 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:37:40,506 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:37:40,533 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:37:43,665 DEBUG [main]: Size: 	105
+ 2017-05-22 21:37:43,782 DEBUG [main]: grossIncome	84540.0
+ 2017-05-22 21:37:51,553 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:37:51,565 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:37:51,572 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:37:54,343 DEBUG [main]: Size: 	105
+ 2017-05-22 21:37:54,431 DEBUG [main]: grossIncome	84540.0
+ 2017-05-22 21:38:20,492 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:38:20,501 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:38:20,509 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:38:23,169 DEBUG [main]: Size: 	105
+ 2017-05-22 21:38:23,243 DEBUG [main]: grossIncome	84540.0
+ 2017-05-22 21:38:38,809 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:38:38,820 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:38:38,841 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:38:41,783 DEBUG [main]: Size: 	105
+ 2017-05-22 21:41:17,930 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:41:17,935 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:41:17,945 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:41:20,683 DEBUG [main]: Size: 	105
+ 2017-05-22 21:41:20,692 DEBUG [main]: Excavator [workDate=2017-04-02, income=0.0, expend=2990.0, category=加油费, location=步行街, comment=null, balance=-2990.0, amount=1.0, unitPrice=2990.0, fraction=0.0, grossProfitRate=0.6179401993355482, grossProfit=0.0]
+ 2017-05-22 21:41:20,694 DEBUG [main]: Excavator [workDate=2017-04-02, income=640.0, expend=0.0, category=装车, location=步行街, comment=null, balance=-2850.0, amount=20.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,695 DEBUG [main]: Excavator [workDate=2017-04-02, income=112.0, expend=0.0, category=装车, location=步行街, comment=null, balance=-2738.0, amount=4.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,696 DEBUG [main]: Excavator [workDate=2017-04-02, income=0.0, expend=500.0, category=维修保养, location=步行街, comment=null, balance=-3490.0, amount=1.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,696 DEBUG [main]: Excavator [workDate=2017-04-02, income=0.0, expend=130.0, category=维修保养, location=步行街, comment=机油, balance=-2868.0, amount=1.0, unitPrice=130.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,698 DEBUG [main]: Excavator [workDate=2017-04-03, income=3776.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=908.0, amount=118.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,699 DEBUG [main]: Excavator [workDate=2017-04-03, income=420.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=1328.0, amount=14.0, unitPrice=30.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,700 DEBUG [main]: Excavator [workDate=2017-04-04, income=0.0, expend=1630.0, category=加油费, location=步行街, comment=null, balance=-302.0, amount=1.0, unitPrice=1630.0, fraction=0.0, grossProfitRate=0.7562069997008675, grossProfit=0.0]
+ 2017-05-22 21:41:20,701 DEBUG [main]: Excavator [workDate=2017-04-04, income=5056.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=4754.0, amount=158.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,702 DEBUG [main]: Excavator [workDate=2017-04-05, income=0.0, expend=1770.0, category=加油费, location=步行街, comment=null, balance=2984.0, amount=1.0, unitPrice=1770.0, fraction=0.0, grossProfitRate=0.738243123336291, grossProfit=0.0]
+ 2017-05-22 21:41:20,704 DEBUG [main]: Excavator [workDate=2017-04-05, income=0.0, expend=110.0, category=维修保养, location=步行街, comment=小壶美孚拍, balance=2874.0, amount=1.0, unitPrice=110.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,706 DEBUG [main]: Excavator [workDate=2017-04-05, income=4992.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7866.0, amount=156.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,712 DEBUG [main]: Excavator [workDate=2017-04-08, income=0.0, expend=220.0, category=维修保养, location=步行街, comment=机油滤芯, balance=7646.0, amount=1.0, unitPrice=220.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,713 DEBUG [main]: Excavator [workDate=2017-04-08, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=燃油粗滤芯, balance=7446.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,714 DEBUG [main]: Excavator [workDate=2017-04-08, income=0.0, expend=220.0, category=维修保养, location=步行街, comment=燃油细滤芯, balance=7226.0, amount=1.0, unitPrice=220.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,715 DEBUG [main]: Excavator [workDate=2017-04-08, income=0.0, expend=170.0, category=维修保养, location=步行街, comment=先导滤芯, balance=7056.0, amount=1.0, unitPrice=170.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,716 DEBUG [main]: Excavator [workDate=2017-04-08, income=0.0, expend=430.0, category=维修保养, location=步行街, comment=液压油滤芯, balance=6626.0, amount=1.0, unitPrice=430.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,717 DEBUG [main]: Excavator [workDate=2017-04-08, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=工时费, balance=6426.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,718 DEBUG [main]: Excavator [workDate=2017-04-08, income=0.0, expend=180.0, category=维修保养, location=步行街, comment=阀芯, balance=6246.0, amount=1.0, unitPrice=180.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,719 DEBUG [main]: Excavator [workDate=2017-04-12, income=0.0, expend=1050.0, category=维修保养, location=步行街, comment=阀柱（信号阀）, balance=5196.0, amount=7.0, unitPrice=150.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,720 DEBUG [main]: Excavator [workDate=2017-04-12, income=0.0, expend=200.0, category=维修保养, location=步行街, comment=工时费, balance=4996.0, amount=1.0, unitPrice=200.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,722 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=650.0, category=维修保养, location=步行街, comment=泵线束, balance=4346.0, amount=1.0, unitPrice=650.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,723 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=2000.0, category=维修保养, location=步行街, comment=速度慢检测及维修, balance=2346.0, amount=1.0, unitPrice=2000.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,725 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=580.0, category=维修保养, location=步行街, comment=修车两餐, balance=1766.0, amount=1.0, unitPrice=580.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,727 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=2230.0, category=加油费, location=步行街, comment=null, balance=-464.0, amount=1.0, unitPrice=2230.0, fraction=0.0, grossProfitRate=0.6069792033838561, grossProfit=0.0]
+ 2017-05-22 21:41:20,728 DEBUG [main]: Excavator [workDate=2017-04-13, income=3136.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=2672.0, amount=98.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,729 DEBUG [main]: Excavator [workDate=2017-04-13, income=308.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=2980.0, amount=11.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,730 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=1350.0, category=维修保养, location=步行街, comment=行走马达柱塞, balance=1630.0, amount=9.0, unitPrice=150.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,731 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=380.0, category=维修保养, location=步行街, comment=九孔板, balance=1250.0, amount=1.0, unitPrice=380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,732 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=380.0, category=维修保养, location=步行街, comment=钢头, balance=870.0, amount=1.0, unitPrice=380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,733 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=1480.0, category=维修保养, location=步行街, comment=摇摆, balance=-610.0, amount=1.0, unitPrice=1480.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,733 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=70.0, category=维修保养, location=步行街, comment=摇摆（内悬）, balance=-680.0, amount=1.0, unitPrice=70.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,734 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=160.0, category=维修保养, location=步行街, comment=刹车片, balance=-840.0, amount=2.0, unitPrice=80.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,735 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=280.0, category=维修保养, location=步行街, comment=幺镜油封, balance=-1120.0, amount=1.0, unitPrice=280.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,736 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=360.0, category=维修保养, location=步行街, comment=修理包, balance=-1480.0, amount=1.0, unitPrice=360.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,736 DEBUG [main]: Excavator [workDate=2017-04-13, income=0.0, expend=-380.0, category=维修保养, location=步行街, comment=折扣, balance=-1100.0, amount=1.0, unitPrice=-380.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,738 DEBUG [main]: Excavator [workDate=2017-04-14, income=1750.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=650.0, amount=3.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,739 DEBUG [main]: Excavator [workDate=2017-04-14, income=4832.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=5482.0, amount=151.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,740 DEBUG [main]: Excavator [workDate=2017-04-14, income=448.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=5930.0, amount=16.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,741 DEBUG [main]: Excavator [workDate=2017-04-15, income=0.0, expend=2000.0, category=加油费, location=步行街, comment=null, balance=3930.0, amount=328.0, unitPrice=6.1, fraction=0.8, grossProfitRate=0.647887323943662, grossProfit=0.0]
+ 2017-05-22 21:41:20,742 DEBUG [main]: Excavator [workDate=2017-04-15, income=3232.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7162.0, amount=101.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,743 DEBUG [main]: Excavator [workDate=2017-04-15, income=448.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=7610.0, amount=16.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,744 DEBUG [main]: Excavator [workDate=2017-04-16, income=0.0, expend=250.0, category=维修保养, location=步行街, comment=修车午餐, balance=7360.0, amount=1.0, unitPrice=250.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,745 DEBUG [main]: Excavator [workDate=2017-04-19, income=0.0, expend=1900.0, category=加油费, location=步行街, comment=null, balance=5460.0, amount=1.0, unitPrice=1900.0, fraction=0.0, grossProfitRate=0.5614035087719298, grossProfit=0.0]
+ 2017-05-22 21:41:20,746 DEBUG [main]: Excavator [workDate=2017-04-19, income=2208.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=7668.0, amount=69.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,747 DEBUG [main]: Excavator [workDate=2017-04-19, income=224.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=7892.0, amount=8.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,747 DEBUG [main]: Excavator [workDate=2017-04-20, income=0.0, expend=3060.0, category=维修保养, location=步行街, comment=小松18L液压油, balance=4832.0, amount=9.0, unitPrice=340.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,748 DEBUG [main]: Excavator [workDate=2017-04-20, income=0.0, expend=360.0, category=维修保养, location=步行街, comment=小松18L齿轮油, balance=4472.0, amount=1.0, unitPrice=360.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,749 DEBUG [main]: Excavator [workDate=2017-04-20, income=0.0, expend=60.0, category=维修保养, location=步行街, comment=O型圈, balance=4412.0, amount=1.0, unitPrice=60.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,750 DEBUG [main]: Excavator [workDate=2017-04-20, income=0.0, expend=340.0, category=维修保养, location=步行街, comment=黄油, balance=4072.0, amount=2.0, unitPrice=170.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,750 DEBUG [main]: Excavator [workDate=2017-04-20, income=0.0, expend=100.0, category=维修保养, location=步行街, comment=上水管, balance=3972.0, amount=1.0, unitPrice=100.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,751 DEBUG [main]: Excavator [workDate=2017-04-20, income=0.0, expend=3400.0, category=维修保养, location=步行街, comment=修理费, balance=572.0, amount=1.0, unitPrice=3400.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,752 DEBUG [main]: Excavator [workDate=2017-04-22, income=0.0, expend=1610.0, category=加油费, location=步行街, comment=null, balance=-1038.0, amount=265.0, unitPrice=6.1, fraction=6.5, grossProfitRate=0.7213568708895812, grossProfit=0.0]
+ 2017-05-22 21:41:20,755 DEBUG [main]: Excavator [workDate=2017-04-22, income=3776.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=2738.0, amount=118.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,756 DEBUG [main]: Excavator [workDate=2017-04-22, income=392.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=3130.0, amount=14.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,759 DEBUG [main]: Excavator [workDate=2017-04-23, income=0.0, expend=1890.0, category=加油费, location=步行街, comment=null, balance=1240.0, amount=310.0, unitPrice=6.1, fraction=1.0, grossProfitRate=0.6067415730337079, grossProfit=0.0]
+ 2017-05-22 21:41:20,760 DEBUG [main]: Excavator [workDate=2017-04-23, income=2496.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=3736.0, amount=78.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,765 DEBUG [main]: Excavator [workDate=2017-04-23, income=420.0, expend=0.0, category=装车, location=步行街, comment=小车, balance=4156.0, amount=15.0, unitPrice=28.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,766 DEBUG [main]: Excavator [workDate=2017-04-24, income=1984.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=6140.0, amount=62.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,767 DEBUG [main]: Excavator [workDate=2017-04-28, income=0.0, expend=2670.0, category=加油费, location=步行街, comment=null, balance=3470.0, amount=1.0, unitPrice=2670.0, fraction=0.0, grossProfitRate=0.5870708320445407, grossProfit=0.0]
+ 2017-05-22 21:41:20,769 DEBUG [main]: Excavator [workDate=2017-04-28, income=3296.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=6766.0, amount=103.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,769 DEBUG [main]: Excavator [workDate=2017-04-28, income=500.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=7266.0, amount=1.0, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,770 DEBUG [main]: Excavator [workDate=2017-04-29, income=2912.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=10178.0, amount=91.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,772 DEBUG [main]: Excavator [workDate=2017-04-29, income=1250.0, expend=0.0, category=台班, location=步行街, comment=台班, balance=11428.0, amount=2.5, unitPrice=500.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,773 DEBUG [main]: Excavator [workDate=2017-04-30, income=0.0, expend=2900.0, category=加油费, location=步行街, comment=null, balance=8528.0, amount=1.0, unitPrice=2900.0, fraction=0.0, grossProfitRate=0.6325392802838318, grossProfit=0.0]
+ 2017-05-22 21:41:20,774 DEBUG [main]: Excavator [workDate=2017-04-30, income=2976.0, expend=0.0, category=装车, location=步行街, comment=大车, balance=11504.0, amount=93.0, unitPrice=32.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,774 DEBUG [main]: Excavator [workDate=2017-04-30, income=0.0, expend=246.0, category=维修保养, location=步行街, comment=修车餐, balance=11258.0, amount=1.0, unitPrice=246.0, fraction=0.0, grossProfitRate=0.0, grossProfit=0.0]
+ 2017-05-22 21:41:20,787 DEBUG [main]: grossIncome	32956.0
+ 2017-05-22 21:41:38,302 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:41:38,312 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:41:38,319 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:41:40,985 DEBUG [main]: Size: 	105
+ 2017-05-22 21:41:41,067 DEBUG [main]: grossIncome	32956.0
+ 2017-05-22 21:42:14,851 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:42:14,858 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:42:14,863 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:42:17,982 DEBUG [main]: Size: 	105
+ 2017-05-22 21:42:18,100 DEBUG [main]: grossIncome	51584.0
+ 2017-05-22 21:47:35,272 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:47:35,279 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:47:35,285 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:47:38,798 DEBUG [main]: Size: 	105
+ 2017-05-22 21:47:38,882 DEBUG [main]: grossProfit	51584.0
+ 2017-05-22 21:47:46,719 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:47:46,729 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:47:46,736 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:47:50,318 DEBUG [main]: Size: 	105
+ 2017-05-22 21:47:50,562 DEBUG [main]: grossProfit	32956.0
+ 2017-05-22 21:48:11,511 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:48:11,518 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:48:11,536 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:48:14,860 DEBUG [main]: Size: 	105
+ 2017-05-22 21:49:06,840 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:49:06,853 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:49:06,864 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:49:10,117 DEBUG [main]: Size: 	105
+ 2017-05-22 21:49:10,216 DEBUG [main]: grossProfit	15436.0
+ 2017-05-22 21:49:22,351 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:49:22,360 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:49:22,364 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:49:25,199 DEBUG [main]: Size: 	105
+ 2017-05-22 21:49:25,274 DEBUG [main]: grossProfit	29994.0
+ 2017-05-22 21:52:37,307 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:52:37,314 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 21:52:37,321 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 21:52:39,764 DEBUG [main]: Size: 	105
+ 2017-05-22 21:52:39,836 DEBUG [main]: netProfit	24757.0
+ 2017-05-22 22:20:16,665 DEBUG [main]: getAverageGrossIncome begin
+ 2017-05-22 22:20:16,673 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:20:16,684 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 22:20:19,221 DEBUG [main]: Size: 	105
+ 2017-05-22 22:20:19,301 DEBUG [main]: 2017-04-02	752.0
+ 2017-05-22 22:20:19,302 DEBUG [main]: 2017-04-03	4196.0
+ 2017-05-22 22:20:19,303 DEBUG [main]: 2017-04-04	5056.0
+ 2017-05-22 22:20:19,303 DEBUG [main]: 2017-04-05	4992.0
+ 2017-05-22 22:20:19,304 DEBUG [main]: 2017-04-13	3444.0
+ 2017-05-22 22:20:19,304 DEBUG [main]: 2017-04-14	7030.0
+ 2017-05-22 22:20:19,305 DEBUG [main]: 2017-04-15	3680.0
+ 2017-05-22 22:20:19,306 DEBUG [main]: 2017-04-19	2432.0
+ 2017-05-22 22:20:19,306 DEBUG [main]: 2017-04-22	4168.0
+ 2017-05-22 22:20:19,306 DEBUG [main]: 2017-04-23	2916.0
+ 2017-05-22 22:20:19,307 DEBUG [main]: 2017-04-24	1984.0
+ 2017-05-22 22:20:19,307 DEBUG [main]: 2017-04-28	3796.0
+ 2017-05-22 22:20:19,310 DEBUG [main]: 2017-04-29	4162.0
+ 2017-05-22 22:20:19,310 DEBUG [main]: 2017-04-30	2976.0
+ 2017-05-22 22:20:19,310 DEBUG [main]: 2017-05-05	2016.0
+ 2017-05-22 22:20:19,311 DEBUG [main]: 2017-05-06	3280.0
+ 2017-05-22 22:20:19,311 DEBUG [main]: 2017-05-14	4183.0
+ 2017-05-22 22:20:19,311 DEBUG [main]: 2017-05-15	2777.0
+ 2017-05-22 22:20:19,311 DEBUG [main]: 2017-05-16	4528.0
+ 2017-05-22 22:20:19,312 DEBUG [main]: 2017-05-17	5148.0
+ 2017-05-22 22:20:19,312 DEBUG [main]: 2017-05-18	4310.0
+ 2017-05-22 22:20:19,312 DEBUG [main]: 2017-05-19	3230.0
+ 2017-05-22 22:20:19,312 DEBUG [main]: 2017-05-20	3292.0
+ 2017-05-22 22:20:19,313 DEBUG [main]: 2017-05-21	192.0
+ 2017-05-22 22:21:29,614 DEBUG [main]: getAverageGrossIncome begin
+ 2017-05-22 22:21:29,621 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:21:29,628 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 22:21:32,331 DEBUG [main]: Size: 	105
+ 2017-05-22 22:21:32,425 DEBUG [main]: dailyIncomeMap size	24
+ 2017-05-22 22:21:32,426 DEBUG [main]: 2017-04-02	752.0
+ 2017-05-22 22:21:32,427 DEBUG [main]: 2017-04-03	4196.0
+ 2017-05-22 22:21:32,428 DEBUG [main]: 2017-04-04	5056.0
+ 2017-05-22 22:21:32,428 DEBUG [main]: 2017-04-05	4992.0
+ 2017-05-22 22:21:32,428 DEBUG [main]: 2017-04-13	3444.0
+ 2017-05-22 22:21:32,429 DEBUG [main]: 2017-04-14	7030.0
+ 2017-05-22 22:21:32,429 DEBUG [main]: 2017-04-15	3680.0
+ 2017-05-22 22:21:32,430 DEBUG [main]: 2017-04-19	2432.0
+ 2017-05-22 22:21:32,431 DEBUG [main]: 2017-04-22	4168.0
+ 2017-05-22 22:21:32,432 DEBUG [main]: 2017-04-23	2916.0
+ 2017-05-22 22:21:32,433 DEBUG [main]: 2017-04-24	1984.0
+ 2017-05-22 22:21:32,435 DEBUG [main]: 2017-04-28	3796.0
+ 2017-05-22 22:21:32,436 DEBUG [main]: 2017-04-29	4162.0
+ 2017-05-22 22:21:32,436 DEBUG [main]: 2017-04-30	2976.0
+ 2017-05-22 22:21:32,437 DEBUG [main]: 2017-05-05	2016.0
+ 2017-05-22 22:21:32,437 DEBUG [main]: 2017-05-06	3280.0
+ 2017-05-22 22:21:32,437 DEBUG [main]: 2017-05-14	4183.0
+ 2017-05-22 22:21:32,437 DEBUG [main]: 2017-05-15	2777.0
+ 2017-05-22 22:21:32,438 DEBUG [main]: 2017-05-16	4528.0
+ 2017-05-22 22:21:32,438 DEBUG [main]: 2017-05-17	5148.0
+ 2017-05-22 22:21:32,439 DEBUG [main]: 2017-05-18	4310.0
+ 2017-05-22 22:21:32,439 DEBUG [main]: 2017-05-19	3230.0
+ 2017-05-22 22:21:32,439 DEBUG [main]: 2017-05-20	3292.0
+ 2017-05-22 22:21:32,440 DEBUG [main]: 2017-05-21	192.0
+ 2017-05-22 22:26:03,098 DEBUG [main]: getAverageGrossIncome begin
+ 2017-05-22 22:26:03,104 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:26:03,109 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 22:26:05,734 DEBUG [main]: Size: 	105
+ 2017-05-22 22:26:05,807 DEBUG [main]: getAverageGrossIncome begin
+ 2017-05-22 22:26:05,808 DEBUG [main]: 2017-04-02	752.0
+ 2017-05-22 22:26:05,809 DEBUG [main]: 2017-04-03	4196.0
+ 2017-05-22 22:26:05,809 DEBUG [main]: 2017-04-04	5056.0
+ 2017-05-22 22:26:05,810 DEBUG [main]: 2017-04-05	4992.0
+ 2017-05-22 22:26:05,811 DEBUG [main]: 2017-04-13	3444.0
+ 2017-05-22 22:26:05,812 DEBUG [main]: 2017-04-14	7030.0
+ 2017-05-22 22:26:05,813 DEBUG [main]: 2017-04-15	3680.0
+ 2017-05-22 22:26:05,814 DEBUG [main]: 2017-04-19	2432.0
+ 2017-05-22 22:26:05,814 DEBUG [main]: 2017-04-22	4168.0
+ 2017-05-22 22:26:05,815 DEBUG [main]: 2017-04-23	2916.0
+ 2017-05-22 22:26:05,816 DEBUG [main]: 2017-04-24	1984.0
+ 2017-05-22 22:26:05,820 DEBUG [main]: 2017-04-28	3796.0
+ 2017-05-22 22:26:05,820 DEBUG [main]: 2017-04-29	4162.0
+ 2017-05-22 22:26:05,820 DEBUG [main]: 2017-04-30	2976.0
+ 2017-05-22 22:26:05,821 DEBUG [main]: averageDailyGrossIncome	3684.5714285714284
+ 2017-05-22 22:26:12,844 DEBUG [main]: getAverageGrossIncome begin
+ 2017-05-22 22:26:12,849 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:26:12,855 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 22:26:15,098 DEBUG [main]: Size: 	105
+ 2017-05-22 22:26:15,157 DEBUG [main]: getAverageGrossIncome begin
+ 2017-05-22 22:26:15,164 DEBUG [main]: 2017-05-05	2016.0
+ 2017-05-22 22:26:15,164 DEBUG [main]: 2017-05-06	3280.0
+ 2017-05-22 22:26:15,168 DEBUG [main]: 2017-05-14	4183.0
+ 2017-05-22 22:26:15,169 DEBUG [main]: 2017-05-15	2777.0
+ 2017-05-22 22:26:15,169 DEBUG [main]: 2017-05-16	4528.0
+ 2017-05-22 22:26:15,171 DEBUG [main]: 2017-05-17	5148.0
+ 2017-05-22 22:26:15,173 DEBUG [main]: 2017-05-18	4310.0
+ 2017-05-22 22:26:15,197 DEBUG [main]: 2017-05-19	3230.0
+ 2017-05-22 22:26:15,197 DEBUG [main]: 2017-05-20	3292.0
+ 2017-05-22 22:26:15,198 DEBUG [main]: 2017-05-21	192.0
+ 2017-05-22 22:26:15,198 DEBUG [main]: averageDailyGrossIncome	3295.6
+ 2017-05-22 22:26:25,181 DEBUG [main]: getAverageGrossIncome begin
+ 2017-05-22 22:26:25,189 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:26:25,197 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 22:26:27,652 DEBUG [main]: Size: 	105
+ 2017-05-22 22:26:27,714 DEBUG [main]: getAverageGrossIncome begin
+ 2017-05-22 22:26:27,715 DEBUG [main]: 2017-04-02	752.0
+ 2017-05-22 22:26:27,716 DEBUG [main]: 2017-04-03	4196.0
+ 2017-05-22 22:26:27,716 DEBUG [main]: 2017-04-04	5056.0
+ 2017-05-22 22:26:27,717 DEBUG [main]: 2017-04-05	4992.0
+ 2017-05-22 22:26:27,717 DEBUG [main]: 2017-04-13	3444.0
+ 2017-05-22 22:26:27,717 DEBUG [main]: 2017-04-14	7030.0
+ 2017-05-22 22:26:27,718 DEBUG [main]: 2017-04-15	3680.0
+ 2017-05-22 22:26:27,718 DEBUG [main]: 2017-04-19	2432.0
+ 2017-05-22 22:26:27,719 DEBUG [main]: 2017-04-22	4168.0
+ 2017-05-22 22:26:27,720 DEBUG [main]: 2017-04-23	2916.0
+ 2017-05-22 22:26:27,722 DEBUG [main]: 2017-04-24	1984.0
+ 2017-05-22 22:26:27,726 DEBUG [main]: 2017-04-28	3796.0
+ 2017-05-22 22:26:27,726 DEBUG [main]: 2017-04-29	4162.0
+ 2017-05-22 22:26:27,727 DEBUG [main]: 2017-04-30	2976.0
+ 2017-05-22 22:26:27,727 DEBUG [main]: 2017-05-05	2016.0
+ 2017-05-22 22:26:27,727 DEBUG [main]: 2017-05-06	3280.0
+ 2017-05-22 22:26:27,728 DEBUG [main]: 2017-05-14	4183.0
+ 2017-05-22 22:26:27,728 DEBUG [main]: 2017-05-15	2777.0
+ 2017-05-22 22:26:27,729 DEBUG [main]: 2017-05-16	4528.0
+ 2017-05-22 22:26:27,729 DEBUG [main]: 2017-05-17	5148.0
+ 2017-05-22 22:26:27,729 DEBUG [main]: 2017-05-18	4310.0
+ 2017-05-22 22:26:27,730 DEBUG [main]: 2017-05-19	3230.0
+ 2017-05-22 22:26:27,730 DEBUG [main]: 2017-05-20	3292.0
+ 2017-05-22 22:26:27,731 DEBUG [main]: 2017-05-21	192.0
+ 2017-05-22 22:26:27,732 DEBUG [main]: averageDailyGrossIncome	3522.5
+ 2017-05-22 22:27:56,544 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:27:56,552 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:27:56,563 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 22:27:59,020 DEBUG [main]: Size: 	105
+ 2017-05-22 22:27:59,072 DEBUG [main]: netProfit	24757.0
+ 2017-05-22 22:28:14,468 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:28:14,473 DEBUG [main]: getExcavatorList begin
+ 2017-05-22 22:28:14,479 DEBUG [main]: Processing.../C:/Users/CoderDream/Documents/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-22 22:28:16,785 DEBUG [main]: Size: 	105
+ 2017-05-22 22:28:16,843 DEBUG [main]: netProfit	12378.5
  

@@ -39,9 +39,6 @@ public class MathUtil {
 
 		return f1;
 	}
-	
-	
-	
 
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<String>();
@@ -49,8 +46,6 @@ public class MathUtil {
 		list.add("2.1");
 		list.add("13.1");
 		System.out.println(MathUtil.sumNumberList(list));
-				
-		
 		
 		MathUtil.getRandomByRange(8, 20);
 		MathUtil.getRandomByRange(8, 20);

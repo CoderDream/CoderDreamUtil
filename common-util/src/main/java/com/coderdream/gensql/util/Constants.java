@@ -2,9 +2,17 @@ package com.coderdream.gensql.util;
 
 public class Constants {
 	
+	public static String SIMPLE_DATE_FORMAT = "yyyy-MM-dd";
+	
 	public static String TABLE_STRUCTURE_FILE_NAME = "TableStructure.xlsx";
 	
 	public static String DATA_FILE_NAME = "Data11.xlsx";
+	
+	public static String EXCAVATOR_FILE_NAME = "挖掘机_20170522.xlsx";
+	
+	public static String CATEGORY_OIL_FEE = "加油费";
+	
+	public static String CATEGORY_SERVICE = "维修保养";
 
 	/** 项目统计开始时间 */
 	public static String PROJECT_START_DATE = "2017-01-01";

@@ -1,4 +1,4 @@
-package com.coderdream.gensql.util;
+package com.coderdream.util;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -11,6 +11,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+import com.coderdream.gensql.util.Constants;
+
 public class DateUtil {
 
 	/**
@@ -20,7 +22,7 @@ public class DateUtil {
 	public static boolean beforeToday(String beginDateString) {
 		Date date = new Date();
 
-		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat df = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);
 		try {
 			date = df.parse(beginDateString);
 			// System.out.println(date);
@@ -37,7 +39,7 @@ public class DateUtil {
 
 		return calendarToday.after(calendar);
 	}
-	
+
 	/**
 	 * @param beginDateString
 	 * @return
@@ -46,20 +48,20 @@ public class DateUtil {
 		Date beginDateDate = new Date();
 		Date endDateDate = new Date();// 取时间
 
-		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat df = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);
 		try {
 			beginDateDate = df.parse(beginDateString);
 			endDateDate = df.parse(endDateString);
 		} catch (ParseException e) {
 			System.out.println("Unparseable using" + df);
 		}
-		
+
 		Calendar calendarBegin = new GregorianCalendar();
 		calendarBegin.setTime(beginDateDate);
 
 		Calendar calendarEnd = new GregorianCalendar();
 		calendarEnd.setTime(endDateDate);
-//		calendarEnd.add(Calendar.DATE, -1);// 把日期往后增加一天.整数往后推,负数往前移动
+		// calendarEnd.add(Calendar.DATE, -1);// 把日期往后增加一天.整数往后推,负数往前移动
 
 		return calendarEnd.after(calendarBegin);
 	}
@@ -73,7 +75,7 @@ public class DateUtil {
 		Date dateOne = new Date();
 		Date dateTwo = new Date();// 取时间
 
-		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat df = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);
 		try {
 			dateOne = df.parse(oneDateString);
 			dateTwo = df.parse(secondDateString);
@@ -91,6 +93,39 @@ public class DateUtil {
 	}
 
 	/**
+	 * @param beginDateString
+	 * @param endDateString
+	 * @return
+	 */
+	public static boolean betweenTwoDate(String dateString, String beginDateString, String endDateString) {
+		Date dateMiddle = new Date();
+		Date dateOne = new Date();
+		Date dateTwo = new Date();// 取时间
+
+		SimpleDateFormat df = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);
+		try {
+			dateMiddle = df.parse(dateString);
+			dateOne = df.parse(beginDateString);
+			dateTwo = df.parse(endDateString);
+		} catch (ParseException e) {
+			System.out.println("Unparseable using" + df);
+		}
+
+		Calendar calendarOne = new GregorianCalendar();
+		calendarOne.setTime(dateOne);
+		calendarOne.add(Calendar.DATE, -1);
+
+		Calendar calendarSecond = new GregorianCalendar();
+		calendarSecond.setTime(dateTwo);
+		calendarSecond.add(Calendar.DATE, 1);
+
+		Calendar calendarMiddle = new GregorianCalendar();
+		calendarMiddle.setTime(dateMiddle);
+
+		return calendarMiddle.after(calendarOne) && calendarMiddle.before(calendarSecond);
+	}
+
+	/**
 	 * @param dateString
 	 * @param count
 	 * @return
@@ -98,7 +133,7 @@ public class DateUtil {
 	public static String getNextDate(String dateString, Integer count) {
 		Date dateOne = new Date();
 
-		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat df = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);
 		try {
 			dateOne = df.parse(dateString);
 		} catch (ParseException e) {
@@ -119,7 +154,7 @@ public class DateUtil {
 	 */
 	public static List<String> getMonthBetween(String minDate, String maxDate) {
 		List<String> result = new ArrayList<String>();
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");// 格式化为年月
+		SimpleDateFormat sdf = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);// 格式化为年月
 
 		Calendar min = Calendar.getInstance();
 		Calendar max = Calendar.getInstance();
@@ -146,14 +181,14 @@ public class DateUtil {
 
 		return result;
 	}
-	
+
 	/**
 	 * @param dateStr
 	 * @return
 	 */
 	public static String getMonthEnd(String dateStr) {
 		String result = "";
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");// 格式化为年月
+		SimpleDateFormat sdf = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);// 格式化为年月
 
 		Calendar min = Calendar.getInstance();
 
@@ -178,7 +213,7 @@ public class DateUtil {
 	 */
 	public static List<Double> getMonthBetweenParticipate(String beginDate, String endDate) {
 		List<Double> participateList = new ArrayList<Double>();
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");// 格式化为年月
+		SimpleDateFormat sdf = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);// 格式化为年月
 
 		Calendar beginCal = Calendar.getInstance();
 		Calendar endCal = Calendar.getInstance();
@@ -197,9 +232,9 @@ public class DateUtil {
 				// 获取当月天数
 				int monthRange = getDateRangeExcludeEnd(currentMonth, nextMonth);
 				// 获取跨度，如果endDate大于等于下月第一天
-				// 
+				//
 				boolean beginDateFlag = beginCal.after(currentMonth);
-				// 
+				//
 				boolean endDateFlag = endCal.before(nextMonth);
 				int dayRange = 0;
 				if (endDateFlag) {
@@ -219,14 +254,14 @@ public class DateUtil {
 				Double monthRangeDouble = Double.valueOf(monthRange);
 				Double temp = dayRangeDouble / monthRangeDouble;
 				participateList.add(temp);
-				//System.out.println("dayRange \t" + dayRange);
+				// System.out.println("dayRange \t" + dayRange);
 			}
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
 		return participateList;
 	}
-	
+
 	/**
 	 * @param beginDate
 	 * @param endDate
@@ -234,7 +269,7 @@ public class DateUtil {
 	 */
 	public static Map<String, Double> getMonthBetweenParticipateWithMonth(String beginDate, String endDate) {
 		Map<String, Double> participateMap = new TreeMap<String, Double>();
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");// 格式化为年月
+		SimpleDateFormat sdf = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);// 格式化为年月
 
 		Calendar beginCal = Calendar.getInstance();
 		Calendar endCal = Calendar.getInstance();
@@ -253,9 +288,9 @@ public class DateUtil {
 				// 获取当月天数
 				int monthRange = getDateRangeExcludeEnd(currentMonth, nextMonth);
 				// 获取跨度，如果endDate大于等于下月第一天
-				// 
+				//
 				boolean beginDateFlag = beginCal.after(currentMonth);
-				// 
+				//
 				boolean endDateFlag = endCal.before(nextMonth);
 				int dayRange = 0;
 				if (endDateFlag) {
@@ -281,20 +316,20 @@ public class DateUtil {
 		}
 		return participateMap;
 	}
-	
+
 	/**
 	 * @param beginDate
 	 * @param endDate
 	 * @return
 	 */
 	public static Double getMonthBetweenParticipateSum(String beginDate, String endDate) {
-		Double participateSum = new Double(0); 
-		
+		Double participateSum = new Double(0);
+
 		List<Double> participateList = DateUtil.getMonthBetweenParticipate(beginDate, endDate);
 		for (Double participateDouble : participateList) {
-			participateSum+=participateDouble;
+			participateSum += participateDouble;
 		}
-		
+
 		return participateSum;
 	}
 
@@ -306,7 +341,7 @@ public class DateUtil {
 	public static int getDateRange(String date1, String date2) {
 		Calendar calst = Calendar.getInstance();
 		Calendar caled = Calendar.getInstance();
-		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");// 格式化为年月
+		DateFormat df = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);// 格式化为年月
 		try {
 			calst.setTime(df.parse(date1));
 			caled.setTime(df.parse(date2));
@@ -355,7 +390,7 @@ public class DateUtil {
 	public static int getDateRangeExcludeEnd(String date1, String date2) {
 		Calendar calst = Calendar.getInstance();
 		Calendar caled = Calendar.getInstance();
-		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");// 格式化为年月
+		DateFormat df = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);// 格式化为年月
 		try {
 			calst.setTime(df.parse(date1));
 			caled.setTime(df.parse(date2));

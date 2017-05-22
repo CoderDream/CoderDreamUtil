@@ -1,4 +1,4 @@
-package com.coderdream.gensql.util;
+package com.coderdream.util;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,6 +7,8 @@ import java.util.Map;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.coderdream.util.DateUtil;
 
 public class DateUtilTest {
 
@@ -233,5 +235,36 @@ public class DateUtilTest {
 		boolean expectValue = true;
 		assertEquals(expectValue, compareResult);
 	}
+	
+	@Test
+	public void testBetweenTwoDate_01() {
+		String dateString = "2017-12-01";
+		String beginDateString = "2017-12-01";
+		String endDateString = "2017-12-22";
+		boolean compareResult = DateUtil.betweenTwoDate(dateString, beginDateString, endDateString);
+		boolean expectValue = true;
+		assertEquals(expectValue, compareResult);
+	}
+	
+	@Test
+	public void testBetweenTwoDate_02() {
+		String dateString = "2017-12-22";
+		String beginDateString = "2017-12-01";
+		String endDateString = "2017-12-22";
+		boolean compareResult = DateUtil.betweenTwoDate(dateString, beginDateString, endDateString);
+		boolean expectValue = true;
+		assertEquals(expectValue, compareResult);
+	}
+	
+	@Test
+	public void testBetweenTwoDate_03() {
+		String dateString = "2017-11-30";
+		String beginDateString = "2017-12-01";
+		String endDateString = "2017-12-22";
+		boolean compareResult = DateUtil.betweenTwoDate(dateString, beginDateString, endDateString);
+		boolean expectValue = false;
+		assertEquals(expectValue, compareResult);
+	}
+	
 
 }

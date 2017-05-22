@@ -1667,4 +1667,257 @@
  2017-05-22 16:46:04,670 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10401	2017-01-13	2017-01-17	5
  2017-05-22 16:46:04,670 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-06-17	2017-06-21	5
  2017-05-22 16:46:04,670 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:601)]: getIsbgHumanMapListInfo idel count: 20
+ 2017-05-22 20:36:50,542 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[16, 8, 12, 12, 15, 19, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:50,688 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[16, 15, 18, 11, 14, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:50,754 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[11, 13, 13, 14, 13, 17, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:50,787 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[7, 8, 9, 10, 19, 9, 18, 8, 8, 10, 7, 12, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:50,881 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[16, 16, 14, 9, 19, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,900 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[15, 18, 14, 10, 10, 7, 10, 8, 9, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,912 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[16, 7, 10, 10, 14, 9, 10, 13, 12, 8, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,921 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[17, 7, 10, 13, 13, 17, 9, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,952 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[9, 12, 15, 7, 14, 13, 13, 8, 9, 8, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:53,964 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[8, 7, 14, 10, 9, 11, 9, 15, 7, 17, 10, 7, 7, 8, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:55,320 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10294	2017-01-24	2017-01-26	3
+ 2017-05-22 20:36:55,322 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13550	2017-05-12	2017-05-15	4
+ 2017-05-22 20:36:55,323 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12110	2017-01-30	2017-02-03	5
+ 2017-05-22 20:36:55,325 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10364	2017-02-03	2017-02-07	5
+ 2017-05-22 20:36:55,327 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11382	2017-05-27	2017-06-01	6
+ 2017-05-22 20:36:55,330 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-03-12	2017-03-16	5
+ 2017-05-22 20:36:55,332 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-04-03	2017-04-05	3
+ 2017-05-22 20:36:55,336 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-06-17	2017-06-20	4
+ 2017-05-22 20:36:55,338 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13086	2017-05-13	2017-05-18	6
+ 2017-05-22 20:36:55,339 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10097	2017-05-06	2017-05-11	6
+ 2017-05-22 20:36:55,340 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-01-22	2017-01-25	4
+ 2017-05-22 20:36:55,340 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12479	2017-02-06	2017-02-08	3
+ 2017-05-22 20:36:55,341 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12486	2017-02-06	2017-02-08	3
+ 2017-05-22 20:36:55,342 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-02-06	2017-02-09	4
+ 2017-05-22 20:36:55,343 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-04-28	2017-04-30	3
+ 2017-05-22 20:36:55,344 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13158	2017-04-22	2017-04-25	4
+ 2017-05-22 20:36:55,347 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13618	2017-04-29	2017-05-02	4
+ 2017-05-22 20:36:55,349 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-04-19	2017-04-24	6
+ 2017-05-22 20:36:55,350 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12486	2017-06-10	2017-06-13	4
+ 2017-05-22 20:36:55,353 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11382	2017-06-17	2017-06-19	3
+ 2017-05-22 20:36:55,354 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-04-12	2017-04-16	5
+ 2017-05-22 20:36:55,356 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10437	2017-05-06	2017-05-08	3
+ 2017-05-22 20:36:55,357 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10255	2017-03-18	2017-03-20	3
+ 2017-05-22 20:36:55,358 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10771	2017-01-18	2017-01-23	6
+ 2017-05-22 20:36:55,359 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11034	2017-01-18	2017-01-22	5
+ 2017-05-22 20:36:55,360 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10771	2017-06-03	2017-06-05	3
+ 2017-05-22 20:36:55,361 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:601)]: getIsbgHumanMapListInfo idel count: 26
+ 2017-05-22 20:36:57,639 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[7, 18, 10, 19, 14, 10, 11, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,655 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[8, 13, 19, 16, 16, 11, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,669 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[12, 8, 9, 15, 14, 17, 8, 10, 8, 7, 9, 7, 7, 7, 8, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,683 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[13, 8, 16, 8, 9, 16, 12, 10, 8, 11, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:57,703 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[17, 8, 16, 14, 18, 9, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:36:58,098 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12122	2017-04-03	2017-04-05	3
+ 2017-05-22 20:36:58,099 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12629	2017-04-03	2017-04-08	6
+ 2017-05-22 20:36:58,102 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12737	2017-04-03	2017-04-08	6
+ 2017-05-22 20:36:58,103 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12187	2017-05-06	2017-05-08	3
+ 2017-05-22 20:36:58,104 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13550	2017-05-13	2017-05-16	4
+ 2017-05-22 20:36:58,106 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13086	2017-02-05	2017-02-09	5
+ 2017-05-22 20:36:58,106 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13140	2017-02-05	2017-02-07	3
+ 2017-05-22 20:36:58,107 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13158	2017-02-05	2017-02-10	6
+ 2017-05-22 20:36:58,108 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-05-27	2017-06-01	6
+ 2017-05-22 20:36:58,109 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10255	2017-06-24	2017-06-28	5
+ 2017-05-22 20:36:58,110 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12486	2017-06-03	2017-06-05	3
+ 2017-05-22 20:36:58,115 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10437	2017-05-19	2017-05-23	5
+ 2017-05-22 20:36:58,115 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12479	2017-05-13	2017-05-15	3
+ 2017-05-22 20:36:58,120 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13550	2017-01-01	2017-01-05	5
+ 2017-05-22 20:36:58,120 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12056	2017-04-22	2017-04-24	3
+ 2017-05-22 20:36:58,121 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13158	2017-05-13	2017-05-18	6
+ 2017-05-22 20:36:58,122 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12629	2017-01-22	2017-01-26	5
+ 2017-05-22 20:36:58,122 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-02-07	2017-02-09	3
+ 2017-05-22 20:36:58,123 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11059	2017-04-12	2017-04-16	5
+ 2017-05-22 20:36:58,125 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10294	2017-01-01	2017-01-03	3
+ 2017-05-22 20:36:58,129 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13385	2017-04-22	2017-04-26	5
+ 2017-05-22 20:36:58,130 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13367	2017-04-29	2017-05-02	4
+ 2017-05-22 20:36:58,132 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10803	2017-02-14	2017-02-18	5
+ 2017-05-22 20:36:58,133 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12844	2017-05-27	2017-06-01	6
+ 2017-05-22 20:36:58,134 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12187	2017-06-10	2017-06-15	6
+ 2017-05-22 20:36:58,136 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10294	2017-05-20	2017-05-25	6
+ 2017-05-22 20:36:58,137 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10771	2017-04-28	2017-05-02	5
+ 2017-05-22 20:36:58,138 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10437	2017-05-05	2017-05-09	5
+ 2017-05-22 20:36:58,140 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12122	2017-01-01	2017-01-05	5
+ 2017-05-22 20:36:58,141 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10401	2017-06-10	2017-06-13	4
+ 2017-05-22 20:36:58,142 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13550	2017-06-03	2017-06-08	6
+ 2017-05-22 20:36:58,167 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13618	2017-06-03	2017-06-08	6
+ 2017-05-22 20:36:58,177 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13158	2017-06-17	2017-06-19	3
+ 2017-05-22 20:36:58,182 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:601)]: getIsbgHumanMapListInfo idel count: 33
+ 2017-05-22 20:37:01,028 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[8, 9, 13, 15, 18, 15, 11, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,032 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[15, 8, 12, 18, 11, 16, 8, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,035 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[7, 15, 13, 9, 10, 16, 16, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,037 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[13, 10, 15, 15, 18, 8, 9, 7, 7, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,040 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[15, 12, 11, 14, 18, 13, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:01,838 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12629	2017-04-06	2017-04-08	3
+ 2017-05-22 20:37:01,838 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12486	2017-05-06	2017-05-08	3
+ 2017-05-22 20:37:01,838 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12056	2017-06-24	2017-06-28	5
+ 2017-05-22 20:37:01,839 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12479	2017-01-14	2017-01-16	3
+ 2017-05-22 20:37:01,840 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13618	2017-01-31	2017-02-03	4
+ 2017-05-22 20:37:01,840 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13367	2017-05-20	2017-05-22	3
+ 2017-05-22 20:37:01,848 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13385	2017-05-06	2017-05-11	6
+ 2017-05-22 20:37:01,849 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10987	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:01,849 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11059	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:01,850 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-06-03	2017-06-05	3
+ 2017-05-22 20:37:01,851 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-03-21	2017-03-26	6
+ 2017-05-22 20:37:01,852 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10294	2017-03-06	2017-03-11	6
+ 2017-05-22 20:37:01,852 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13454	2017-04-14	2017-04-16	3
+ 2017-05-22 20:37:01,853 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12629	2017-05-20	2017-05-25	6
+ 2017-05-22 20:37:01,853 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-05-20	2017-05-22	3
+ 2017-05-22 20:37:01,855 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-06-24	2017-06-29	6
+ 2017-05-22 20:37:01,856 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11382	2017-04-29	2017-05-01	3
+ 2017-05-22 20:37:01,857 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12110	2017-01-01	2017-01-05	5
+ 2017-05-22 20:37:01,857 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13550	2017-05-06	2017-05-09	4
+ 2017-05-22 20:37:01,858 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-02-08	2017-02-12	5
+ 2017-05-22 20:37:01,858 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13545	2017-04-15	2017-04-20	6
+ 2017-05-22 20:37:01,859 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11382	2017-03-25	2017-03-29	5
+ 2017-05-22 20:37:01,859 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10987	2017-02-05	2017-02-07	3
+ 2017-05-22 20:37:01,859 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13545	2017-02-14	2017-02-19	6
+ 2017-05-22 20:37:01,860 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12844	2017-04-21	2017-04-24	4
+ 2017-05-22 20:37:01,862 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13367	2017-04-15	2017-04-18	4
+ 2017-05-22 20:37:01,863 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-04-15	2017-04-20	6
+ 2017-05-22 20:37:01,864 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10612	2017-05-06	2017-05-10	5
+ 2017-05-22 20:37:01,865 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12110	2017-06-03	2017-06-08	6
+ 2017-05-22 20:37:01,865 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10097	2017-01-16	2017-01-18	3
+ 2017-05-22 20:37:01,866 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10364	2017-01-16	2017-01-18	3
+ 2017-05-22 20:37:01,866 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-04-13	2017-04-18	6
+ 2017-05-22 20:37:01,867 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:601)]: getIsbgHumanMapListInfo idel count: 32
+ 2017-05-22 20:37:03,200 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[12, 9, 10, 9, 11, 7, 10, 11, 8, 13, 10, 12, 8, 8, 7, 7, 7, 7, 7, 8]
+ 2017-05-22 20:37:03,203 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[17, 11, 12, 15, 9, 18, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:03,206 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[13, 12, 13, 13, 7, 15, 13, 7, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:03,208 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[11, 13, 15, 9, 17, 14, 11, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:03,211 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[15, 16, 18, 13, 9, 10, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:03,526 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-05-06	2017-05-08	3
+ 2017-05-22 20:37:03,527 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13158	2017-05-26	2017-05-30	5
+ 2017-05-22 20:37:03,528 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10803	2017-03-15	2017-03-19	5
+ 2017-05-22 20:37:03,528 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11034	2017-03-15	2017-03-17	3
+ 2017-05-22 20:37:03,529 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13140	2017-05-03	2017-05-07	5
+ 2017-05-22 20:37:03,531 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12737	2017-05-13	2017-05-15	3
+ 2017-05-22 20:37:03,532 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-01-13	2017-01-15	3
+ 2017-05-22 20:37:03,532 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10364	2017-03-06	2017-03-09	4
+ 2017-05-22 20:37:03,533 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-06-17	2017-06-22	6
+ 2017-05-22 20:37:03,534 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12122	2017-02-09	2017-02-14	6
+ 2017-05-22 20:37:03,534 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12737	2017-02-09	2017-02-14	6
+ 2017-05-22 20:37:03,537 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10437	2017-06-24	2017-06-27	4
+ 2017-05-22 20:37:03,538 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13158	2017-03-10	2017-03-12	3
+ 2017-05-22 20:37:03,538 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13385	2017-03-10	2017-03-15	6
+ 2017-05-22 20:37:03,539 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10437	2017-06-17	2017-06-20	4
+ 2017-05-22 20:37:03,540 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13158	2017-04-21	2017-04-25	5
+ 2017-05-22 20:37:03,540 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13545	2017-02-21	2017-02-23	3
+ 2017-05-22 20:37:03,541 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10987	2017-05-27	2017-05-29	3
+ 2017-05-22 20:37:03,541 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11059	2017-01-01	2017-01-04	4
+ 2017-05-22 20:37:03,542 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10097	2017-04-22	2017-04-24	3
+ 2017-05-22 20:37:03,542 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11382	2017-06-17	2017-06-19	3
+ 2017-05-22 20:37:03,543 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12110	2017-06-03	2017-06-06	4
+ 2017-05-22 20:37:03,544 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10401	2017-01-18	2017-01-20	3
+ 2017-05-22 20:37:03,544 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:601)]: getIsbgHumanMapListInfo idel count: 23
+ 2017-05-22 20:37:04,496 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[11, 11, 12, 19, 13, 14, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,499 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[15, 18, 10, 18, 14, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,501 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[15, 13, 9, 17, 17, 8, 9, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,504 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[14, 12, 12, 17, 18, 7, 8, 8, 7, 7, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,507 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[16, 9, 11, 11, 16, 15, 7, 11, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:04,842 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10294	2017-05-27	2017-05-29	3
+ 2017-05-22 20:37:04,842 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13550	2017-05-13	2017-05-15	3
+ 2017-05-22 20:37:04,843 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11382	2017-05-13	2017-05-16	4
+ 2017-05-22 20:37:04,855 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11382	2017-06-24	2017-06-26	3
+ 2017-05-22 20:37:04,856 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12486	2017-01-15	2017-01-20	6
+ 2017-05-22 20:37:04,858 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13367	2017-05-20	2017-05-24	5
+ 2017-05-22 20:37:04,859 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-05-27	2017-05-29	3
+ 2017-05-22 20:37:04,859 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10294	2017-06-24	2017-06-27	4
+ 2017-05-22 20:37:04,863 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10771	2017-05-20	2017-05-23	4
+ 2017-05-22 20:37:04,868 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12347	2017-05-13	2017-05-17	5
+ 2017-05-22 20:37:04,888 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10401	2017-03-17	2017-03-21	5
+ 2017-05-22 20:37:04,889 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12479	2017-05-20	2017-05-23	4
+ 2017-05-22 20:37:04,889 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12629	2017-05-20	2017-05-24	5
+ 2017-05-22 20:37:04,890 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12122	2017-06-17	2017-06-20	4
+ 2017-05-22 20:37:04,890 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12056	2017-01-01	2017-01-03	3
+ 2017-05-22 20:37:04,891 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13618	2017-05-13	2017-05-17	5
+ 2017-05-22 20:37:04,892 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12187	2017-01-27	2017-02-01	6
+ 2017-05-22 20:37:04,892 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10803	2017-04-15	2017-04-18	4
+ 2017-05-22 20:37:04,893 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10803	2017-01-29	2017-01-31	3
+ 2017-05-22 20:37:04,895 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11034	2017-01-29	2017-02-02	5
+ 2017-05-22 20:37:04,897 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13618	2017-04-22	2017-04-26	5
+ 2017-05-22 20:37:04,898 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10401	2017-05-13	2017-05-18	6
+ 2017-05-22 20:37:04,898 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13454	2017-03-03	2017-03-07	5
+ 2017-05-22 20:37:04,899 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12056	2017-03-20	2017-03-23	4
+ 2017-05-22 20:37:04,899 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10437	2017-02-07	2017-02-10	4
+ 2017-05-22 20:37:04,899 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13618	2017-03-08	2017-03-11	4
+ 2017-05-22 20:37:04,900 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12347	2017-05-27	2017-06-01	6
+ 2017-05-22 20:37:04,900 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10097	2017-04-08	2017-04-12	5
+ 2017-05-22 20:37:04,901 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12187	2017-06-10	2017-06-13	4
+ 2017-05-22 20:37:04,901 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12844	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:04,902 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12486	2017-03-15	2017-03-18	4
+ 2017-05-22 20:37:04,902 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10294	2017-05-20	2017-05-23	4
+ 2017-05-22 20:37:04,903 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10401	2017-04-22	2017-04-24	3
+ 2017-05-22 20:37:04,903 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-06-24	2017-06-28	5
+ 2017-05-22 20:37:04,904 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13454	2017-06-17	2017-06-19	3
+ 2017-05-22 20:37:04,906 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10437	2017-06-03	2017-06-08	6
+ 2017-05-22 20:37:04,907 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:601)]: getIsbgHumanMapListInfo idel count: 36
+ 2017-05-22 20:37:07,441 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[12, 11, 15, 14, 19, 11, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,444 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[15, 17, 10, 10, 9, 13, 13, 7, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,447 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[17, 18, 15, 15, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,450 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[10, 10, 12, 8, 9, 13, 14, 18, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:07,453 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[12, 14, 12, 9, 8, 16, 11, 7, 13, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,268 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[17, 12, 11, 17, 18, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,273 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[10, 14, 8, 17, 18, 10, 13, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,279 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[11, 17, 7, 15, 15, 8, 13, 8, 8, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,283 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[9, 18, 12, 13, 14, 11, 9, 10, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,287 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[11, 14, 15, 11, 18, 7, 7, 12, 7, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:09,642 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10401	2017-04-29	2017-05-04	6
+ 2017-05-22 20:37:09,646 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10987	2017-03-15	2017-03-18	4
+ 2017-05-22 20:37:09,648 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12110	2017-05-27	2017-05-30	4
+ 2017-05-22 20:37:09,649 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12737	2017-06-03	2017-06-06	4
+ 2017-05-22 20:37:09,649 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12788	2017-06-03	2017-06-05	3
+ 2017-05-22 20:37:09,664 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12187	2017-03-19	2017-03-22	4
+ 2017-05-22 20:37:09,670 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10771	2017-04-05	2017-04-07	3
+ 2017-05-22 20:37:09,670 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13618	2017-01-01	2017-01-03	3
+ 2017-05-22 20:37:09,671 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12347	2017-01-28	2017-02-02	6
+ 2017-05-22 20:37:09,671 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12737	2017-01-28	2017-01-30	3
+ 2017-05-22 20:37:09,672 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13385	2017-06-10	2017-06-12	3
+ 2017-05-22 20:37:09,672 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12347	2017-02-09	2017-02-12	4
+ 2017-05-22 20:37:09,672 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10987	2017-06-24	2017-06-26	3
+ 2017-05-22 20:37:09,673 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13140	2017-04-01	2017-04-03	3
+ 2017-05-22 20:37:09,673 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10612	2017-02-05	2017-02-10	6
+ 2017-05-22 20:37:09,674 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10612	2017-02-20	2017-02-24	5
+ 2017-05-22 20:37:09,675 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11034	2017-02-20	2017-02-22	3
+ 2017-05-22 20:37:09,675 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12479	2017-06-10	2017-06-13	4
+ 2017-05-22 20:37:09,676 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12844	2017-03-08	2017-03-10	3
+ 2017-05-22 20:37:09,676 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10987	2017-05-06	2017-05-10	5
+ 2017-05-22 20:37:09,677 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10364	2017-04-01	2017-04-06	6
+ 2017-05-22 20:37:09,677 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13454	2017-01-11	2017-01-13	3
+ 2017-05-22 20:37:09,679 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10255	2017-01-11	2017-01-16	6
+ 2017-05-22 20:37:09,680 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-04-15	2017-04-20	6
+ 2017-05-22 20:37:09,680 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:601)]: getIsbgHumanMapListInfo idel count: 24
+ 2017-05-22 20:37:23,033 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[16, 7, 9, 8, 12, 14, 11, 8, 17, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,037 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[18, 14, 17, 16, 7, 8, 9, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,039 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[12, 9, 9, 16, 16, 17, 9, 7, 7, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,042 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[17, 8, 10, 17, 13, 16, 8, 7, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,046 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgProjectListInfo(DataService.java:425)]: integerList	[15, 7, 11, 14, 17, 11, 10, 11, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+ 2017-05-22 20:37:23,604 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12629	2017-02-22	2017-02-24	3
+ 2017-05-22 20:37:23,604 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12056	2017-03-27	2017-04-01	6
+ 2017-05-22 20:37:23,605 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11382	2017-06-24	2017-06-26	3
+ 2017-05-22 20:37:23,605 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13454	2017-02-19	2017-02-24	6
+ 2017-05-22 20:37:23,606 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13385	2017-05-27	2017-06-01	6
+ 2017-05-22 20:37:23,606 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10401	2017-06-24	2017-06-29	6
+ 2017-05-22 20:37:23,607 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11059	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:23,607 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10612	2017-05-13	2017-05-17	5
+ 2017-05-22 20:37:23,608 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-06-17	2017-06-22	6
+ 2017-05-22 20:37:23,608 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13385	2017-05-13	2017-05-15	3
+ 2017-05-22 20:37:23,608 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13416	2017-06-10	2017-06-15	6
+ 2017-05-22 20:37:23,609 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12347	2017-04-29	2017-05-03	5
+ 2017-05-22 20:37:23,609 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10803	2017-06-17	2017-06-20	4
+ 2017-05-22 20:37:23,610 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11034	2017-05-27	2017-05-31	5
+ 2017-05-22 20:37:23,610 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10255	2017-04-08	2017-04-12	5
+ 2017-05-22 20:37:23,610 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12187	2017-06-10	2017-06-12	3
+ 2017-05-22 20:37:23,611 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-11059	2017-03-30	2017-04-02	4
+ 2017-05-22 20:37:23,612 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13585	2017-01-01	2017-01-05	5
+ 2017-05-22 20:37:23,612 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12187	2017-01-01	2017-01-06	6
+ 2017-05-22 20:37:23,612 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13385	2017-06-24	2017-06-29	6
+ 2017-05-22 20:37:23,612 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10255	2017-06-10	2017-06-14	5
+ 2017-05-22 20:37:23,613 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-13454	2017-06-17	2017-06-21	5
+ 2017-05-22 20:37:23,613 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10294	2017-06-17	2017-06-19	3
+ 2017-05-22 20:37:23,614 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10612	2017-03-04	2017-03-08	5
+ 2017-05-22 20:37:23,615 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10771	2017-03-04	2017-03-08	5
+ 2017-05-22 20:37:23,615 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-10803	2017-06-03	2017-06-06	4
+ 2017-05-22 20:37:23,616 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:593)]: ############### 	B-12110	2017-02-17	2017-02-21	5
+ 2017-05-22 20:37:23,617 ERROR [main] [com.coderdream.gensql.service.DataService.getIsbgHumanMapListInfo(DataService.java:601)]: getIsbgHumanMapListInfo idel count: 27
  

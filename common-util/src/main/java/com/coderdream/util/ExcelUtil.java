@@ -1,10 +1,11 @@
-package com.coderdream.gensql.util;
+package com.coderdream.util;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -19,6 +20,7 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -38,6 +40,7 @@ import com.coderdream.gensql.bean.PdrcStaffManage;
 import com.coderdream.gensql.bean.PdrcTmSalary;
 import com.coderdream.gensql.bean.TableStructure;
 import com.coderdream.gensql.service.DataService;
+import com.coderdream.gensql.util.Constants;
 
 public class ExcelUtil {
 
@@ -266,32 +269,88 @@ public class ExcelUtil {
 	}
 
 	private static String getValue(XSSFCell cell) {
+		String result = "";
 		if (null != cell) {
-			if (cell.getCellTypeEnum() == CellType.BOOLEAN) {
-				return String.valueOf(cell.getBooleanCellValue());
-			} else if (cell.getCellTypeEnum() == CellType.NUMERIC) {
-				String cellValue = "";
-				if (HSSFDateUtil.isCellDateFormatted(cell)) { // 判断是日期类型
-					SimpleDateFormat dateformat = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
+			// if (cell.getCellTypeEnum() == CellType.BOOLEAN) {
+			// return String.valueOf(cell.getBooleanCellValue());
+			// } else if (cell.getCellTypeEnum() == CellType.NUMERIC) {
+			// String cellValue = "";
+			// if (HSSFDateUtil.isCellDateFormatted(cell)) { // 判断是日期类型
+			// SimpleDateFormat dateformat = new SimpleDateFormat("yyyy/MM/dd
+			// hh:mm:ss");
+			// Date dt = HSSFDateUtil.getJavaDate(cell.getNumericCellValue());//
+			// 获取成DATE类型
+			// cellValue = dateformat.format(dt);
+			// } else {
+			// DecimalFormat df = new DecimalFormat("0.00");
+			// cellValue = df.format(cell.getNumericCellValue());
+			// if (cellValue.indexOf(".") > 0) {
+			// // 正则表达
+			// cellValue = cellValue.replaceAll("0+?$", "");// 去掉后面无用的零
+			// cellValue = cellValue.replaceAll("[.]$", "");// 如小数点后面全是零则去掉小数点
+			// }
+			// }
+			//
+			// return cellValue;
+			// } else {
+			// return String.valueOf(cell.getStringCellValue().trim()); // TODO
+			// }
+
+			// Alternatively, get the value and format it yourself
+			switch (cell.getCellTypeEnum()) {
+			case STRING:
+				//System.out.println("StringCellValue\t" + cell.getRichStringCellValue().getString());
+				result = cell.getRichStringCellValue().getString();
+				break;
+			case NUMERIC:
+				if (DateUtil.isCellDateFormatted(cell)) {
+					//System.out.println("DateCellValue\t" + cell.getDateCellValue());
+					// SimpleDateFormat dateformat = new
+					// SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
+					DateFormat dateformat = new SimpleDateFormat(Constants.SIMPLE_DATE_FORMAT);
 					Date dt = HSSFDateUtil.getJavaDate(cell.getNumericCellValue());// 获取成DATE类型
-					cellValue = dateformat.format(dt);
+					result = dateformat.format(dt);
 				} else {
+					//System.out.println("NumericCellValue\t" + cell.getNumericCellValue());
 					DecimalFormat df = new DecimalFormat("0.00");
-					cellValue = df.format(cell.getNumericCellValue());
-					if (cellValue.indexOf(".") > 0) {
+					result = df.format(cell.getNumericCellValue());
+					if (result.indexOf(".") > 0) {
 						// 正则表达
-						cellValue = cellValue.replaceAll("0+?$", "");// 去掉后面无用的零
-						cellValue = cellValue.replaceAll("[.]$", "");// 如小数点后面全是零则去掉小数点
+						result = result.replaceAll("0+?$", "");// 去掉后面无用的零
+						result = result.replaceAll("[.]$", "");// 如小数点后面全是零则去掉小数点
 					}
 				}
+				break;
+			case BOOLEAN:
+				//System.out.println("BooleanCellValue\t" + cell.getBooleanCellValue());
+				result = Boolean.toString(cell.getBooleanCellValue());
+				break;
+			case FORMULA:
+				CellType cy = cell.getCachedFormulaResultTypeEnum();
+				//System.out.println("cy: " + cy);
+				if (CellType.NUMERIC == cy) {
+					//System.out.println("FormulaCellValue\t" + String.valueOf(cell.getNumericCellValue()));
+					result = String.valueOf(cell.getNumericCellValue());
+				}
 
-				return cellValue;
-			} else {
-				return String.valueOf(cell.getStringCellValue().trim());
+				if (CellType.STRING == cy) {
+					result = cell.getStringCellValue();
+					//System.out.println("FormulaCellValue\t" + result);
+				}
+
+				//System.out.println("FormulaCellValue\t" + cell.getCellFormula());
+				break;
+			case BLANK:
+				System.out.println();
+				break;
+			default:
+				System.out.println();
 			}
 		} else {
 			return "";
 		}
+
+		return result;
 	}
 
 	// @SuppressWarnings({ "static-access", "deprecation" })
@@ -334,8 +393,8 @@ public class ExcelUtil {
 
 		String startDateString = Constants.PROJECT_START_DATE;
 		String endDateString = Constants.PROJECT_END_DATE;
-		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryListWithDateRange(pdrcStaffManageListMap, startDateString,
-				endDateString);
+		List<PdrcTmSalary> pdrcTmSalaryList = DataService.getPdrcTmSalaryListWithDateRange(pdrcStaffManageListMap,
+				startDateString, endDateString);
 
 		XSSFWorkbook xssfWorkbook = null;
 		InputStream inp = null;

@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import com.b510.excel.common.Common;
 import com.coderdream.gensql.bean.TableStructure;
 import com.coderdream.gensql.util.Constants;
-import com.coderdream.gensql.util.ExcelUtil;
+import com.coderdream.util.ExcelUtil;
 
 public class TableStructureService {
 
