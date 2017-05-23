@@ -1,5 +1,7 @@
 package com.coderdream.excavator.service;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.List;
 import java.util.Map;
 
@@ -9,8 +11,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.coderdream.excavator.bean.Excavator;
-import com.coderdream.gensql.bean.PdrcStaffManage;
 import com.coderdream.gensql.util.Constants;
+import com.coderdream.gensql.util.MathUtil;
 
 public class ExcavatorServiceTest {
 
@@ -41,7 +43,7 @@ public class ExcavatorServiceTest {
 		String path = fileFolder + dataFileName;
 		String beginDateString = "2017-04-01";
 		String endDateString = "2017-04-30";
-		Double grossIncome = ExcavatorService.getGrossIncome(path, beginDateString, endDateString);
+		Double grossIncome = ExcavatorService.getSumGrossIncome(path, beginDateString, endDateString);
 		logger.debug("grossIncome\t" + grossIncome);
 	}
 
@@ -50,10 +52,83 @@ public class ExcavatorServiceTest {
 		String path = fileFolder + dataFileName;
 		String beginDateString = "2017-05-01";
 		String endDateString = "2017-05-31";
-		Double grossIncome = ExcavatorService.getGrossIncome(path, beginDateString, endDateString);
+		Double grossIncome = ExcavatorService.getSumGrossIncome(path, beginDateString, endDateString);
 		logger.debug("grossIncome\t" + grossIncome);
 	}
+	
 
+	@Test
+	public void testGetGrossIncome_03() {
+		String path = fileFolder + dataFileName;
+		String beginDateString = "2017-03-01";
+		String endDateString = "2017-05-31";
+		Double grossIncome = ExcavatorService.getSumGrossIncome(path, beginDateString, endDateString);
+		logger.debug("grossIncome\t" + grossIncome);
+	}
+	
+	@Test
+	public void testGetGrossIncome_04() {
+		String path = fileFolder + dataFileName;
+		String beginDateString = "2017-03-01";
+		String endDateString = "2017-04-01";
+		Double grossIncome = ExcavatorService.getSumGrossIncome(path, beginDateString, endDateString);
+		Double expectValue = new Double(21089);
+		assertEquals(expectValue, grossIncome);
+		logger.debug("grossIncome\t" + grossIncome);
+	}
+	
+	@Test
+	public void testGetOutputRate_01() {
+		String path = fileFolder + dataFileName;
+		String beginDateString = "2017-03-01";
+		String endDateString = "2017-04-01";
+		Double outputRate = ExcavatorService.getOutputRate(path, beginDateString, endDateString);
+		
+		Double expectValue = new Double(2.44);
+		assertEquals(expectValue, MathUtil.setScale(outputRate,2));
+		logger.debug("grossIncome\t" + outputRate);
+	}
+	
+	@Test
+	public void testGetOutputRate_02() {
+		String path = fileFolder + dataFileName;
+		String beginDateString = "2017-04-02";
+		String endDateString = "2017-05-14";
+		Double outputRate = ExcavatorService.getOutputRate(path, beginDateString, endDateString);
+		Double expectValue = new Double(2.32);
+		assertEquals(expectValue, MathUtil.setScale(outputRate,2));
+		logger.debug("grossIncome\t" + outputRate);
+	}
+	
+	@Test
+	public void testGetOutputRate_03() {
+		String path = fileFolder + dataFileName;
+		String beginDateString = "2017-04-02";
+		String endDateString = "2017-05-20";
+		Double outputRate = ExcavatorService.getOutputRate(path, beginDateString, endDateString);
+		Double expectValue = new Double(2.24);
+		assertEquals(expectValue, MathUtil.setScale(outputRate,2));
+		logger.debug("grossIncome\t" + outputRate);
+	}
+	
+	@Test
+	public void testGasFee_01() {
+		String path = fileFolder + dataFileName;
+		String beginDateString = "2017-03-01";
+		String endDateString = "2017-04-01";
+		Double gasFee = ExcavatorService.getSumGasFee(path, beginDateString, endDateString);
+		logger.debug("gasFee\t" + gasFee);
+	}
+	
+	@Test
+	public void testGasFee_02() {
+		String path = fileFolder + dataFileName;
+		String beginDateString = "2017-04-02";
+		String endDateString = "2017-05-20";
+		Double gasFee = ExcavatorService.getSumGasFee(path, beginDateString, endDateString);
+		logger.debug("gasFee\t" + gasFee);
+	}
+	
 	@Test
 	public void testGetGrossProfit_01() {
 		String path = fileFolder + dataFileName;

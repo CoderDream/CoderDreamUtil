@@ -13,6 +13,10 @@ public class Constants {
 	public static String CATEGORY_OIL_FEE = "加油费";
 	
 	public static String CATEGORY_SERVICE = "维修保养";
+	
+	public static String CATEGORY_LOAD = "装车";
+	
+	public static String CATEGORY_STAND_BY = "台班";
 
 	/** 项目统计开始时间 */
 	public static String PROJECT_START_DATE = "2017-01-01";

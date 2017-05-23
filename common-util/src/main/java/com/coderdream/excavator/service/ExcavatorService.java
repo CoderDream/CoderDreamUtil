@@ -20,7 +20,7 @@ public class ExcavatorService {
 	public static List<Excavator> getExcavatorList(String path) {
 		logger.debug("getExcavatorList begin");
 		List<Excavator> excavatorList = null;
-		String sheetName = "步行街";
+		String sheetName = "Total";
 		try {
 			List<String[]> arrayList = ExcelUtil.readData(path, sheetName);
 			if (null != arrayList && 0 < arrayList.size()) {
@@ -77,7 +77,7 @@ public class ExcavatorService {
 		return excavatorList;
 	}
 
-	public static Double getGrossIncome(String path, String beginDateString, String endDateString) {
+	public static Double getSumGrossIncome(String path, String beginDateString, String endDateString) {
 		Double grossIncome = new Double(0);
 		logger.debug("getExcavatorList begin");
 
@@ -89,7 +89,11 @@ public class ExcavatorService {
 			if (DateUtil.betweenTwoDate(workDate, beginDateString, endDateString)) {
 				/** 收入 */
 				Double income = excavator.getIncome();
-				grossIncome += income;
+				/** 类别 */
+				String category = excavator.getCategory();
+				if (Constants.CATEGORY_LOAD.equals(category) || Constants.CATEGORY_STAND_BY.equals(category)) {
+					grossIncome += income;
+				}
 			} else {
 				// logger.debug(excavator.toString());
 			}
@@ -98,7 +102,48 @@ public class ExcavatorService {
 		return grossIncome;
 	}
 
+	public static Double getSumGasFee(String path, String beginDateString, String endDateString) {
+		Double gasFee = new Double(0);
+		logger.debug("getSumGasFee begin");
+
+		List<Excavator> excavatorList = ExcavatorService.getExcavatorList(path);
+		for (Excavator excavator : excavatorList) {
+			// System.out.println(excavator);
+			String workDate = excavator.getWorkDate();
+			// logger.debug(excavator.toString());
+			if (DateUtil.betweenTwoDate(workDate, beginDateString, endDateString)) {
+				/** 支出 */
+				Double expend = excavator.getExpend();
+				/** 类别 */
+				String category = excavator.getCategory();
+				if (Constants.CATEGORY_OIL_FEE.equals(category)) {
+					gasFee += expend;
+				}
+			} else {
+				// logger.debug(excavator.toString());
+			}
+		}
+
+		return gasFee;
+	}
+
+	public static Double getOutputRate(String path, String beginDateString, String endDateString) {
+		Double outputRate = new Double(0);
+		Double gasFee = ExcavatorService.getSumGasFee(path, beginDateString, endDateString);
+		Double grossIncome = ExcavatorService.getSumGrossIncome(path, beginDateString, endDateString);
+		outputRate = grossIncome / gasFee;
+		return outputRate;
+	}
+
 	//
+	/**
+	 * 毛利
+	 * 
+	 * @param path
+	 * @param beginDateString
+	 * @param endDateString
+	 * @return
+	 */
 	public static Map<String, Double> getDailyGrossIncome(String path, String beginDateString, String endDateString) {
 		Map<String, Double> dailyIncomeMap = new TreeMap<String, Double>();
 		logger.debug("getAverageGrossIncome begin");
@@ -113,9 +158,13 @@ public class ExcavatorService {
 				if (null == oldIncome) {
 					oldIncome = new Double(0);
 				}
-				if (income > 0) {
-					oldIncome += income;
-					dailyIncomeMap.put(workDate, oldIncome);
+				/** 类别 */
+				String category = excavator.getCategory();
+				if (Constants.CATEGORY_LOAD.equals(category) || Constants.CATEGORY_STAND_BY.equals(category)) {
+					if (income > 0) {
+						oldIncome += income;
+						dailyIncomeMap.put(workDate, oldIncome);
+					}
 				}
 			} else {
 				// logger.debug(excavator.toString());
