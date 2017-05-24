@@ -79,10 +79,10 @@ public class GenSqlServiceTest {
 		Boolean idFlag1 = false;
 		tableNameMap.put(sheetName1, idFlag1);
 
-		String sheetName2 = "T_Users";
-		// 是否自动生成ID
-		Boolean idFlag2 = true;
-		tableNameMap.put(sheetName2, idFlag2);
+//		String sheetName2 = "T_Users";
+//		// 是否自动生成ID
+//		Boolean idFlag2 = true;
+//		tableNameMap.put(sheetName2, idFlag2);
 
 		String sheetName3 = "PDRC_RM";
 		// 是否自动生成ID
