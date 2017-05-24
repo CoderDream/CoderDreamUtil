@@ -1,4 +1,4 @@
-package com.coderdream.gensql.util;
+package com.coderdream.util;
 
 import java.io.File;
 import java.io.FileNotFoundException;

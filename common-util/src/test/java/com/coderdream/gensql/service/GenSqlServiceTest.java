@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.b510.excel.common.Common;
-import com.coderdream.gensql.util.Constants;
+import com.coderdream.util.Constants;
 
 public class GenSqlServiceTest {
 

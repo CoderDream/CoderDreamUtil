@@ -40,7 +40,6 @@ import com.coderdream.gensql.bean.PdrcStaffManage;
 import com.coderdream.gensql.bean.PdrcTmSalary;
 import com.coderdream.gensql.bean.TableStructure;
 import com.coderdream.gensql.service.DataService;
-import com.coderdream.gensql.util.Constants;
 
 public class ExcelUtil {
 

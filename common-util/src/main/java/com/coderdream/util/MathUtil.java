@@ -1,4 +1,4 @@
-package com.coderdream.gensql.util;
+package com.coderdream.util;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

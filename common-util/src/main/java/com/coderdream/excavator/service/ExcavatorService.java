@@ -1,17 +1,20 @@
 package com.coderdream.excavator.service;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.coderdream.excavator.bean.Excavator;
-import com.coderdream.gensql.util.Constants;
+import com.coderdream.util.Constants;
 import com.coderdream.util.DateUtil;
 import com.coderdream.util.ExcelUtil;
+import com.coderdream.util.MathUtil;
 
 public class ExcavatorService {
 
@@ -131,7 +134,7 @@ public class ExcavatorService {
 		Double outputRate = new Double(0);
 		Double gasFee = ExcavatorService.getSumGasFee(path, beginDateString, endDateString);
 		Double grossIncome = ExcavatorService.getSumGrossIncome(path, beginDateString, endDateString);
-		outputRate = grossIncome / gasFee;
+		outputRate = MathUtil.setScale(grossIncome / gasFee, 2);// TODO
 		return outputRate;
 	}
 
@@ -187,7 +190,7 @@ public class ExcavatorService {
 			sum += dailyIncome;
 		}
 
-		averageDailyGrossIncome = sum / mapSize;
+		averageDailyGrossIncome = MathUtil.setScale(sum / mapSize, 2);
 		return averageDailyGrossIncome;
 	}
 
@@ -220,7 +223,7 @@ public class ExcavatorService {
 
 		return grossProfit;
 	}
-	
+
 	public static Double getGrossProfitByLocation(String path, String locationParam) {
 		Double grossProfit = new Double(0);
 		logger.debug("getExcavatorList begin");
@@ -229,7 +232,7 @@ public class ExcavatorService {
 		for (Excavator excavator : excavatorList) {
 			/** 工地 */
 			String location = excavator.getLocation();
-			if (null!= location && !"".equals(locationParam) && location.equals(locationParam)) {
+			if (null != location && !"".equals(locationParam) && location.equals(locationParam)) {
 				/** 收入 */
 				Double income = excavator.getIncome();
 				/** 支出 */
@@ -250,6 +253,45 @@ public class ExcavatorService {
 		}
 
 		return grossProfit;
+	}
+
+	public static Double getAverageGrossProfitByLocation(String path, String locationParam) {
+		Double grossProfit = new Double(0);
+		logger.debug("getExcavatorList begin");
+		Set<String> workDaySet = new HashSet<String>();
+		List<Excavator> excavatorList = ExcavatorService.getExcavatorList(path);
+		for (Excavator excavator : excavatorList) {
+			/** 日期 */
+			String workDate = excavator.getWorkDate();
+			/** 工地 */
+			String location = excavator.getLocation();
+			if (null != location && !"".equals(locationParam) && location.equals(locationParam)) {
+				/** 收入 */
+				Double income = excavator.getIncome();
+				/** 支出 */
+				Double expend = excavator.getExpend();
+
+				/** 类别 */
+				String category = excavator.getCategory();
+				if (Constants.CATEGORY_OIL_FEE.equals(category)) {
+					grossProfit -= expend;
+				}
+
+				if (Constants.CATEGORY_LOAD.equals(category) || Constants.CATEGORY_STAND_BY.equals(category)) {
+					grossProfit += income;
+					workDaySet.add(workDate);
+				}
+			} else {
+				// logger.debug(excavator.toString());
+			}
+		}
+
+		if (workDaySet.size() > 0) {
+
+			return MathUtil.setScale(grossProfit / workDaySet.size(), 2);
+		} else {
+			return new Double(0);
+		}
 	}
 
 	public static Double getNetProfit(String path, String beginDateString, String endDateString) {

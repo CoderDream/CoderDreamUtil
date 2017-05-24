@@ -5,7 +5,9 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.coderdream.util.Constants;
 import com.coderdream.util.DateUtil;
+import com.coderdream.util.RedPacketUtil;
 
 public class RedPacketUtilTest extends RedPacketUtil {
 

@@ -19,7 +19,7 @@ import com.coderdream.gensql.bean.PdrcStaffManage;
 import com.coderdream.gensql.bean.PdrcTm;
 import com.coderdream.gensql.bean.PdrcTmSalary;
 import com.coderdream.gensql.bean.PmTmRelation;
-import com.coderdream.gensql.util.Constants;
+import com.coderdream.util.Constants;
 
 public class DataServiceTest {
 

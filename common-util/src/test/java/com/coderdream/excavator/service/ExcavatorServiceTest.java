@@ -2,6 +2,7 @@ package com.coderdream.excavator.service;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -11,8 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.coderdream.excavator.bean.Excavator;
-import com.coderdream.gensql.util.Constants;
-import com.coderdream.gensql.util.MathUtil;
+import com.coderdream.util.Constants;
 
 public class ExcavatorServiceTest {
 
@@ -21,11 +21,17 @@ public class ExcavatorServiceTest {
 	private String fileFolder;
 
 	private String dataFileName;
+	
+	private List<String> locationList;
 
 	@Before
 	public void setUp() throws Exception {
 		fileFolder = getClass().getResource("../../../../").getFile().toString();
 		dataFileName = Constants.EXCAVATOR_FILE_NAME;
+		locationList = new ArrayList<String>();
+		locationList.add(Constants.LOCATION_ONE);
+		locationList.add(Constants.LOCATION_TWO);
+		locationList.add(Constants.LOCATION_THREE);
 	}
 
 	@Test
@@ -76,8 +82,6 @@ public class ExcavatorServiceTest {
 		logger.debug("grossIncome\t" + grossIncome);
 	}
 	
-
-	
 	@Test
 	public void testGetOutputRate_01() {
 		String path = fileFolder + dataFileName;
@@ -86,7 +90,7 @@ public class ExcavatorServiceTest {
 		Double outputRate = ExcavatorService.getOutputRate(path, beginDateString, endDateString);
 		
 		Double expectValue = new Double(2.44);
-		assertEquals(expectValue, MathUtil.setScale(outputRate,2));
+		assertEquals(expectValue, outputRate);
 		logger.debug("grossIncome\t" + outputRate);
 	}
 	
@@ -96,8 +100,8 @@ public class ExcavatorServiceTest {
 		String beginDateString = "2017-04-02";
 		String endDateString = "2017-05-14";
 		Double outputRate = ExcavatorService.getOutputRate(path, beginDateString, endDateString);
-		Double expectValue = new Double(2.32);
-		assertEquals(expectValue, MathUtil.setScale(outputRate,2));
+		Double expectValue = new Double(2.65);
+		assertEquals(expectValue, outputRate);
 		logger.debug("grossIncome\t" + outputRate);
 	}
 	
@@ -107,8 +111,8 @@ public class ExcavatorServiceTest {
 		String beginDateString = "2017-04-02";
 		String endDateString = "2017-05-20";
 		Double outputRate = ExcavatorService.getOutputRate(path, beginDateString, endDateString);
-		Double expectValue = new Double(2.24);
-		assertEquals(expectValue, MathUtil.setScale(outputRate,2));
+		Double expectValue = new Double(2.45);
+		assertEquals(expectValue, outputRate);
 		logger.debug("grossIncome\t" + outputRate);
 	}
 	
@@ -147,6 +151,72 @@ public class ExcavatorServiceTest {
 		Double grossProfit = ExcavatorService.getGrossProfit(path, beginDateString, endDateString);
 		logger.debug("grossProfit\t" + grossProfit);
 	}
+	
+	@Test
+	public void testGetGrossProfitByLocation_01() {
+		String path = fileFolder + dataFileName;
+		String location = Constants.LOCATION_ONE;
+		Double grossProfit = ExcavatorService.getGrossProfitByLocation(path, location);
+		logger.debug(location+ "grossProfit\t" + grossProfit);
+	}
+	
+	@Test
+	public void testGetGrossProfitByLocation_02() {
+		String path = fileFolder + dataFileName;
+		String location = Constants.LOCATION_TWO;
+		Double grossProfit = ExcavatorService.getGrossProfitByLocation(path, location);
+		logger.debug(location+ "grossProfit\t" + grossProfit);
+	}
+	
+	@Test
+	public void testGetGrossProfitByLocation_03() {
+		String path = fileFolder + dataFileName;
+		String location = Constants.LOCATION_THREE;
+		Double grossProfit = ExcavatorService.getGrossProfitByLocation(path, location);
+		logger.debug(location+ "grossProfit\t" + grossProfit);
+	}
+	
+	@Test
+	public void testGetGrossProfitByLocation_04() {
+		String path = fileFolder + dataFileName;
+		for (String location : locationList) {
+			Double grossProfit = ExcavatorService.getGrossProfitByLocation(path, location);
+			logger.debug(location+ "grossProfit\t" + grossProfit);
+		}
+	}
+	
+	@Test
+	public void testGetAverageGrossProfitByLocation_01() {
+		String path = fileFolder + dataFileName;
+		String location = Constants.LOCATION_ONE;
+		Double grossProfit = ExcavatorService.getAverageGrossProfitByLocation(path, location);
+		logger.debug(location+ "grossProfit\t" + grossProfit);
+	}
+	
+	@Test
+	public void testGetAverageGrossProfitByLocation_02() {
+		String path = fileFolder + dataFileName;
+		String location = Constants.LOCATION_TWO;
+		Double grossProfit = ExcavatorService.getAverageGrossProfitByLocation(path, location);
+		logger.debug(location+ "grossProfit\t" + grossProfit);
+	}
+	
+	@Test
+	public void testGetAverageGrossProfitByLocation_03() {
+		String path = fileFolder + dataFileName;
+		String location = Constants.LOCATION_THREE;
+		Double grossProfit = ExcavatorService.getAverageGrossProfitByLocation(path, location);
+		logger.debug(location+ "grossProfit\t" + grossProfit);
+	}
+	
+	@Test
+	public void testGetAverageGrossProfitByLocation_04() {
+		String path = fileFolder + dataFileName;
+		for (String location : locationList) {
+			Double grossProfit = ExcavatorService.getAverageGrossProfitByLocation(path, location);
+			logger.debug(location+ "grossProfit\t" + grossProfit);
+		}
+	}
 
 	@Test
 	public void testGetNetProfit_01() {
@@ -157,16 +227,6 @@ public class ExcavatorServiceTest {
 		logger.debug("netProfit\t" + netProfit);
 	}
 	
-	@Test
-	public void testGetGrossProfitByLocation_03() {
-		String path = fileFolder + dataFileName;
-		String location = Constants.LOCATION_THREE;
-		Double grossProfit = ExcavatorService.getGrossProfitByLocation(path, location);
-		logger.debug("netProfit\t" + grossProfit);
-	}
-	
-	
-
 	@Test
 	public void testGetNetProfit_02() {
 		String path = fileFolder + dataFileName;

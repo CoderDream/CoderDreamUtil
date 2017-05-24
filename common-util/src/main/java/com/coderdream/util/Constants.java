@@ -1,4 +1,4 @@
-package com.coderdream.gensql.util;
+package com.coderdream.util;
 
 public class Constants {
 	
@@ -8,7 +8,7 @@ public class Constants {
 	
 	public static String DATA_FILE_NAME = "Data11.xlsx";
 	
-	public static String EXCAVATOR_FILE_NAME = "挖掘机_20170522.xlsx";
+	public static String EXCAVATOR_FILE_NAME = "挖掘机_20170524.xlsx";
 	
 	public static String CATEGORY_OIL_FEE = "加油费";
 	
