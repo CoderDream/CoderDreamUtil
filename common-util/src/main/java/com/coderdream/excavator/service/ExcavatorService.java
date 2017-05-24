@@ -210,7 +210,40 @@ public class ExcavatorService {
 					grossProfit -= expend;
 				}
 
-				grossProfit += income;
+				if (Constants.CATEGORY_LOAD.equals(category) || Constants.CATEGORY_STAND_BY.equals(category)) {
+					grossProfit += income;
+				}
+			} else {
+				// logger.debug(excavator.toString());
+			}
+		}
+
+		return grossProfit;
+	}
+	
+	public static Double getGrossProfitByLocation(String path, String locationParam) {
+		Double grossProfit = new Double(0);
+		logger.debug("getExcavatorList begin");
+
+		List<Excavator> excavatorList = ExcavatorService.getExcavatorList(path);
+		for (Excavator excavator : excavatorList) {
+			/** 工地 */
+			String location = excavator.getLocation();
+			if (null!= location && !"".equals(locationParam) && location.equals(locationParam)) {
+				/** 收入 */
+				Double income = excavator.getIncome();
+				/** 支出 */
+				Double expend = excavator.getExpend();
+
+				/** 类别 */
+				String category = excavator.getCategory();
+				if (Constants.CATEGORY_OIL_FEE.equals(category)) {
+					grossProfit -= expend;
+				}
+
+				if (Constants.CATEGORY_LOAD.equals(category) || Constants.CATEGORY_STAND_BY.equals(category)) {
+					grossProfit += income;
+				}
 			} else {
 				// logger.debug(excavator.toString());
 			}

@@ -17,6 +17,12 @@ public class Constants {
 	public static String CATEGORY_LOAD = "装车";
 	
 	public static String CATEGORY_STAND_BY = "台班";
+	
+	public static String LOCATION_ONE = "四化建";
+	
+	public static String LOCATION_TWO = "步行街";
+	
+	public static String LOCATION_THREE = "南湖公园";
 
 	/** 项目统计开始时间 */
 	public static String PROJECT_START_DATE = "2017-01-01";

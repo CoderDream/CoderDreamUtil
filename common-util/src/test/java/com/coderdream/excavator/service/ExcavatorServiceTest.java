@@ -56,7 +56,6 @@ public class ExcavatorServiceTest {
 		logger.debug("grossIncome\t" + grossIncome);
 	}
 	
-
 	@Test
 	public void testGetGrossIncome_03() {
 		String path = fileFolder + dataFileName;
@@ -76,6 +75,8 @@ public class ExcavatorServiceTest {
 		assertEquals(expectValue, grossIncome);
 		logger.debug("grossIncome\t" + grossIncome);
 	}
+	
+
 	
 	@Test
 	public void testGetOutputRate_01() {
@@ -155,6 +156,16 @@ public class ExcavatorServiceTest {
 		Double netProfit = ExcavatorService.getNetProfit(path, beginDateString, endDateString);
 		logger.debug("netProfit\t" + netProfit);
 	}
+	
+	@Test
+	public void testGetGrossProfitByLocation_03() {
+		String path = fileFolder + dataFileName;
+		String location = Constants.LOCATION_THREE;
+		Double grossProfit = ExcavatorService.getGrossProfitByLocation(path, location);
+		logger.debug("netProfit\t" + grossProfit);
+	}
+	
+	
 
 	@Test
 	public void testGetNetProfit_02() {

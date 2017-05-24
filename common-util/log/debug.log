@@ -7970,4 +7970,17 @@
  2017-05-24 15:21:14,917 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
  2017-05-24 15:21:15,055 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
  2017-05-24 15:21:15,154 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/Data11.xlsx
+ 2017-05-24 17:44:31,528 DEBUG [main]: getExcavatorList begin
+ 2017-05-24 17:44:31,530 DEBUG [main]: getExcavatorList begin
+ 2017-05-24 17:44:31,533 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-24 17:44:32,359 DEBUG [main]: Size: 	146
+ 2017-05-24 17:45:05,325 DEBUG [main]: getExcavatorList begin
+ 2017-05-24 17:45:05,328 DEBUG [main]: getExcavatorList begin
+ 2017-05-24 17:45:05,330 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-24 17:45:15,969 DEBUG [main]: Size: 	146
+ 2017-05-24 17:46:36,976 DEBUG [main]: getExcavatorList begin
+ 2017-05-24 17:46:36,978 DEBUG [main]: getExcavatorList begin
+ 2017-05-24 17:46:36,980 DEBUG [main]: Processing.../D:/Java/GitHub/CoderDreamUtil/common-util/target/test-classes/挖掘机_20170522.xlsx
+ 2017-05-24 17:46:37,754 DEBUG [main]: Size: 	146
+ 2017-05-24 17:46:37,755 DEBUG [main]: netProfit	0.0
  
